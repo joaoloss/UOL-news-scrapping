@@ -2,7 +2,7 @@
 João Loss - joao.loss@edu.ufes.br
 
 This file contains a script that traverses the Wayback Machine archive page (https://help.archive.org/help/using-the-wayback-machine/)
-to scrape links from UOL within a specified date range. The results are stored in OUTPUT_CSV_PATH.
+to scrape links from UOL within a specified date range. The results are stored in OUTPUT_CSV_PATH. The logs are saved in LOG_PATH.
 
 Note: Selenium was used instead of BeautifulSoup because some essential elements for scraping are loaded via JS after the initial received page.
 """
@@ -19,6 +19,28 @@ import time
 import pandas as pd
 import os
 from json import dumps
+import logging
+import sys
+
+os.makedirs(name="out", exist_ok=True)
+OUTPUT_CSV_PATH = os.path.join("out", "archive_links.csv")
+
+os.makedirs("logs", exist_ok=True)
+LOG_PATH = os.path.join("logs", "archive_links_extraction.log")
+
+pattern = "[%(levelname)s] %(message)s"
+formatter = logging.Formatter(pattern)
+file_handler = logging.FileHandler(filename=LOG_PATH, mode="w")
+file_handler.setFormatter(formatter)
+file_handler.setLevel(logging.INFO)
+stdout_handler = logging.StreamHandler(sys.stdout)
+stdout_handler.setFormatter(formatter)
+stdout_handler.setLevel(logging.ERROR)
+
+root_logger = logging.getLogger()
+root_logger.setLevel(logging.INFO)
+root_logger.addHandler(file_handler)
+root_logger.addHandler(stdout_handler)
 
 SITE = "www.uol.com.br"
 WEB_ARCHIVE_LINK = "https://web.archive.org/web/{year}0101*/" + SITE
@@ -26,9 +48,6 @@ STR_TO_INT = {"JAN": 1, "FEB": 2, "MAR": 3,
               "APR": 4, "MAY": 5, "JUN": 6, 
               "JUL": 7, "AUG": 8, "SEP": 9, 
               "OCT": 10, "NOV": 11, "DEC": 12}
-
-os.makedirs(name="out", exist_ok=True)
-OUTPUT_CSV_PATH = os.path.join("out", "archive_links.csv")
 
 def get_args() -> ArgumentParser:
     """
@@ -88,7 +107,7 @@ def get_archive_links(start_date: datetime, end_date: datetime, options: Options
     url_checker = lambda u: ("https://" in u) and ("www.uol.com.br" in u)
 
     while current_year <= end_date.year:
-        print(f"==> Curr. year: {current_year}")
+        logging.info(f"==> Curr. year: {current_year}")
 
         url = WEB_ARCHIVE_LINK.format(year=current_year)
         driver.get(url)
@@ -103,8 +122,8 @@ def get_archive_links(start_date: datetime, end_date: datetime, options: Options
                 y = month.location["y"]
                 driver.execute_script(f"window.scrollTo({x}, {y});")
                 time.sleep(1)
-            except StaleElementReferenceException as e:
-                print(f"Failed while processing month {i+1}.")
+            except StaleElementReferenceException:
+                logging.error(f"Failed while processing month {i+1}.")
                 continue
 
             # Attempt retrieving links for that month
@@ -129,14 +148,15 @@ def get_archive_links(start_date: datetime, end_date: datetime, options: Options
                             "month": month_num,
                             "links": dumps(href_list) # from list to str
                         })
-                        print(f"{len(href_list)} links found for {month_num}/{current_year}.")
+                        logging.info(f"{len(href_list)} links found for {month_num}/{current_year}.")
 
                     break  # break out of retry loop if success
                 except Exception as e:
-                    print(f"Failed to get links for month element {month}.")
+                    logging.error(f"Failed to get links for month element {month}.")
                     time.sleep(1)
 
         current_year += 1  # move to next year
+        logging.info("")
 
     driver.quit()
     return links
@@ -152,9 +172,13 @@ def main():
         options.add_argument("--headless") # no GUI
     
     options.page_load_strategy = "eager" # wait until the initial HTML document is loaded and parsed
+
+    start_time = time.time()
     links = get_archive_links(start_date=args.start_date,
                               end_date=args.end_date,
                               options=options)
+    end_time = time.time()
+    logging.info(f"Total time taken to complete: {(end_time - start_time)/60:.02f}min")  
     
     df = pd.DataFrame(data=links)
     df.to_csv(path_or_buf=OUTPUT_CSV_PATH, index=False)

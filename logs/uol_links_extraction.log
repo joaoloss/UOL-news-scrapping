@@ -1,0 +1,50 @@
+[INFO - Parent_15660] Starting 1/2010
+[INFO - Parent_15660] Starting 2/2010
+[INFO - Parent_15660] Starting 3/2010
+[INFO - Parent_15660] Starting 4/2010
+[INFO - Parent_15660] Starting 5/2010
+[WARNING - Worker_15663_2_2010] ConnectionError for https://web.archive.org/web/20100203/www.uol.com.br (attempt 1)
+[WARNING - Worker_15664_3_2010] ConnectionError for https://web.archive.org/web/20100308/www.uol.com.br (attempt 1)
+[WARNING - Worker_15663_2_2010] ConnectionError for https://web.archive.org/web/20100203/www.uol.com.br (attempt 2)
+[WARNING - Worker_15664_3_2010] ConnectionError for https://web.archive.org/web/20100308/www.uol.com.br (attempt 2)
+[WARNING - Worker_15662_1_2010] ConnectionError for https://web.archive.org/web/20100107/www.uol.com.br (attempt 1)
+[WARNING - Worker_15663_2_2010] ConnectionError for https://web.archive.org/web/20100203/www.uol.com.br (attempt 3)
+[WARNING - Worker_15664_3_2010] ConnectionError for https://web.archive.org/web/20100308/www.uol.com.br (attempt 3)
+[WARNING - Worker_15662_1_2010] ConnectionError for https://web.archive.org/web/20100107/www.uol.com.br (attempt 2)
+[WARNING - Worker_15665_4_2010] ConnectionError for https://web.archive.org/web/20100407/www.uol.com.br (attempt 1)
+[WARNING - Worker_15666_5_2010] ConnectionError for https://web.archive.org/web/20100509/www.uol.com.br (attempt 1)
+[ERROR - Worker_15663_2_2010] Failed to connect with https://web.archive.org/web/20100203/www.uol.com.br after 3 attempts, skipping...
+[WARNING - Worker_15663_2_2010] ConnectionError for https://web.archive.org/web/20100205/www.uol.com.br (attempt 1)
+[ERROR - Worker_15664_3_2010] Failed to connect with https://web.archive.org/web/20100308/www.uol.com.br after 3 attempts, skipping...
+[WARNING - Worker_15664_3_2010] ConnectionError for https://web.archive.org/web/20100309/www.uol.com.br (attempt 1)
+[WARNING - Worker_15662_1_2010] ConnectionError for https://web.archive.org/web/20100107/www.uol.com.br (attempt 3)
+[WARNING - Worker_15665_4_2010] ConnectionError for https://web.archive.org/web/20100407/www.uol.com.br (attempt 2)
+[WARNING - Worker_15666_5_2010] ConnectionError for https://web.archive.org/web/20100509/www.uol.com.br (attempt 2)
+[WARNING - Worker_15663_2_2010] ConnectionError for https://web.archive.org/web/20100205/www.uol.com.br (attempt 2)
+[WARNING - Worker_15664_3_2010] ConnectionError for https://web.archive.org/web/20100309/www.uol.com.br (attempt 2)
+[ERROR - Worker_15662_1_2010] Failed to connect with https://web.archive.org/web/20100107/www.uol.com.br after 3 attempts, skipping...
+[WARNING - Worker_15662_1_2010] ConnectionError for https://web.archive.org/web/20100108/www.uol.com.br (attempt 1)
+[WARNING - Worker_15665_4_2010] ConnectionError for https://web.archive.org/web/20100407/www.uol.com.br (attempt 3)
+[WARNING - Worker_15666_5_2010] ConnectionError for https://web.archive.org/web/20100509/www.uol.com.br (attempt 3)
+[WARNING - Worker_15663_2_2010] ConnectionError for https://web.archive.org/web/20100205/www.uol.com.br (attempt 3)
+[WARNING - Worker_15664_3_2010] ConnectionError for https://web.archive.org/web/20100309/www.uol.com.br (attempt 3)
+[ERROR - Worker_15665_4_2010] Failed to connect with https://web.archive.org/web/20100407/www.uol.com.br after 3 attempts, skipping...
+[WARNING - Worker_15662_1_2010] ConnectionError for https://web.archive.org/web/20100108/www.uol.com.br (attempt 2)
+[WARNING - Worker_15665_4_2010] ConnectionError for https://web.archive.org/web/20100408/www.uol.com.br (attempt 1)
+[ERROR - Worker_15666_5_2010] Failed to connect with https://web.archive.org/web/20100509/www.uol.com.br after 3 attempts, skipping...
+[WARNING - Worker_15666_5_2010] ConnectionError for https://web.archive.org/web/20100510/www.uol.com.br (attempt 1)
+[ERROR - Worker_15663_2_2010] Failed to connect with https://web.archive.org/web/20100205/www.uol.com.br after 3 attempts, skipping...
+[WARNING - Worker_15663_2_2010] ConnectionError for https://web.archive.org/web/20100206/www.uol.com.br (attempt 1)
+[ERROR - Worker_15664_3_2010] Failed to connect with https://web.archive.org/web/20100309/www.uol.com.br after 3 attempts, skipping...
+[WARNING - Worker_15664_3_2010] ConnectionError for https://web.archive.org/web/20100310/www.uol.com.br (attempt 1)
+[WARNING - Worker_15662_1_2010] ConnectionError for https://web.archive.org/web/20100108/www.uol.com.br (attempt 3)
+[WARNING - Worker_15665_4_2010] ConnectionError for https://web.archive.org/web/20100408/www.uol.com.br (attempt 2)
+[WARNING - Worker_15666_5_2010] ConnectionError for https://web.archive.org/web/20100510/www.uol.com.br (attempt 2)
+[WARNING - Parent_15660] KeyboardInterrupt detected. Terminating all workers...
+[WARNING - Parent_15660] Terminating process 15662...
+[WARNING - Parent_15660] Terminating process 15663...
+[WARNING - Parent_15660] Terminating process 15664...
+[WARNING - Parent_15660] Terminating process 15665...
+[WARNING - Parent_15660] Terminating process 15666...
+[INFO - Parent_15660] All workers terminated safely.
+[INFO - Parent_15660] Total time taken to complete: 1.39min

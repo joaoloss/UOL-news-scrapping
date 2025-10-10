@@ -1,52 +1,90 @@
-"""
-João Loss - joao.loss@edu.ufes.br
-
-This script processes UOL archive links collected by archive_links_extraction.py and saved in ARCHIVE_CSV_PATH
-to extract UOL web news links, which are then saved in OUTPUT_FILES_PATH.
-"""
-
-from bs4 import BeautifulSoup
-import requests
-from requests.exceptions import RequestException
+from multiprocessing import Process, Queue
 import pandas as pd
-import os
 import json
 import time
+import os
+import sys
+import logging
+import logging.handlers
+from bs4 import BeautifulSoup
+import requests
+from requests.exceptions import ConnectionError, ReadTimeout, RequestException
 
 ARCHIVE_CSV_PATH = os.path.join("out", "archive_links.csv")
+
+os.makedirs("logs", exist_ok=True)
+LOG_PATH = os.path.join("logs", "uol_links_extraction.log")
+
 OUTPUT_FILES_PATH = os.path.join("out", "uol_links")
 os.makedirs(OUTPUT_FILES_PATH, exist_ok=True)
 
-def save_uol_news_links(archive_links:list[str], year:int):
+MAX_NUM_WORKERS = 5
+REQUEST_TIMEOUT = 25
+RETRY_TIME = 5
+
+LOG_PATTERN = "[%(levelname)s - %(name)s] %(message)s"
+
+def queue_listener_handlers_config() -> tuple[logging.Handler, logging.Handler]:
+    file_handler = logging.FileHandler(filename=LOG_PATH, mode="w")
+    stdout_handler = logging.StreamHandler(sys.stdout)
+
+    return file_handler, stdout_handler
+
+def worker_logger_config(queue:Queue, year:int, month:int) -> logging.Logger:
+    worker_logger = logging.getLogger(f"Worker_{os.getpid()}_{month}_{year}")
+    worker_logger.setLevel(logging.INFO)
+
+    formatter = logging.Formatter(LOG_PATTERN)
+
+    queue_handler = logging.handlers.QueueHandler(queue)
+    queue_handler.setLevel(logging.INFO)
+    queue_handler.setFormatter(formatter)
+
+    worker_logger.addHandler(queue_handler)
+
+    return worker_logger
+
+def worker(archive_links:list[str], year:int, month:int, queue:Queue):
+    worker_logger = worker_logger_config(queue, year, month)
+
     def get_real_url_date(url):
         """
         Return the actual year and month from the URL, as it may differ from those in the original archive URL.
         """
-        
         date = url.split("/web/")[1][:8]
         y = int(date[:4])
         m = int(date[4:6])
         return y, m
-    href_filter = lambda u: "http" + u.split("http")[-1]
+    
+    href_filter = lambda u: "http" + u.split("http")[-1] # clarification comment at the end
     
     # Create the corresponding folder
     year_folder_path = os.path.join(OUTPUT_FILES_PATH, str(year))
     os.makedirs(year_folder_path, exist_ok=True)
 
+    loss_count = 0
     for i, link in enumerate(archive_links):
         for n_try in range(3):
             try:
-                response = requests.get(link, timeout=20)
+                response = requests.get(link, timeout=REQUEST_TIMEOUT)
                 break
+            except ConnectionError:
+                worker_logger.warning(f"ConnectionError for {link} (attempt {n_try+1})")
+                time.sleep(RETRY_TIME)
+            except ReadTimeout:
+                worker_logger.warning(f"ReadTimeout for {link} (attempt {n_try+1})")
+                time.sleep(RETRY_TIME)
             except RequestException as e:
-                print(f"RequestException for {link} (attempt {n_try+1}): {e}")
-                time.sleep(5)
+                worker_logger.warning(f"RequestException for {link} (attempt {n_try+1}): {e}\n")
+                time.sleep(RETRY_TIME)
         else:
-            print(f"Failed to connect with {link} after {n_try+1} attempts. Skipping...")
+            worker_logger.error(f"Failed to connect with {link} after {n_try+1} attempts, skipping...")
+            loss_count += 1
             continue
 
         if response.status_code != 200:
-            print(f"Response status code != 200 for {link} (got {response.status_code}), skipping.")
+            worker_logger.error(f"Response status code != 200 for {link} (got {response.status_code}), skipping...")
+            loss_count += 1
             continue
 
         html = response.text
@@ -54,15 +92,17 @@ def save_uol_news_links(archive_links:list[str], year:int):
         soup = BeautifulSoup(html, 'html.parser')
         anchor_elements = soup.find_all("a")
 
-        uol_links = list()
+        uol_links = set()
         for e in anchor_elements:
             href = e.get("href")
             if href is not None:
                 href = str(href)
+
+                # Verify potencial URL news pattern
                 if f"/{actual_year}/" in href:
-                    uol_links.append(href_filter(href))
+                    uol_links.add(href_filter(href))
         
-        print(f"[{i+1}] {len(uol_links)} links found in {link}.")
+        logging.debug(f"{len(uol_links)} links found in ({i+1}) {link}")
 
         file_path = os.path.join(year_folder_path, f"{actual_month}-{actual_year}.txt")
         if year != actual_year:
@@ -72,29 +112,81 @@ def save_uol_news_links(archive_links:list[str], year:int):
             
         with open(file_path, 'a') as f:
             f.write("\n".join(uol_links) + "\n")
+    
+    worker_logger.info(f"Loss rate: {loss_count}/{len(archive_links)}")
+
+def parent_logger_config(queue:Queue) -> logging.Logger:
+    logger = logging.getLogger(f"Parent_{os.getpid()}")
+    logger.setLevel(logging.INFO)
+
+    formatter = logging.Formatter(LOG_PATTERN)
+
+    queue_handler = logging.handlers.QueueHandler(queue)
+    queue_handler.setLevel(logging.INFO)
+    queue_handler.setFormatter(formatter)
+
+    logger.addHandler(queue_handler)
+
+    return logger
 
 def main():
-    archive_df = pd.read_csv(filepath_or_buffer=ARCHIVE_CSV_PATH)
-    archive_df["links"] = [json.loads(s) for s in archive_df["links"]] # from str to list
+    archive_df = pd.read_csv(ARCHIVE_CSV_PATH)
+    archive_df["links"] = [json.loads(s) for s in archive_df["links"]]
+    grouped_archive_df = archive_df.groupby("year")
 
-    grouped_archive_df = archive_df.groupby(by="year")
+    log_queue = Queue(-1)
+
+    file_handler, stdout_handler = queue_listener_handlers_config()
+    queue_listener = logging.handlers.QueueListener(log_queue,
+                                                    file_handler, stdout_handler,
+                                                    respect_handler_level=False) # Always pass each log message to each handler
+    queue_listener.start()
+    
+    logger = parent_logger_config(log_queue)
+    
     start_time = time.time()
-    for year, year_df in grouped_archive_df:
-        print(f"==> Year {year}:")  
+    running_workers = list()
 
-        for row in year_df.itertuples(index=False, name="row"):
-            print(f"Month {row.month} ({len(row.links)} links to precess):")
-            save_uol_news_links(row.links, int(row.year))
-    end_time = time.time()
+    try:
+        for _, year_df in grouped_archive_df:
+            for row in year_df.itertuples(index=False, name="row"):
+                while len(running_workers) >= MAX_NUM_WORKERS:
+                    # Wait until any child finishes
+                    for rw in list(running_workers):
+                        rw.join(timeout=.5)
+                        if not rw.is_alive():
+                            running_workers.remove(rw)
+                            break
+                    
+                    # All child processes still running
+                    else:
+                        time.sleep(0.5)
+                        continue
+                    break
+                
+                logger.info(f"Starting {row.month}/{row.year}")
 
-    print(f"Time taken to complete: {end_time - start_time:.02f}s.")       
+                # Start the new process
+                new_worker = Process(target=worker, args=(row.links, row.year, row.month, log_queue))
+                new_worker.start()
+                running_workers.append(new_worker)
+
+        # Wait for all child processes remaining
+        for p in running_workers:
+            p.join()
+    except KeyboardInterrupt:
+        logger.warning("KeyboardInterrupt detected. Terminating all workers...")
+        for p in running_workers:
+            if p.is_alive():
+                logger.warning(f"Terminating process {p.pid}...")
+                p.terminate()
+        for p in running_workers:
+            p.join()
+        logger.info("All workers terminated safely.")
+    finally:
+        end_time = time.time()
+        logger.info(f"Total time taken to complete: {(end_time - start_time)/60:.02f}min")
+        queue_listener.stop()
 
 if __name__ == "__main__":
     main()
-
-"""
-Examples of archive page achor elements:
-<a href="https://web.archive.org/web/20190602000119/https://talesfaria.blogosfera.uol.com.br/2019/06/01/nao-existem-ateus-no-stf-e-a-toa-e-que-nao-existe-brinca-marco-aurelio/" data-uol-see-later="url" name="chamada-destaque-submanchete|coluna-1" data-metrics="mod-1;topo-hibrido"> <span class="uol-see-later" data-service="true" data-share="true" data-id="publisher-7ab97d2a1b73ef9a6aacce6a76f4920190601" data-repository="blog"></span> <figure class="image "> <img data-uol-see-later="image" width="168" height="168" src="https://web.archive.org/web/20190602000119im_/https://conteudo.imguol.com.br/c/home/88/2018/12/19/o-ministro-do-stf-supremo-tribunal-federal-marco-aurelio-mello-participa-de-sessao-plenaria-da-suprema-corte-brasileira-1545237313676_300x168.jpg" data-src="https://web.archive.org/web/20190602000119/https://conteudo.imguol.com.br/c/home/88/2018/12/19/o-ministro-do-stf-supremo-tribunal-federal-marco-aurelio-mello-participa-de-sessao-plenaria-da-suprema-corte-brasileira-1545237313676_300x168.jpg" alt="Carlos Humberto/SCO/STF - 3.set.2015" title="Carlos Humberto/SCO/STF - 3.set.2015" class="lazyload loaded"> </figure> <strong class="chapeu color1">Corte e religião</strong> <h2 class="titulo color2" data-uol-see-later="title">T. Faria: Não existem ateus no STF. 'E à toa é que não existe', brinca Marco Aurélio <span class="comentariosContainer"></span></h2> </a>
-<a name="vA-semfoto3-manchete" href="https://web.archive.org/web/20110903043449/http://click.uol.com.br/?rf=home-vA-semfoto3-manchete&amp;u=http://esporte.uol.com.br/futebol/ultimas-noticias/2011/09/02/depois-de-ser-expulso-do-banco-de-reservas-valdivia-e-furtado-em-hotel-na-suica.htm" onclick="s_objectID=&quot;http://click.uol.com.br/?rf=home-vA-semfoto3-manchete&amp;u=http://esporte.uol.com.br/futebol/ultimas_2&quot;;return this.s_oc?this.s_oc(e):true">Após ser expulso do banco de reservas, Valdivia é furtado na Suíça</a>
-<a name="vA-fotomedia-manchete" href="https://web.archive.org/web/20100104095858/http://click.uol.com.br/?rf=home-vA-fotomedia-manchete&amp;u=http://televisao.uol.com.br/ultimas-noticias/2010/01/04/ult4244u4326.jhtm">"Achei que não ia dar conta", diz Assunção sobre novo papel na TV</a>
-"""
