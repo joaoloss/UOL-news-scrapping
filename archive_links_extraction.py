@@ -28,20 +28,6 @@ OUTPUT_CSV_PATH = os.path.join("out", "archive_links.csv")
 os.makedirs("logs", exist_ok=True)
 LOG_PATH = os.path.join("logs", "archive_links_extraction.log")
 
-pattern = "[%(levelname)s] %(message)s"
-formatter = logging.Formatter(pattern)
-file_handler = logging.FileHandler(filename=LOG_PATH, mode="w")
-file_handler.setFormatter(formatter)
-file_handler.setLevel(logging.INFO)
-stdout_handler = logging.StreamHandler(sys.stdout)
-stdout_handler.setFormatter(formatter)
-stdout_handler.setLevel(logging.ERROR)
-
-root_logger = logging.getLogger()
-root_logger.setLevel(logging.INFO)
-root_logger.addHandler(file_handler)
-root_logger.addHandler(stdout_handler)
-
 SITE = "www.uol.com.br"
 WEB_ARCHIVE_LINK = "https://web.archive.org/web/{year}0101*/" + SITE
 STR_TO_INT = {"JAN": 1, "FEB": 2, "MAR": 3,
@@ -78,11 +64,18 @@ def get_args() -> ArgumentParser:
         type=parse_month_year,
         required=True
     )
+
     parser.add_argument(
         "--end-date",
         help="End date in 'mm/yyyy' format.",
         type=parse_month_year,
         required=True
+    )
+
+    parser.add_argument(
+        "-q", "--quiet",
+        action="store_true",
+        help="Suppress console output."
     )
 
     return parser.parse_args()
@@ -161,8 +154,27 @@ def get_archive_links(start_date: datetime, end_date: datetime, options: Options
     driver.quit()
     return links
 
+def config_root_logger(quite_mode:bool):
+    root = logging.getLogger()
+    root.setLevel(logging.DEBUG) # let handlers check log levels
+
+    pattern = "[%(levelname)s - %(asctime)s] %(message)s"
+    formatter = logging.Formatter(pattern)
+
+    file_handler = logging.FileHandler(filename=LOG_PATH, mode="w")
+    file_handler.setLevel(logging.INFO)
+    file_handler.setFormatter(formatter)
+    root.addHandler(file_handler)
+    
+    if not quite_mode:
+        stdout_handler = logging.StreamHandler(sys.stdout)
+        stdout_handler.setLevel(logging.INFO)
+        stdout_handler.setFormatter(formatter)
+        root.addHandler(stdout_handler)
+
 def main():
     args = get_args()
+    config_root_logger(args.quiet)
 
     options = Options()
     options.add_argument("--no-sandbox") # turn off security mode to avoid some issues
