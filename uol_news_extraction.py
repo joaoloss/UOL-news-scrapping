@@ -158,6 +158,7 @@ def main():
 
     logging.info(f"{len(files)} file(s) to process.")
     total_links = 0
+    start_time = time.time()
     with ThreadPoolExecutor(max_workers=MAX_WORKERS, thread_name_prefix="Worker") as executor:
         for file in files:
             file_path = os.path.join(year_folder_path, file)
@@ -176,7 +177,8 @@ def main():
     else:
         success_rate = 0.0
     logging.info(f"Processed {total_links} links - {total_links - ERROR_COUNT}/{total_links} succeeded ({success_rate:.1f}%).")
-
+    end_time = time.time()
+    logging.info(f"Total time taken to complete: {int((end_time - start_time)/60)}min")
     logs_listener.stop()
     
 if __name__ == "__main__":
