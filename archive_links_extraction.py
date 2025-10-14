@@ -26,7 +26,7 @@ os.makedirs(name="out", exist_ok=True)
 OUTPUT_CSV_PATH = os.path.join("out", "archive_links.csv")
 
 os.makedirs("logs", exist_ok=True)
-LOG_PATH = os.path.join("logs", "archive_links_extraction.log")
+LOG_PATH = os.path.join("logs", f"{os.path.basename(__file__).split(".")[0]}.log")
 
 SITE = "www.uol.com.br"
 WEB_ARCHIVE_LINK = "https://web.archive.org/web/{year}0101*/" + SITE
@@ -35,7 +35,7 @@ STR_TO_INT = {"JAN": 1, "FEB": 2, "MAR": 3,
               "JUL": 7, "AUG": 8, "SEP": 9, 
               "OCT": 10, "NOV": 11, "DEC": 12}
 
-def get_args() -> ArgumentParser:
+def get_args():
     """
     Returns a command-line argument parser.
     """

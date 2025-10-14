@@ -154,7 +154,7 @@
 [WARNING - 2025-10-11 12:00:06,216] ReadTimeout for https://web.archive.org/web/20100527/www.uol.com.br (attempt 1)
 [WARNING - 2025-10-11 12:17:02,388] ConnectionError for https://web.archive.org/web/20100527/www.uol.com.br (attempt 2)
 [WARNING - 2025-10-11 12:31:31,026] ReadTimeout for https://web.archive.org/web/20100527/www.uol.com.br (attempt 3)
-[ERROR - 2025-10-11 12:32:01,036] Failed to connect with https://web.archive.org/web/20100527/www.uol.com.br after 3 attemptsm, skipping...
+[ERROR - 2025-10-11 12:32:01,036] Failed to connect with https://web.archive.org/web/20100527/www.uol.com.br after 3 attempts, skipping...
 [INFO - 2025-10-11 12:32:10,455] [19] 30 links found in https://web.archive.org/web/20100528/www.uol.com.br
 [WARNING - 2025-10-11 12:49:36,673] ReadTimeout for https://web.archive.org/web/20100529/www.uol.com.br (attempt 1)
 [WARNING - 2025-10-11 13:06:43,411] ConnectionError for https://web.archive.org/web/20100529/www.uol.com.br (attempt 2)
@@ -3801,7 +3801,7 @@
 [WARNING - 2025-10-12 21:11:47,808] ConnectionError for https://web.archive.org/web/20181123/www.uol.com.br (attempt 1)
 [WARNING - 2025-10-12 21:12:18,118] ConnectionError for https://web.archive.org/web/20181123/www.uol.com.br (attempt 2)
 [WARNING - 2025-10-12 21:12:48,430] ConnectionError for https://web.archive.org/web/20181123/www.uol.com.br (attempt 3)
-[ERROR - 2025-10-12 21:13:18,436] Failed to connect with https://web.archive.org/web/20181123/www.uol.com.br after 3 attemptsm, skipping...
+[ERROR - 2025-10-12 21:13:18,436] Failed to connect with https://web.archive.org/web/20181123/www.uol.com.br after 3 attempts, skipping...
 [INFO - 2025-10-12 21:13:22,806] [24] 82 links found in https://web.archive.org/web/20181124/www.uol.com.br
 [INFO - 2025-10-12 21:13:27,688] [25] 82 links found in https://web.archive.org/web/20181125/www.uol.com.br
 [INFO - 2025-10-12 21:13:33,167] [26] 93 links found in https://web.archive.org/web/20181126/www.uol.com.br

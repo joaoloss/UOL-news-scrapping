@@ -4,7 +4,7 @@ João Loss - joao.loss@edu.ufes.br
 This script processes UOL archive links collected by archive_links_extraction.py and saved in ARCHIVE_CSV_PATH
 to extract UOL web news links, which are then saved in OUTPUT_FILES_PATH. The logs are saved in LOG_PATH.
 
-Obs.: multithreading or multiprocessing could be used to speed up, but web archive rates limit requests per minute, that's
+Note: multithreading or multiprocessing could be used to speed up, but web archive rates limit requests per minute, that's
 why only the main thread were used.
 """
 
@@ -20,7 +20,7 @@ import sys
 import argparse
 
 os.makedirs("logs", exist_ok=True)
-LOG_PATH = os.path.join("logs", "uol_links_extraction.log")
+LOG_PATH = os.path.join("logs", f"{os.path.basename(__file__).split(".")[0]}.log")
 
 ARCHIVE_CSV_PATH = os.path.join("out", "archive_links.csv")
 OUTPUT_FILES_PATH = os.path.join("out", "uol_links")
@@ -48,7 +48,7 @@ def save_uol_news_links(archive_links:list[str], year:int):
                 logging.warning(f"RequestException for {link} (attempt {n_try+1}): {e}\n")
                 time.sleep(RETRY_TIME)
         else:
-            logging.error(f"Failed to connect with {link} after {n_try+1} attemptsm, skipping...")
+            logging.error(f"Failed to connect with {link} after {n_try+1} attempts, skipping...")
             return None
 
         if response.status_code != 200:
