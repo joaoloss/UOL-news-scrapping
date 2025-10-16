@@ -4,11 +4,17 @@ João Loss - joao.loss@edu.ufes.br
 This script scrapes UOL news text from links collected by uol_links_extraction.py. The links are stored in the specified
 year folder within the UOL_LINKS_PATH directory. Results are saved in the OUTPUT_FOLDER_PATH, and logs are stored in LOG_PATH.
 
-Note: to avoid extremely long processing times, only one folder is processed per execution.
+Note: to avoid long processing times, only one folder is processed per execution.
 Note: multithreading is used to improve performance.
 """
 
 from bs4 import BeautifulSoup
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import TimeoutException
 import logging
 import logging.handlers
 import requests
@@ -16,7 +22,7 @@ from requests.exceptions import ReadTimeout, ConnectionError, RequestException
 import os
 import argparse
 from argparse import ArgumentError
-from queue import Queue
+from queue import Queue # handles locking internally for multithreading tasks
 import sys
 from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
@@ -35,10 +41,10 @@ def parse_args():
     )
 
     def check_year(year:str):
-        if year not in os.listdir(UOL_LINKS_PATH):
+        if year not in os.listdir(UOL_LINKS_PATH): # Check if the year is a folder inside UOL_LINKS_PATH
             raise ArgumentError(message=f"{year} is not a folder in {UOL_LINKS_PATH}.")
         path = os.path.join(UOL_LINKS_PATH, year)
-        if len(os.listdir(path)) == 0:
+        if len(os.listdir(path)) == 0: # Check if the year folder is empty
             raise ArgumentError(message=f"{path} is empty.")
         return year
     
@@ -96,6 +102,9 @@ def get_response(link:str) -> requests.Response | None:
     for n_try in range(3):
         try:
             response = requests.get(link, timeout=REQUEST_TIMEOUT)
+            if response.status_code != 200:
+                logging.error(f"Status code == {response.status_code} for {link}, skipping...")
+                response = None
             break
         except ConnectionError:
             logging.debug(f"ConnectionError for {link} (attempt {n_try+1})")
@@ -108,15 +117,41 @@ def get_response(link:str) -> requests.Response | None:
             time.sleep(RETRY_TIME)
     else:
         logging.error(f"Failed to connect with {link} after {n_try+1} attempts, skipping...")
-        return None
+        response = None
 
-    if response.status_code != 200:
-        logging.error(f"Status code == {response.status_code} for {link}, skipping...")
-        return None
-    
+    time.sleep(2)
     return response
 
+def worker_selenium(link:str) -> str:
+    """
+    Built as a fallback for the requests + beautifulsoup workflow. 
+    For more details, see the comment in the worker() function.
+    """
+    
+    options = Options() 
+    options.add_argument("--no-sandbox") # turn off security mode to avoid some issues
+    options.add_argument("--log-level=3") # set to log only error messages
+    options.add_argument("--start-maximized")
+    # options.add_argument("--headless=new")
+    options.page_load_strategy = "eager"
+
+    driver = webdriver.Chrome(options=options)
+    wait = WebDriverWait(driver, 10)
+
+    driver.get(link)
+    text = None
+    try:
+        element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "#texto, .text"))) # id="texto" or class="text"
+        text = clean_text(element.text)
+    except TimeoutException:
+        logging.error(f"Timeout by selenium for {link}")
+    driver.quit()
+    return text
+
 def clean_text(text:str) -> str:
+    """
+    Implement simple text cleaning.
+    """
     return re.sub(r'\s+', ' ', text).strip().lower()
 
 def worker(link:str, output_file_path:str):
@@ -128,23 +163,35 @@ def worker(link:str, output_file_path:str):
     # when Python sees an assignment (=) to a variable inside a function, it automatically treats that variable as local.
     global ERROR_COUNT
 
+    cleaned_text = None
     response = get_response(link)
-    if not response:
+    if response:
+        soup = BeautifulSoup(response.text, 'html.parser')
+        divs = soup.find_all(name="div", class_="text")
+        if len(divs) == 0:
+            divs = soup.find_all(name="div", id="texto")
+        
+        cleaned_text = clean_text(divs[0].text)
+    else:
+        # After several tests, I noticed that running Selenium without the --headless option improved the success rate:
+        # some links that failed to load with requests + beautifulsoup were successfully accessed via Selenium (non-headless mode).
+        # However, running Selenium in headless mode was quite inconsistent and didn’t provide significant improvements.
+        # If having hundreds of Chrome windows open is not an issue, uncomment the lines below to use Selenium as a fallback
+        # when requests + beautifulsoup fail.
+        # -----
+        # logging.info("Trying selenium...")
+        # cleaned_text = worker_selenium(link)
+        pass
+
+    if cleaned_text:
+        with GLOBAL_LOCK:
+            with open(file=output_file_path, mode="a") as f:
+                f.write(cleaned_text + "\n")
+    else:
         with GLOBAL_LOCK:
             ERROR_COUNT += 1
-        return False
-
-    soup = BeautifulSoup(response.text, 'html.parser')
-    divs = soup.find_all(name="div", class_="text")
-    if len(divs) == 0:
-        divs = soup.find_all(name="div", id="texto")
     
-    cleaned_text = clean_text(divs[0].text)
-
-    with GLOBAL_LOCK:
-        with open(file=output_file_path, mode="a") as f:
-            f.write(cleaned_text + "\n\n")
-    return True
+    time.sleep(2)
 
 def main():
     logs_queue = Queue()
@@ -176,6 +223,7 @@ def main():
         success_rate = (total_links - ERROR_COUNT) / total_links * 100
     else:
         success_rate = 0.0
+
     logging.info(f"Processed {total_links} links - {total_links - ERROR_COUNT}/{total_links} succeeded ({success_rate:.1f}%).")
     end_time = time.time()
     logging.info(f"Total time taken to complete: {int((end_time - start_time)/60)}min")
