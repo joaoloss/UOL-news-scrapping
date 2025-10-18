@@ -16,7 +16,7 @@ Originally it was developed to extract news from the beginning of 2010 up to the
 
 ## ⚙️ Workflow description
 
-The entire extraction process can be divided into 3 major steps.
+The entire extraction process can be divided into 3 major steps: there are 3 levels of scrape.
 
 ### 1. Archive links extraction
 

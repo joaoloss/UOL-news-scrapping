@@ -4,7 +4,7 @@ João Loss - joao.loss@edu.ufes.br
 This script scrapes UOL news text from links collected by uol_links_extraction.py. The links are stored in the specified
 year folder within the UOL_LINKS_PATH directory. Results are saved in the OUTPUT_FOLDER_PATH, and logs are stored in LOG_PATH.
 
-Note: to avoid long processing times, only one folder is processed per execution.
+Note: to avoid extremely long processing times, only one folder is processed per execution.
 Note: multithreading is used to improve performance.
 """
 
@@ -69,7 +69,7 @@ REQUEST_TIMEOUT = 15
 RETRY_TIME = 2
 MAX_WORKERS = 5
 GLOBAL_LOCK = Lock()
-ERROR_COUNT = 0
+error_count = 0
 
 def logs_listener_config(quiet_mode:bool, queue:Queue) -> logging.handlers.QueueListener:
     file_handler = logging.FileHandler(filename=LOG_PATH, mode="w")
@@ -161,7 +161,7 @@ def worker(link:str, output_file_path:str):
     
     # Technical note: global variables can be READ without 'global' keyword, but MODIFICATION requires 'global' declaration,
     # when Python sees an assignment (=) to a variable inside a function, it automatically treats that variable as local.
-    global ERROR_COUNT
+    global error_count
 
     cleaned_text = None
     response = get_response(link)
@@ -189,7 +189,7 @@ def worker(link:str, output_file_path:str):
                 f.write(cleaned_text + "\n")
     else:
         with GLOBAL_LOCK:
-            ERROR_COUNT += 1
+            error_count += 1
     
     time.sleep(2)
 
@@ -220,11 +220,11 @@ def main():
                 executor.submit(worker, link, os.path.join(OUTPUT_FOLDER_PATH, file))
 
     if total_links > 0:
-        success_rate = (total_links - ERROR_COUNT) / total_links * 100
+        success_rate = (total_links - error_count) / total_links * 100
     else:
         success_rate = 0.0
 
-    logging.info(f"Processed {total_links} links - {total_links - ERROR_COUNT}/{total_links} succeeded ({success_rate:.1f}%).")
+    logging.info(f"Processed {total_links} links - {total_links - error_count}/{total_links} succeeded ({success_rate:.1f}%).")
     end_time = time.time()
     logging.info(f"Total time taken to complete: {int((end_time - start_time)/60)}min")
     logs_listener.stop()
