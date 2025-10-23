@@ -19,6 +19,8 @@ import logging
 import sys
 import argparse
 
+# --- Global definitions
+
 os.makedirs("logs", exist_ok=True)
 LOG_PATH = os.path.join("logs", f"{os.path.basename(__file__).split(".")[0]}.log")
 
@@ -28,6 +30,8 @@ os.makedirs(OUTPUT_FILES_PATH, exist_ok=True)
 
 REQUEST_TIMEOUT = 25
 RETRY_TIME = 30 # to avoid reaching web archive requests per minute rates
+
+# ---
 
 def save_uol_news_links(archive_links:list[str], year:int):
     def get_response(link:str) -> requests.Response | None:

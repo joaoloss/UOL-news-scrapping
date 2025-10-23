@@ -4,7 +4,7 @@ João Loss - joao.loss@edu.ufes.br
 This script scrapes UOL news text from links collected by uol_links_extraction.py. The links are stored in the specified
 year folder within the UOL_LINKS_PATH directory. Results are saved in the OUTPUT_FOLDER_PATH, and logs are stored in LOG_PATH.
 
-Note: to avoid extremely long processing times, only one folder is processed per execution.
+Note: to avoid extremely long processing times, only one folder or file is processed per execution.
 Note: multithreading is used to improve performance.
 """
 
@@ -20,14 +20,16 @@ import logging.handlers
 import requests
 from requests.exceptions import ReadTimeout, ConnectionError, RequestException
 import os
-import argparse
-from argparse import ArgumentError
-from queue import Queue # handles locking internally for multithreading tasks
+from pathlib import Path
 import sys
+import argparse
+from queue import Queue # handles locking internally for multithreading tasks
 from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
 import time
 import re
+
+# --- Global definitions
 
 UOL_LINKS_PATH = os.path.join("out", "uol_links")
 
@@ -40,29 +42,53 @@ def parse_args():
         help="Suppress console output."
     )
 
-    def check_year(year:str):
-        if year not in os.listdir(UOL_LINKS_PATH): # Check if the year is a folder inside UOL_LINKS_PATH
-            raise ArgumentError(message=f"{year} is not a folder in {UOL_LINKS_PATH}.")
-        path = os.path.join(UOL_LINKS_PATH, year)
-        if len(os.listdir(path)) == 0: # Check if the year folder is empty
-            raise ArgumentError(message=f"{path} is empty.")
-        return year
-    
+    def check_path(path: str) -> tuple[str, str]:
+        """
+        Validate that the argument is either a folder (year) or a file inside UOL_LINKS_PATH.
+        Returns a tuple: (type: "folder" or "file", full_path)
+        """
+        full_path_folder = os.path.join(UOL_LINKS_PATH, path)
+        if os.path.isdir(full_path_folder):
+            if len(os.listdir(full_path_folder)) == 0:
+                raise argparse.ArgumentTypeError(f"The folder '{full_path_folder}' is empty.")
+            return ("folder", full_path_folder)
+        
+        # Check if it's a file inside any year folder
+        for year in os.listdir(UOL_LINKS_PATH):
+            year_path = os.path.join(UOL_LINKS_PATH, year)
+            file_path = os.path.join(year_path, path)
+            if os.path.isfile(file_path):
+                return ("file", file_path)
+
+        raise argparse.ArgumentTypeError(f"'{path}' is neither a valid year folder nor a file inside a year folder in {UOL_LINKS_PATH}.")
+
     parser.add_argument(
-        "--year-folder",
-        help=f"Year from which news will be scraped. It should be the name of the corresponding folder in {UOL_LINKS_PATH}.",
-        type=check_year,
-        required=True
+        "--path",
+        required=True,
+        type=check_path,
+        help="Either the year folder to process all files, or the name of a specific file inside a year folder."
     )
 
     return parser.parse_args()
 
 args = parse_args()
+input_type, input_path = args.path
+quiet_mode = args.quiet
 
+target = Path(input_path).name # take the last part of input_path (file name or folder name)
+
+# Create log file path
+log_sufix = target
+if input_type == "file":
+    log_sufix = target.split(".")[0] # remove .txt from file name
 os.makedirs("logs", exist_ok=True)
-LOG_PATH = os.path.join("logs", f"{os.path.basename(__file__).split(".")[0]}_{args.year_folder}.log")
+LOG_PATH = os.path.join("logs", f"{os.path.basename(__file__).split(".")[0]}_{log_sufix}.log")
 
-OUTPUT_FOLDER_PATH = os.path.join("out", "uol_news", args.year_folder)
+# Create output folder path
+ouput_folder_name = target
+if input_type == "file":
+    ouput_folder_name = Path(input_path).parent.name # take the parent folder of the file
+OUTPUT_FOLDER_PATH = os.path.join("out", "uol_news", ouput_folder_name)
 os.makedirs(OUTPUT_FOLDER_PATH, exist_ok=True)
 
 REQUEST_TIMEOUT = 15
@@ -70,6 +96,8 @@ RETRY_TIME = 2
 MAX_WORKERS = 5
 GLOBAL_LOCK = Lock()
 error_count = 0
+
+# ---
 
 def logs_listener_config(quiet_mode:bool, queue:Queue) -> logging.handlers.QueueListener:
     file_handler = logging.FileHandler(filename=LOG_PATH, mode="w")
@@ -150,9 +178,9 @@ def worker_selenium(link:str) -> str:
 
 def clean_text(text:str) -> str:
     """
-    Implement simple text cleaning.
+    Implement simple text cleaning and remove some extremely common sequences that was observed after some scrapes.
     """
-    return re.sub(r'\s+', ' ', text).strip().lower()
+    return re.sub(r'\s+', ' ', text).strip().lower().replace("flavio ricco patrícia abravanel ainda não tem previsão para gravações no sbt", "").replace("favorite! agora você pode escolher seus blogs favoritos. clique na estrela e depois arraste para ordenar.", "")
 
 def worker(link:str, output_file_path:str):
     """
@@ -183,7 +211,7 @@ def worker(link:str, output_file_path:str):
         # cleaned_text = worker_selenium(link)
         pass
 
-    if cleaned_text:
+    if cleaned_text: # could collect and is not empty
         with GLOBAL_LOCK:
             with open(file=output_file_path, mode="a") as f:
                 f.write(cleaned_text + "\n")
@@ -195,29 +223,44 @@ def worker(link:str, output_file_path:str):
 
 def main():
     logs_queue = Queue()
-    logs_listener = logs_listener_config(quiet_mode=args.quiet, queue=logs_queue)
+    logs_listener = logs_listener_config(quiet_mode=quiet_mode, queue=logs_queue)
     logs_listener.start()
 
     root_logger_config(logs_queue)
 
-    year_folder_path = os.path.join(UOL_LINKS_PATH, args.year_folder)
-    files = os.listdir(year_folder_path)
-
-    logging.info(f"{len(files)} file(s) to process.")
     total_links = 0
     start_time = time.time()
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS, thread_name_prefix="Worker") as executor:
-        for file in files:
-            file_path = os.path.join(year_folder_path, file)
-            with open(file=file_path, mode="r") as f:
+
+    if input_type == "file":
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS, thread_name_prefix="Worker") as executor:
+            with open(file=input_path, mode="r") as f:
                 links = [line.strip() for line in f.readlines()]
         
             num_links = len(links)
             total_links += num_links
-            logging.info(f"{num_links} links from '{file_path}'.")
+            logging.info(f"{num_links} links from '{input_path}'.")
 
             for link in links:
-                executor.submit(worker, link, os.path.join(OUTPUT_FOLDER_PATH, file))
+                executor.submit(worker, link, os.path.join(OUTPUT_FOLDER_PATH, target))
+    
+    elif input_type == "folder":
+        files = os.listdir(input_path)
+        already_processed = os.listdir(OUTPUT_FOLDER_PATH)
+        files = [f for f in files if f not in already_processed]
+        logging.info(f"{len(files)} file(s) to process.")
+        
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS, thread_name_prefix="Worker") as executor:
+            for file in files:
+                file_path = os.path.join(input_path, file)
+                with open(file=file_path, mode="r") as f:
+                    links = [line.strip() for line in f.readlines()]
+            
+                num_links = len(links)
+                total_links += num_links
+                logging.info(f"{num_links} links from '{file_path}'.")
+
+                for link in links:
+                    executor.submit(worker, link, os.path.join(OUTPUT_FOLDER_PATH, file))
 
     if total_links > 0:
         success_rate = (total_links - error_count) / total_links * 100
