@@ -83,4 +83,4 @@ python3 uol_news_extraction.py [-h] [--quiet] --path PATH
 ```
 
 - `--quiet`: If enabled, it will suppress the logs will not be displayed in the terminal.
-- `--year-folder`: either the year folder to process all files, or the name of a specific file inside a year folder.
+- `--path`: Either the year folder to process all files, or the name of a specific file inside a year folder. Example: `--path 2019` or `--path 1-2019.txt`.
