@@ -24,17 +24,35 @@ In this stage, the goal is to collect all available UOL news homepage links from
 
 This process is done by `archive_links_extraction.py` script.
 
+The image below show an example of a scraped page at this level. By accessing the HTML of the page it's possible to get a lot pages used in next level.
+
+<p align="center">
+  <img src="md_imgs/web_arc.png" width="600" />
+</p>
+
 ### 2. UOL news link extraction
 
 Once the news home pages are collected, we can scrape each of these pages in order to get the actual news links, references by [HTML anchor elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a) in the home pages.
 
 This process is done by `uol_links_extraction.py` script.
 
+The image below show an example of a scraped page at this level. By accessing the HTML of the page it's possible to get a lot pages used in next level.
+
+<p align="center">
+  <img src="md_imgs/homepage.png" width="700" />
+</p>
+
 ### 3. UOL news text extraction
 
 Finally, once we have the news links from the previous step, we scrape and clean the news text from all collected links.
 
 This process is done by `uol_news_extraction.py` script.
+
+The image below show an example of a scraped page at this level. By accessing the page's HTML, it's possible to obtain the text of the news article.
+
+<p align="center">
+  <img src="md_imgs/news_page.png" width="700" />
+</p>
 
 ### Note
 
