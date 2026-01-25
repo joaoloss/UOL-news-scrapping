@@ -89,10 +89,11 @@ python3 archive_links_extraction.py [-h] [--headless] --start-date START_DATE --
 ### 4. Running uol links extraction script
 
 ```bash
-python3 uol_links_extraction.py [-h] [--quiet]
+python3 uol_links_extraction.py [-h] [--quiet] --input-csv INPUT_CSV
 ```
 
 - `--quiet`: If enabled, it will suppress the logs will not be displayed in the terminal.
+- `--input-csv`: Path to the input CSV file containing archive links.
 
 ### 5. Running uol news extraction script
 

@@ -1,0 +1,1727 @@
+[INFO - 2026-01-25 10:09:36,211] ==> Year 2020:
+[INFO - 2026-01-25 10:09:36,212] Month 1 (31 links to precess):
+[INFO - 2026-01-25 10:09:41,007] [1] 94 links found in https://web.archive.org/web/20200101/www.uol.com.br
+[INFO - 2026-01-25 10:09:44,724] [2] 100 links found in https://web.archive.org/web/20200102/www.uol.com.br
+[INFO - 2026-01-25 10:09:49,716] [3] 109 links found in https://web.archive.org/web/20200103/www.uol.com.br
+[INFO - 2026-01-25 10:09:52,880] [4] 96 links found in https://web.archive.org/web/20200104/www.uol.com.br
+[INFO - 2026-01-25 10:09:56,883] [5] 92 links found in https://web.archive.org/web/20200105/www.uol.com.br
+[INFO - 2026-01-25 10:09:59,976] [6] 116 links found in https://web.archive.org/web/20200106/www.uol.com.br
+[INFO - 2026-01-25 10:10:04,655] [7] 105 links found in https://web.archive.org/web/20200107/www.uol.com.br
+[INFO - 2026-01-25 10:10:07,921] [8] 108 links found in https://web.archive.org/web/20200108/www.uol.com.br
+[INFO - 2026-01-25 10:10:11,221] [9] 115 links found in https://web.archive.org/web/20200109/www.uol.com.br
+[INFO - 2026-01-25 10:10:15,712] [10] 119 links found in https://web.archive.org/web/20200110/www.uol.com.br
+[WARNING - 2026-01-25 10:10:42,443] ReadTimeout for https://web.archive.org/web/20200111/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:11:15,946] [11] 94 links found in https://web.archive.org/web/20200111/www.uol.com.br
+[INFO - 2026-01-25 10:11:19,815] [12] 105 links found in https://web.archive.org/web/20200112/www.uol.com.br
+[INFO - 2026-01-25 10:11:24,868] [13] 108 links found in https://web.archive.org/web/20200113/www.uol.com.br
+[INFO - 2026-01-25 10:11:30,615] [14] 114 links found in https://web.archive.org/web/20200114/www.uol.com.br
+[INFO - 2026-01-25 10:11:33,957] [15] 119 links found in https://web.archive.org/web/20200115/www.uol.com.br
+[INFO - 2026-01-25 10:11:37,648] [16] 105 links found in https://web.archive.org/web/20200116/www.uol.com.br
+[INFO - 2026-01-25 10:11:40,959] [17] 112 links found in https://web.archive.org/web/20200117/www.uol.com.br
+[INFO - 2026-01-25 10:11:46,747] [18] 111 links found in https://web.archive.org/web/20200118/www.uol.com.br
+[INFO - 2026-01-25 10:11:49,726] [19] 94 links found in https://web.archive.org/web/20200119/www.uol.com.br
+[WARNING - 2026-01-25 10:11:49,982] ConnectionError for https://web.archive.org/web/20200120/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 10:12:20,194] ConnectionError for https://web.archive.org/web/20200120/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 10:12:54,756] [20] 121 links found in https://web.archive.org/web/20200120/www.uol.com.br
+[WARNING - 2026-01-25 10:12:55,082] ConnectionError for https://web.archive.org/web/20200121/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:13:29,293] [21] 122 links found in https://web.archive.org/web/20200121/www.uol.com.br
+[INFO - 2026-01-25 10:13:34,443] [22] 120 links found in https://web.archive.org/web/20200122/www.uol.com.br
+[INFO - 2026-01-25 10:13:37,579] [23] 126 links found in https://web.archive.org/web/20200123/www.uol.com.br
+[INFO - 2026-01-25 10:13:42,447] [24] 125 links found in https://web.archive.org/web/20200124/www.uol.com.br
+[INFO - 2026-01-25 10:13:48,594] [25] 113 links found in https://web.archive.org/web/20200125/www.uol.com.br
+[INFO - 2026-01-25 10:13:51,896] [26] 110 links found in https://web.archive.org/web/20200126/www.uol.com.br
+[INFO - 2026-01-25 10:13:55,287] [27] 126 links found in https://web.archive.org/web/20200127/www.uol.com.br
+[INFO - 2026-01-25 10:13:58,538] [28] 125 links found in https://web.archive.org/web/20200128/www.uol.com.br
+[INFO - 2026-01-25 10:14:01,551] [29] 111 links found in https://web.archive.org/web/20200129/www.uol.com.br
+[WARNING - 2026-01-25 10:14:01,750] ConnectionError for https://web.archive.org/web/20200130/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:14:35,924] [30] 117 links found in https://web.archive.org/web/20200130/www.uol.com.br
+[INFO - 2026-01-25 10:14:39,099] [31] 104 links found in https://web.archive.org/web/20200131/www.uol.com.br
+[INFO - 2026-01-25 10:14:39,099] Loss rate: 0/31
+[INFO - 2026-01-25 10:14:39,099] Total links found: 3436
+[INFO - 2026-01-25 10:14:39,100] Month 1 processing time: 5.05min
+[INFO - 2026-01-25 10:14:39,100] 
+[INFO - 2026-01-25 10:14:39,100] Month 2 (29 links to precess):
+[INFO - 2026-01-25 10:14:44,062] [1] 115 links found in https://web.archive.org/web/20200201/www.uol.com.br
+[INFO - 2026-01-25 10:14:48,303] [2] 116 links found in https://web.archive.org/web/20200202/www.uol.com.br
+[INFO - 2026-01-25 10:14:51,501] [3] 118 links found in https://web.archive.org/web/20200203/www.uol.com.br
+[INFO - 2026-01-25 10:14:56,256] [4] 119 links found in https://web.archive.org/web/20200204/www.uol.com.br
+[INFO - 2026-01-25 10:15:02,089] [5] 118 links found in https://web.archive.org/web/20200205/www.uol.com.br
+[INFO - 2026-01-25 10:15:05,315] [6] 115 links found in https://web.archive.org/web/20200206/www.uol.com.br
+[INFO - 2026-01-25 10:15:10,231] [7] 116 links found in https://web.archive.org/web/20200207/www.uol.com.br
+[INFO - 2026-01-25 10:15:15,647] [8] 129 links found in https://web.archive.org/web/20200208/www.uol.com.br
+[WARNING - 2026-01-25 10:15:15,986] ConnectionError for https://web.archive.org/web/20200209/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 10:15:46,297] ConnectionError for https://web.archive.org/web/20200209/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 10:16:20,372] [9] 124 links found in https://web.archive.org/web/20200209/www.uol.com.br
+[WARNING - 2026-01-25 10:16:20,581] ConnectionError for https://web.archive.org/web/20200210/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:16:55,862] [10] 127 links found in https://web.archive.org/web/20200210/www.uol.com.br
+[INFO - 2026-01-25 10:17:03,174] [11] 115 links found in https://web.archive.org/web/20200211/www.uol.com.br
+[INFO - 2026-01-25 10:17:07,781] [12] 126 links found in https://web.archive.org/web/20200212/www.uol.com.br
+[INFO - 2026-01-25 10:17:13,320] [13] 125 links found in https://web.archive.org/web/20200213/www.uol.com.br
+[INFO - 2026-01-25 10:17:19,660] [14] 124 links found in https://web.archive.org/web/20200214/www.uol.com.br
+[INFO - 2026-01-25 10:17:23,760] [15] 118 links found in https://web.archive.org/web/20200215/www.uol.com.br
+[INFO - 2026-01-25 10:17:27,659] [16] 117 links found in https://web.archive.org/web/20200216/www.uol.com.br
+[INFO - 2026-01-25 10:17:33,174] [17] 121 links found in https://web.archive.org/web/20200217/www.uol.com.br
+[INFO - 2026-01-25 10:17:37,579] [18] 116 links found in https://web.archive.org/web/20200218/www.uol.com.br
+[INFO - 2026-01-25 10:17:41,171] [19] 118 links found in https://web.archive.org/web/20200219/www.uol.com.br
+[WARNING - 2026-01-25 10:17:41,389] ConnectionError for https://web.archive.org/web/20200220/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 10:19:01,085] ReadTimeout for https://web.archive.org/web/20200220/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 10:19:43,129] [20] 117 links found in https://web.archive.org/web/20200220/www.uol.com.br
+[INFO - 2026-01-25 10:19:47,389] [21] 136 links found in https://web.archive.org/web/20200221/www.uol.com.br
+[INFO - 2026-01-25 10:19:52,450] [22] 137 links found in https://web.archive.org/web/20200222/www.uol.com.br
+[INFO - 2026-01-25 10:20:00,531] [23] 117 links found in https://web.archive.org/web/20200223/www.uol.com.br
+[INFO - 2026-01-25 10:20:05,250] [24] 126 links found in https://web.archive.org/web/20200224/www.uol.com.br
+[INFO - 2026-01-25 10:20:10,347] [25] 121 links found in https://web.archive.org/web/20200225/www.uol.com.br
+[INFO - 2026-01-25 10:20:14,772] [26] 128 links found in https://web.archive.org/web/20200226/www.uol.com.br
+[INFO - 2026-01-25 10:20:18,734] [27] 122 links found in https://web.archive.org/web/20200227/www.uol.com.br
+[INFO - 2026-01-25 10:20:22,957] [28] 120 links found in https://web.archive.org/web/20200228/www.uol.com.br
+[INFO - 2026-01-25 10:20:26,958] [29] 128 links found in https://web.archive.org/web/20200229/www.uol.com.br
+[INFO - 2026-01-25 10:20:26,958] Loss rate: 0/29
+[INFO - 2026-01-25 10:20:26,958] Total links found: 3529
+[INFO - 2026-01-25 10:20:26,958] Month 2 processing time: 5.80min
+[INFO - 2026-01-25 10:20:26,958] 
+[INFO - 2026-01-25 10:20:26,958] Month 3 (31 links to precess):
+[INFO - 2026-01-25 10:20:30,006] [1] 115 links found in https://web.archive.org/web/20200301/www.uol.com.br
+[INFO - 2026-01-25 10:20:34,555] [2] 120 links found in https://web.archive.org/web/20200302/www.uol.com.br
+[WARNING - 2026-01-25 10:21:00,525] ReadTimeout for https://web.archive.org/web/20200303/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:21:33,281] [3] 120 links found in https://web.archive.org/web/20200303/www.uol.com.br
+[INFO - 2026-01-25 10:21:40,359] [4] 123 links found in https://web.archive.org/web/20200304/www.uol.com.br
+[INFO - 2026-01-25 10:21:43,868] [5] 122 links found in https://web.archive.org/web/20200305/www.uol.com.br
+[INFO - 2026-01-25 10:21:47,218] [6] 123 links found in https://web.archive.org/web/20200306/www.uol.com.br
+[INFO - 2026-01-25 10:21:52,380] [7] 121 links found in https://web.archive.org/web/20200307/www.uol.com.br
+[INFO - 2026-01-25 10:21:56,772] [8] 116 links found in https://web.archive.org/web/20200308/www.uol.com.br
+[WARNING - 2026-01-25 10:21:57,075] ConnectionError for https://web.archive.org/web/20200309/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 10:22:27,292] ConnectionError for https://web.archive.org/web/20200309/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 10:23:01,276] [9] 127 links found in https://web.archive.org/web/20200309/www.uol.com.br
+[INFO - 2026-01-25 10:23:05,375] [10] 126 links found in https://web.archive.org/web/20200310/www.uol.com.br
+[INFO - 2026-01-25 10:23:09,512] [11] 124 links found in https://web.archive.org/web/20200311/www.uol.com.br
+[INFO - 2026-01-25 10:23:14,796] [12] 125 links found in https://web.archive.org/web/20200312/www.uol.com.br
+[INFO - 2026-01-25 10:23:18,066] [13] 126 links found in https://web.archive.org/web/20200313/www.uol.com.br
+[INFO - 2026-01-25 10:23:23,661] [14] 127 links found in https://web.archive.org/web/20200314/www.uol.com.br
+[INFO - 2026-01-25 10:23:28,406] [15] 111 links found in https://web.archive.org/web/20200315/www.uol.com.br
+[INFO - 2026-01-25 10:23:31,706] [16] 125 links found in https://web.archive.org/web/20200316/www.uol.com.br
+[INFO - 2026-01-25 10:23:38,702] [17] 137 links found in https://web.archive.org/web/20200317/www.uol.com.br
+[INFO - 2026-01-25 10:23:42,413] [18] 137 links found in https://web.archive.org/web/20200318/www.uol.com.br
+[INFO - 2026-01-25 10:23:47,969] [19] 140 links found in https://web.archive.org/web/20200319/www.uol.com.br
+[INFO - 2026-01-25 10:23:50,841] [20] 135 links found in https://web.archive.org/web/20200320/www.uol.com.br
+[INFO - 2026-01-25 10:23:53,802] [21] 126 links found in https://web.archive.org/web/20200321/www.uol.com.br
+[WARNING - 2026-01-25 10:23:54,009] ConnectionError for https://web.archive.org/web/20200322/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 10:24:24,245] ConnectionError for https://web.archive.org/web/20200322/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 10:24:57,705] [22] 120 links found in https://web.archive.org/web/20200322/www.uol.com.br
+[INFO - 2026-01-25 10:25:02,405] [23] 123 links found in https://web.archive.org/web/20200323/www.uol.com.br
+[INFO - 2026-01-25 10:25:05,695] [24] 145 links found in https://web.archive.org/web/20200324/www.uol.com.br
+[INFO - 2026-01-25 10:25:12,373] [25] 139 links found in https://web.archive.org/web/20200325/www.uol.com.br
+[INFO - 2026-01-25 10:25:16,534] [26] 146 links found in https://web.archive.org/web/20200326/www.uol.com.br
+[INFO - 2026-01-25 10:25:21,054] [27] 157 links found in https://web.archive.org/web/20200327/www.uol.com.br
+[INFO - 2026-01-25 10:25:26,165] [28] 128 links found in https://web.archive.org/web/20200328/www.uol.com.br
+[WARNING - 2026-01-25 10:25:26,371] ConnectionError for https://web.archive.org/web/20200329/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 10:25:56,628] ConnectionError for https://web.archive.org/web/20200329/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 10:26:32,222] [29] 133 links found in https://web.archive.org/web/20200329/www.uol.com.br
+[INFO - 2026-01-25 10:26:36,116] [30] 135 links found in https://web.archive.org/web/20200330/www.uol.com.br
+[INFO - 2026-01-25 10:26:38,686] [31] 144 links found in https://web.archive.org/web/20200331/www.uol.com.br
+[INFO - 2026-01-25 10:26:38,686] Loss rate: 0/31
+[INFO - 2026-01-25 10:26:38,686] Total links found: 3996
+[INFO - 2026-01-25 10:26:38,687] Month 3 processing time: 6.20min
+[INFO - 2026-01-25 10:26:38,687] 
+[INFO - 2026-01-25 10:26:38,687] Month 4 (30 links to precess):
+[INFO - 2026-01-25 10:26:42,453] [1] 135 links found in https://web.archive.org/web/20200401/www.uol.com.br
+[INFO - 2026-01-25 10:26:47,070] [2] 144 links found in https://web.archive.org/web/20200402/www.uol.com.br
+[INFO - 2026-01-25 10:26:50,143] [3] 145 links found in https://web.archive.org/web/20200403/www.uol.com.br
+[INFO - 2026-01-25 10:26:53,217] [4] 125 links found in https://web.archive.org/web/20200404/www.uol.com.br
+[INFO - 2026-01-25 10:26:57,787] [5] 140 links found in https://web.archive.org/web/20200405/www.uol.com.br
+[INFO - 2026-01-25 10:27:00,583] [6] 130 links found in https://web.archive.org/web/20200406/www.uol.com.br
+[INFO - 2026-01-25 10:27:04,483] [7] 146 links found in https://web.archive.org/web/20200407/www.uol.com.br
+[INFO - 2026-01-25 10:27:08,281] [8] 136 links found in https://web.archive.org/web/20200408/www.uol.com.br
+[INFO - 2026-01-25 10:27:12,905] [9] 151 links found in https://web.archive.org/web/20200409/www.uol.com.br
+[INFO - 2026-01-25 10:27:16,462] [10] 132 links found in https://web.archive.org/web/20200410/www.uol.com.br
+[WARNING - 2026-01-25 10:27:16,796] ConnectionError for https://web.archive.org/web/20200411/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 10:27:47,013] ConnectionError for https://web.archive.org/web/20200411/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 10:28:21,377] [11] 123 links found in https://web.archive.org/web/20200411/www.uol.com.br
+[INFO - 2026-01-25 10:28:25,071] [12] 131 links found in https://web.archive.org/web/20200412/www.uol.com.br
+[INFO - 2026-01-25 10:28:29,984] [13] 139 links found in https://web.archive.org/web/20200413/www.uol.com.br
+[INFO - 2026-01-25 10:28:32,894] [14] 149 links found in https://web.archive.org/web/20200414/www.uol.com.br
+[INFO - 2026-01-25 10:28:35,745] [15] 144 links found in https://web.archive.org/web/20200415/www.uol.com.br
+[INFO - 2026-01-25 10:28:40,184] [16] 133 links found in https://web.archive.org/web/20200416/www.uol.com.br
+[INFO - 2026-01-25 10:28:44,524] [17] 147 links found in https://web.archive.org/web/20200417/www.uol.com.br
+[WARNING - 2026-01-25 10:28:44,733] ConnectionError for https://web.archive.org/web/20200418/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 10:29:14,954] ConnectionError for https://web.archive.org/web/20200418/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 10:29:48,732] [18] 132 links found in https://web.archive.org/web/20200418/www.uol.com.br
+[INFO - 2026-01-25 10:29:53,338] [19] 119 links found in https://web.archive.org/web/20200419/www.uol.com.br
+[INFO - 2026-01-25 10:30:00,098] [20] 132 links found in https://web.archive.org/web/20200420/www.uol.com.br
+[INFO - 2026-01-25 10:30:03,260] [21] 132 links found in https://web.archive.org/web/20200421/www.uol.com.br
+[INFO - 2026-01-25 10:30:11,769] [22] 133 links found in https://web.archive.org/web/20200422/www.uol.com.br
+[INFO - 2026-01-25 10:30:15,561] [23] 125 links found in https://web.archive.org/web/20200423/www.uol.com.br
+[INFO - 2026-01-25 10:30:18,942] [24] 147 links found in https://web.archive.org/web/20200424/www.uol.com.br
+[INFO - 2026-01-25 10:30:23,383] [25] 125 links found in https://web.archive.org/web/20200425/www.uol.com.br
+[INFO - 2026-01-25 10:30:26,469] [26] 121 links found in https://web.archive.org/web/20200426/www.uol.com.br
+[INFO - 2026-01-25 10:30:30,822] [27] 139 links found in https://web.archive.org/web/20200427/www.uol.com.br
+[INFO - 2026-01-25 10:30:35,015] [28] 142 links found in https://web.archive.org/web/20200428/www.uol.com.br
+[WARNING - 2026-01-25 10:30:35,242] ConnectionError for https://web.archive.org/web/20200429/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:31:09,311] [29] 138 links found in https://web.archive.org/web/20200429/www.uol.com.br
+[INFO - 2026-01-25 10:31:12,593] [30] 119 links found in https://web.archive.org/web/20200430/www.uol.com.br
+[INFO - 2026-01-25 10:31:12,594] Loss rate: 0/30
+[INFO - 2026-01-25 10:31:12,594] Total links found: 4054
+[INFO - 2026-01-25 10:31:12,595] Month 4 processing time: 4.57min
+[INFO - 2026-01-25 10:31:12,595] 
+[INFO - 2026-01-25 10:31:12,595] Month 5 (31 links to precess):
+[WARNING - 2026-01-25 10:31:12,793] ConnectionError for https://web.archive.org/web/20200501/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:31:47,896] [1] 129 links found in https://web.archive.org/web/20200501/www.uol.com.br
+[INFO - 2026-01-25 10:31:50,956] [2] 123 links found in https://web.archive.org/web/20200502/www.uol.com.br
+[INFO - 2026-01-25 10:31:54,167] [3] 135 links found in https://web.archive.org/web/20200503/www.uol.com.br
+[INFO - 2026-01-25 10:31:57,966] [4] 123 links found in https://web.archive.org/web/20200504/www.uol.com.br
+[INFO - 2026-01-25 10:32:02,254] [5] 129 links found in https://web.archive.org/web/20200505/www.uol.com.br
+[INFO - 2026-01-25 10:32:06,519] [6] 138 links found in https://web.archive.org/web/20200506/www.uol.com.br
+[WARNING - 2026-01-25 10:32:06,725] ConnectionError for https://web.archive.org/web/20200507/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:32:40,155] [7] 122 links found in https://web.archive.org/web/20200507/www.uol.com.br
+[WARNING - 2026-01-25 10:32:40,479] ConnectionError for https://web.archive.org/web/20200508/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:33:14,973] [8] 144 links found in https://web.archive.org/web/20200508/www.uol.com.br
+[INFO - 2026-01-25 10:33:19,979] [9] 119 links found in https://web.archive.org/web/20200509/www.uol.com.br
+[INFO - 2026-01-25 10:33:22,947] [10] 112 links found in https://web.archive.org/web/20200510/www.uol.com.br
+[INFO - 2026-01-25 10:33:26,024] [11] 128 links found in https://web.archive.org/web/20200511/www.uol.com.br
+[INFO - 2026-01-25 10:33:31,043] [12] 126 links found in https://web.archive.org/web/20200512/www.uol.com.br
+[INFO - 2026-01-25 10:33:36,448] [13] 121 links found in https://web.archive.org/web/20200513/www.uol.com.br
+[INFO - 2026-01-25 10:33:39,963] [14] 134 links found in https://web.archive.org/web/20200514/www.uol.com.br
+[INFO - 2026-01-25 10:33:43,702] [15] 136 links found in https://web.archive.org/web/20200515/www.uol.com.br
+[INFO - 2026-01-25 10:33:46,814] [16] 128 links found in https://web.archive.org/web/20200516/www.uol.com.br
+[INFO - 2026-01-25 10:33:51,097] [17] 127 links found in https://web.archive.org/web/20200517/www.uol.com.br
+[INFO - 2026-01-25 10:33:54,443] [18] 115 links found in https://web.archive.org/web/20200518/www.uol.com.br
+[WARNING - 2026-01-25 10:33:54,722] ConnectionError for https://web.archive.org/web/20200519/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:34:29,508] [19] 135 links found in https://web.archive.org/web/20200519/www.uol.com.br
+[INFO - 2026-01-25 10:34:33,102] [20] 135 links found in https://web.archive.org/web/20200520/www.uol.com.br
+[WARNING - 2026-01-25 10:34:33,307] ConnectionError for https://web.archive.org/web/20200521/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:35:07,200] [21] 128 links found in https://web.archive.org/web/20200521/www.uol.com.br
+[INFO - 2026-01-25 10:35:12,932] [22] 136 links found in https://web.archive.org/web/20200522/www.uol.com.br
+[INFO - 2026-01-25 10:35:15,915] [23] 130 links found in https://web.archive.org/web/20200523/www.uol.com.br
+[ERROR - 2026-01-25 10:35:19,511] Response status code != 200 for https://web.archive.org/web/20200524/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 10:35:22,555] [25] 122 links found in https://web.archive.org/web/20200525/www.uol.com.br
+[ERROR - 2026-01-25 10:35:25,286] Response status code != 200 for https://web.archive.org/web/20200526/www.uol.com.br (got 403), skipping...
+[WARNING - 2026-01-25 10:35:25,505] ConnectionError for https://web.archive.org/web/20200527/www.uol.com.br (attempt 1)
+[ERROR - 2026-01-25 10:35:57,707] Response status code != 200 for https://web.archive.org/web/20200527/www.uol.com.br (got 403), skipping...
+[WARNING - 2026-01-25 10:35:58,012] ConnectionError for https://web.archive.org/web/20200528/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:36:31,392] [28] 120 links found in https://web.archive.org/web/20200528/www.uol.com.br
+[ERROR - 2026-01-25 10:36:35,589] Response status code != 200 for https://web.archive.org/web/20200529/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 10:36:39,596] [30] 119 links found in https://web.archive.org/web/20200530/www.uol.com.br
+[ERROR - 2026-01-25 10:36:44,528] Response status code != 200 for https://web.archive.org/web/20200531/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 10:36:44,531] Loss rate: 5/31
+[INFO - 2026-01-25 10:36:44,531] Total links found: 3314
+[INFO - 2026-01-25 10:36:44,531] Month 5 processing time: 5.53min
+[INFO - 2026-01-25 10:36:44,531] 
+[INFO - 2026-01-25 10:36:44,531] Month 6 (30 links to precess):
+[ERROR - 2026-01-25 10:36:47,194] Response status code != 200 for https://web.archive.org/web/20200601/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 10:36:50,650] [2] 136 links found in https://web.archive.org/web/20200602/www.uol.com.br
+[INFO - 2026-01-25 10:36:54,027] [3] 138 links found in https://web.archive.org/web/20200603/www.uol.com.br
+[INFO - 2026-01-25 10:36:57,075] [4] 141 links found in https://web.archive.org/web/20200604/www.uol.com.br
+[INFO - 2026-01-25 10:37:01,609] [5] 136 links found in https://web.archive.org/web/20200605/www.uol.com.br
+[WARNING - 2026-01-25 10:37:01,835] ConnectionError for https://web.archive.org/web/20200606/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:37:35,924] [6] 122 links found in https://web.archive.org/web/20200606/www.uol.com.br
+[INFO - 2026-01-25 10:37:39,404] [7] 114 links found in https://web.archive.org/web/20200607/www.uol.com.br
+[INFO - 2026-01-25 10:37:43,385] [8] 124 links found in https://web.archive.org/web/20200608/www.uol.com.br
+[INFO - 2026-01-25 10:37:46,560] [9] 127 links found in https://web.archive.org/web/20200609/www.uol.com.br
+[WARNING - 2026-01-25 10:37:46,892] ConnectionError for https://web.archive.org/web/20200610/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:38:20,250] [10] 122 links found in https://web.archive.org/web/20200610/www.uol.com.br
+[INFO - 2026-01-25 10:38:23,468] [11] 125 links found in https://web.archive.org/web/20200611/www.uol.com.br
+[INFO - 2026-01-25 10:38:27,220] [12] 126 links found in https://web.archive.org/web/20200612/www.uol.com.br
+[INFO - 2026-01-25 10:38:30,107] [13] 113 links found in https://web.archive.org/web/20200613/www.uol.com.br
+[WARNING - 2026-01-25 10:38:30,413] ConnectionError for https://web.archive.org/web/20200614/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:39:03,773] [14] 113 links found in https://web.archive.org/web/20200614/www.uol.com.br
+[INFO - 2026-01-25 10:39:07,311] [15] 114 links found in https://web.archive.org/web/20200615/www.uol.com.br
+[INFO - 2026-01-25 10:39:10,410] [16] 136 links found in https://web.archive.org/web/20200616/www.uol.com.br
+[WARNING - 2026-01-25 10:39:10,618] ConnectionError for https://web.archive.org/web/20200617/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:39:44,111] [17] 124 links found in https://web.archive.org/web/20200617/www.uol.com.br
+[INFO - 2026-01-25 10:39:47,221] [18] 143 links found in https://web.archive.org/web/20200618/www.uol.com.br
+[INFO - 2026-01-25 10:39:51,244] [19] 129 links found in https://web.archive.org/web/20200619/www.uol.com.br
+[INFO - 2026-01-25 10:39:54,584] [20] 112 links found in https://web.archive.org/web/20200620/www.uol.com.br
+[WARNING - 2026-01-25 10:39:54,783] ConnectionError for https://web.archive.org/web/20200621/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:40:31,123] [21] 111 links found in https://web.archive.org/web/20200621/www.uol.com.br
+[INFO - 2026-01-25 10:40:36,241] [22] 122 links found in https://web.archive.org/web/20200622/www.uol.com.br
+[INFO - 2026-01-25 10:40:39,312] [23] 125 links found in https://web.archive.org/web/20200623/www.uol.com.br
+[INFO - 2026-01-25 10:40:43,507] [24] 132 links found in https://web.archive.org/web/20200624/www.uol.com.br
+[INFO - 2026-01-25 10:40:47,028] [25] 129 links found in https://web.archive.org/web/20200625/www.uol.com.br
+[INFO - 2026-01-25 10:40:50,303] [26] 136 links found in https://web.archive.org/web/20200626/www.uol.com.br
+[WARNING - 2026-01-25 10:40:50,603] ConnectionError for https://web.archive.org/web/20200627/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:41:23,964] [27] 121 links found in https://web.archive.org/web/20200627/www.uol.com.br
+[INFO - 2026-01-25 10:41:26,870] [28] 129 links found in https://web.archive.org/web/20200628/www.uol.com.br
+[INFO - 2026-01-25 10:41:29,828] [29] 117 links found in https://web.archive.org/web/20200629/www.uol.com.br
+[INFO - 2026-01-25 10:41:33,275] [30] 126 links found in https://web.archive.org/web/20200630/www.uol.com.br
+[INFO - 2026-01-25 10:41:33,276] Loss rate: 1/30
+[INFO - 2026-01-25 10:41:33,276] Total links found: 3643
+[INFO - 2026-01-25 10:41:33,277] Month 6 processing time: 4.81min
+[INFO - 2026-01-25 10:41:33,277] 
+[INFO - 2026-01-25 10:41:33,277] Month 7 (31 links to precess):
+[INFO - 2026-01-25 10:41:37,377] [1] 128 links found in https://web.archive.org/web/20200701/www.uol.com.br
+[INFO - 2026-01-25 10:41:42,338] [2] 132 links found in https://web.archive.org/web/20200702/www.uol.com.br
+[WARNING - 2026-01-25 10:41:42,544] ConnectionError for https://web.archive.org/web/20200703/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:42:15,671] [3] 126 links found in https://web.archive.org/web/20200703/www.uol.com.br
+[INFO - 2026-01-25 10:42:20,078] [4] 117 links found in https://web.archive.org/web/20200704/www.uol.com.br
+[INFO - 2026-01-25 10:42:24,371] [5] 115 links found in https://web.archive.org/web/20200705/www.uol.com.br
+[INFO - 2026-01-25 10:42:27,751] [6] 117 links found in https://web.archive.org/web/20200706/www.uol.com.br
+[WARNING - 2026-01-25 10:42:27,949] ConnectionError for https://web.archive.org/web/20200707/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:43:02,737] [7] 125 links found in https://web.archive.org/web/20200707/www.uol.com.br
+[INFO - 2026-01-25 10:43:06,835] [8] 113 links found in https://web.archive.org/web/20200708/www.uol.com.br
+[INFO - 2026-01-25 10:43:10,054] [9] 126 links found in https://web.archive.org/web/20200709/www.uol.com.br
+[WARNING - 2026-01-25 10:43:10,261] ConnectionError for https://web.archive.org/web/20200710/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:43:46,512] [10] 122 links found in https://web.archive.org/web/20200710/www.uol.com.br
+[INFO - 2026-01-25 10:43:50,058] [11] 122 links found in https://web.archive.org/web/20200711/www.uol.com.br
+[INFO - 2026-01-25 10:43:53,166] [12] 117 links found in https://web.archive.org/web/20200712/www.uol.com.br
+[INFO - 2026-01-25 10:43:56,867] [13] 116 links found in https://web.archive.org/web/20200713/www.uol.com.br
+[INFO - 2026-01-25 10:44:01,665] [14] 126 links found in https://web.archive.org/web/20200714/www.uol.com.br
+[INFO - 2026-01-25 10:44:06,267] [15] 126 links found in https://web.archive.org/web/20200715/www.uol.com.br
+[INFO - 2026-01-25 10:44:09,731] [16] 135 links found in https://web.archive.org/web/20200716/www.uol.com.br
+[WARNING - 2026-01-25 10:44:09,938] ConnectionError for https://web.archive.org/web/20200717/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:44:45,462] [17] 131 links found in https://web.archive.org/web/20200717/www.uol.com.br
+[INFO - 2026-01-25 10:44:48,900] [18] 130 links found in https://web.archive.org/web/20200718/www.uol.com.br
+[INFO - 2026-01-25 10:44:52,034] [19] 124 links found in https://web.archive.org/web/20200719/www.uol.com.br
+[INFO - 2026-01-25 10:44:56,580] [20] 137 links found in https://web.archive.org/web/20200720/www.uol.com.br
+[INFO - 2026-01-25 10:45:00,695] [21] 135 links found in https://web.archive.org/web/20200721/www.uol.com.br
+[INFO - 2026-01-25 10:45:06,670] [22] 123 links found in https://web.archive.org/web/20200722/www.uol.com.br
+[WARNING - 2026-01-25 10:45:06,914] ConnectionError for https://web.archive.org/web/20200723/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:45:39,857] [23] 132 links found in https://web.archive.org/web/20200723/www.uol.com.br
+[INFO - 2026-01-25 10:45:43,917] [24] 140 links found in https://web.archive.org/web/20200724/www.uol.com.br
+[INFO - 2026-01-25 10:45:47,033] [25] 128 links found in https://web.archive.org/web/20200725/www.uol.com.br
+[INFO - 2026-01-25 10:45:53,279] [26] 124 links found in https://web.archive.org/web/20200726/www.uol.com.br
+[WARNING - 2026-01-25 10:45:53,483] ConnectionError for https://web.archive.org/web/20200727/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:46:26,816] [27] 133 links found in https://web.archive.org/web/20200727/www.uol.com.br
+[WARNING - 2026-01-25 10:46:27,017] ConnectionError for https://web.archive.org/web/20200728/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:47:00,158] [28] 138 links found in https://web.archive.org/web/20200728/www.uol.com.br
+[INFO - 2026-01-25 10:47:03,660] [29] 136 links found in https://web.archive.org/web/20200729/www.uol.com.br
+[ERROR - 2026-01-25 10:47:09,185] Response status code != 200 for https://web.archive.org/web/20200730/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 10:47:16,628] [31] 143 links found in https://web.archive.org/web/20200731/www.uol.com.br
+[INFO - 2026-01-25 10:47:16,629] Loss rate: 1/31
+[INFO - 2026-01-25 10:47:16,629] Total links found: 3817
+[INFO - 2026-01-25 10:47:16,629] Month 7 processing time: 5.72min
+[INFO - 2026-01-25 10:47:16,629] 
+[INFO - 2026-01-25 10:47:16,629] Month 8 (31 links to precess):
+[INFO - 2026-01-25 10:47:19,805] [1] 127 links found in https://web.archive.org/web/20200801/www.uol.com.br
+[INFO - 2026-01-25 10:47:24,554] [2] 124 links found in https://web.archive.org/web/20200802/www.uol.com.br
+[INFO - 2026-01-25 10:47:27,904] [3] 136 links found in https://web.archive.org/web/20200803/www.uol.com.br
+[INFO - 2026-01-25 10:47:31,072] [4] 140 links found in https://web.archive.org/web/20200804/www.uol.com.br
+[INFO - 2026-01-25 10:47:35,547] [5] 146 links found in https://web.archive.org/web/20200805/www.uol.com.br
+[WARNING - 2026-01-25 10:47:35,806] ConnectionError for https://web.archive.org/web/20200806/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:48:09,577] [6] 133 links found in https://web.archive.org/web/20200806/www.uol.com.br
+[INFO - 2026-01-25 10:48:13,229] [7] 146 links found in https://web.archive.org/web/20200807/www.uol.com.br
+[INFO - 2026-01-25 10:48:16,640] [8] 139 links found in https://web.archive.org/web/20200808/www.uol.com.br
+[INFO - 2026-01-25 10:48:22,292] [9] 124 links found in https://web.archive.org/web/20200809/www.uol.com.br
+[INFO - 2026-01-25 10:48:25,591] [10] 133 links found in https://web.archive.org/web/20200810/www.uol.com.br
+[WARNING - 2026-01-25 10:48:25,801] ConnectionError for https://web.archive.org/web/20200811/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:49:02,520] [11] 134 links found in https://web.archive.org/web/20200811/www.uol.com.br
+[INFO - 2026-01-25 10:49:06,879] [12] 142 links found in https://web.archive.org/web/20200812/www.uol.com.br
+[INFO - 2026-01-25 10:49:10,214] [13] 143 links found in https://web.archive.org/web/20200813/www.uol.com.br
+[INFO - 2026-01-25 10:49:13,899] [14] 135 links found in https://web.archive.org/web/20200814/www.uol.com.br
+[INFO - 2026-01-25 10:49:17,079] [15] 125 links found in https://web.archive.org/web/20200815/www.uol.com.br
+[WARNING - 2026-01-25 10:49:17,327] ConnectionError for https://web.archive.org/web/20200816/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:49:51,053] [16] 126 links found in https://web.archive.org/web/20200816/www.uol.com.br
+[WARNING - 2026-01-25 10:49:51,263] ConnectionError for https://web.archive.org/web/20200817/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:50:25,053] [17] 142 links found in https://web.archive.org/web/20200817/www.uol.com.br
+[INFO - 2026-01-25 10:50:30,195] [18] 129 links found in https://web.archive.org/web/20200818/www.uol.com.br
+[INFO - 2026-01-25 10:50:37,866] [19] 135 links found in https://web.archive.org/web/20200819/www.uol.com.br
+[INFO - 2026-01-25 10:50:42,571] [20] 141 links found in https://web.archive.org/web/20200820/www.uol.com.br
+[INFO - 2026-01-25 10:50:45,641] [21] 142 links found in https://web.archive.org/web/20200821/www.uol.com.br
+[INFO - 2026-01-25 10:50:51,376] [22] 136 links found in https://web.archive.org/web/20200822/www.uol.com.br
+[INFO - 2026-01-25 10:50:56,343] [23] 136 links found in https://web.archive.org/web/20200823/www.uol.com.br
+[INFO - 2026-01-25 10:51:00,922] [24] 136 links found in https://web.archive.org/web/20200824/www.uol.com.br
+[WARNING - 2026-01-25 10:51:01,129] ConnectionError for https://web.archive.org/web/20200825/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:51:37,254] [25] 132 links found in https://web.archive.org/web/20200825/www.uol.com.br
+[INFO - 2026-01-25 10:51:40,858] [26] 152 links found in https://web.archive.org/web/20200826/www.uol.com.br
+[INFO - 2026-01-25 10:51:44,526] [27] 141 links found in https://web.archive.org/web/20200827/www.uol.com.br
+[INFO - 2026-01-25 10:51:48,561] [28] 138 links found in https://web.archive.org/web/20200828/www.uol.com.br
+[INFO - 2026-01-25 10:51:52,967] [29] 121 links found in https://web.archive.org/web/20200829/www.uol.com.br
+[INFO - 2026-01-25 10:51:56,497] [30] 117 links found in https://web.archive.org/web/20200830/www.uol.com.br
+[WARNING - 2026-01-25 10:51:56,728] ConnectionError for https://web.archive.org/web/20200831/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:52:31,421] [31] 136 links found in https://web.archive.org/web/20200831/www.uol.com.br
+[INFO - 2026-01-25 10:52:31,422] Loss rate: 0/31
+[INFO - 2026-01-25 10:52:31,422] Total links found: 4187
+[INFO - 2026-01-25 10:52:31,423] Month 8 processing time: 5.25min
+[INFO - 2026-01-25 10:52:31,423] 
+[INFO - 2026-01-25 10:52:31,423] Month 9 (30 links to precess):
+[INFO - 2026-01-25 10:52:36,338] [1] 146 links found in https://web.archive.org/web/20200901/www.uol.com.br
+[INFO - 2026-01-25 10:52:40,333] [2] 142 links found in https://web.archive.org/web/20200902/www.uol.com.br
+[INFO - 2026-01-25 10:52:44,552] [3] 142 links found in https://web.archive.org/web/20200903/www.uol.com.br
+[INFO - 2026-01-25 10:52:49,954] [4] 140 links found in https://web.archive.org/web/20200904/www.uol.com.br
+[WARNING - 2026-01-25 10:52:50,165] ConnectionError for https://web.archive.org/web/20200905/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:53:24,306] [5] 131 links found in https://web.archive.org/web/20200905/www.uol.com.br
+[WARNING - 2026-01-25 10:53:24,587] ConnectionError for https://web.archive.org/web/20200906/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:53:58,916] [6] 124 links found in https://web.archive.org/web/20200906/www.uol.com.br
+[INFO - 2026-01-25 10:54:02,573] [7] 126 links found in https://web.archive.org/web/20200907/www.uol.com.br
+[INFO - 2026-01-25 10:54:06,629] [8] 142 links found in https://web.archive.org/web/20200908/www.uol.com.br
+[INFO - 2026-01-25 10:54:11,166] [9] 132 links found in https://web.archive.org/web/20200909/www.uol.com.br
+[INFO - 2026-01-25 10:54:14,605] [10] 139 links found in https://web.archive.org/web/20200910/www.uol.com.br
+[INFO - 2026-01-25 10:54:17,714] [11] 139 links found in https://web.archive.org/web/20200911/www.uol.com.br
+[INFO - 2026-01-25 10:54:20,887] [12] 133 links found in https://web.archive.org/web/20200912/www.uol.com.br
+[WARNING - 2026-01-25 10:54:21,093] ConnectionError for https://web.archive.org/web/20200913/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:54:54,723] [13] 128 links found in https://web.archive.org/web/20200913/www.uol.com.br
+[INFO - 2026-01-25 10:54:58,167] [14] 132 links found in https://web.archive.org/web/20200914/www.uol.com.br
+[INFO - 2026-01-25 10:55:02,896] [15] 126 links found in https://web.archive.org/web/20200915/www.uol.com.br
+[INFO - 2026-01-25 10:55:07,451] [16] 134 links found in https://web.archive.org/web/20200916/www.uol.com.br
+[INFO - 2026-01-25 10:55:12,477] [17] 137 links found in https://web.archive.org/web/20200917/www.uol.com.br
+[INFO - 2026-01-25 10:55:16,998] [18] 123 links found in https://web.archive.org/web/20200918/www.uol.com.br
+[INFO - 2026-01-25 10:55:20,242] [19] 131 links found in https://web.archive.org/web/20200919/www.uol.com.br
+[WARNING - 2026-01-25 10:55:20,455] ConnectionError for https://web.archive.org/web/20200920/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:55:54,693] [20] 133 links found in https://web.archive.org/web/20200920/www.uol.com.br
+[INFO - 2026-01-25 10:55:59,096] [21] 135 links found in https://web.archive.org/web/20200921/www.uol.com.br
+[INFO - 2026-01-25 10:56:03,993] [22] 114 links found in https://web.archive.org/web/20200922/www.uol.com.br
+[INFO - 2026-01-25 10:56:08,086] [23] 134 links found in https://web.archive.org/web/20200923/www.uol.com.br
+[INFO - 2026-01-25 10:56:12,512] [24] 135 links found in https://web.archive.org/web/20200924/www.uol.com.br
+[WARNING - 2026-01-25 10:56:12,712] ConnectionError for https://web.archive.org/web/20200925/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:56:46,073] [25] 130 links found in https://web.archive.org/web/20200925/www.uol.com.br
+[WARNING - 2026-01-25 10:56:46,274] ConnectionError for https://web.archive.org/web/20200926/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:57:19,717] [26] 131 links found in https://web.archive.org/web/20200926/www.uol.com.br
+[INFO - 2026-01-25 10:57:22,923] [27] 137 links found in https://web.archive.org/web/20200927/www.uol.com.br
+[INFO - 2026-01-25 10:57:27,570] [28] 137 links found in https://web.archive.org/web/20200928/www.uol.com.br
+[INFO - 2026-01-25 10:57:31,257] [29] 138 links found in https://web.archive.org/web/20200929/www.uol.com.br
+[INFO - 2026-01-25 10:57:36,737] [30] 140 links found in https://web.archive.org/web/20200930/www.uol.com.br
+[INFO - 2026-01-25 10:57:36,738] Loss rate: 0/30
+[INFO - 2026-01-25 10:57:36,738] Total links found: 4011
+[INFO - 2026-01-25 10:57:36,738] Month 9 processing time: 5.09min
+[INFO - 2026-01-25 10:57:36,738] 
+[INFO - 2026-01-25 10:57:36,738] Month 10 (31 links to precess):
+[INFO - 2026-01-25 10:57:41,902] [1] 137 links found in https://web.archive.org/web/20201001/www.uol.com.br
+[INFO - 2026-01-25 10:57:45,792] [2] 133 links found in https://web.archive.org/web/20201002/www.uol.com.br
+[WARNING - 2026-01-25 10:57:46,141] ConnectionError for https://web.archive.org/web/20201003/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:58:22,665] [3] 119 links found in https://web.archive.org/web/20201003/www.uol.com.br
+[INFO - 2026-01-25 10:58:25,939] [4] 121 links found in https://web.archive.org/web/20201004/www.uol.com.br
+[INFO - 2026-01-25 10:58:30,650] [5] 127 links found in https://web.archive.org/web/20201005/www.uol.com.br
+[INFO - 2026-01-25 10:58:44,887] [6] 136 links found in https://web.archive.org/web/20201006/www.uol.com.br
+[INFO - 2026-01-25 10:58:48,429] [7] 142 links found in https://web.archive.org/web/20201007/www.uol.com.br
+[INFO - 2026-01-25 10:58:53,528] [8] 130 links found in https://web.archive.org/web/20201008/www.uol.com.br
+[INFO - 2026-01-25 10:58:56,497] [9] 128 links found in https://web.archive.org/web/20201009/www.uol.com.br
+[WARNING - 2026-01-25 10:58:56,779] ConnectionError for https://web.archive.org/web/20201010/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 10:59:32,092] [10] 132 links found in https://web.archive.org/web/20201010/www.uol.com.br
+[INFO - 2026-01-25 10:59:36,439] [11] 125 links found in https://web.archive.org/web/20201011/www.uol.com.br
+[INFO - 2026-01-25 10:59:40,794] [12] 127 links found in https://web.archive.org/web/20201012/www.uol.com.br
+[INFO - 2026-01-25 10:59:47,452] [13] 133 links found in https://web.archive.org/web/20201013/www.uol.com.br
+[INFO - 2026-01-25 10:59:51,265] [14] 138 links found in https://web.archive.org/web/20201014/www.uol.com.br
+[INFO - 2026-01-25 10:59:54,520] [15] 139 links found in https://web.archive.org/web/20201015/www.uol.com.br
+[WARNING - 2026-01-25 10:59:54,841] ConnectionError for https://web.archive.org/web/20201016/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 11:00:25,153] ConnectionError for https://web.archive.org/web/20201016/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 11:00:59,709] [16] 136 links found in https://web.archive.org/web/20201016/www.uol.com.br
+[INFO - 2026-01-25 11:01:06,712] [17] 121 links found in https://web.archive.org/web/20201017/www.uol.com.br
+[INFO - 2026-01-25 11:01:10,910] [18] 120 links found in https://web.archive.org/web/20201018/www.uol.com.br
+[INFO - 2026-01-25 11:01:14,168] [19] 131 links found in https://web.archive.org/web/20201019/www.uol.com.br
+[INFO - 2026-01-25 11:01:19,820] [20] 138 links found in https://web.archive.org/web/20201020/www.uol.com.br
+[INFO - 2026-01-25 11:01:23,803] [21] 137 links found in https://web.archive.org/web/20201021/www.uol.com.br
+[INFO - 2026-01-25 11:01:29,523] [22] 133 links found in https://web.archive.org/web/20201022/www.uol.com.br
+[INFO - 2026-01-25 11:01:32,788] [23] 135 links found in https://web.archive.org/web/20201023/www.uol.com.br
+[WARNING - 2026-01-25 11:01:32,987] ConnectionError for https://web.archive.org/web/20201024/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:02:06,663] [24] 121 links found in https://web.archive.org/web/20201024/www.uol.com.br
+[INFO - 2026-01-25 11:02:11,328] [25] 130 links found in https://web.archive.org/web/20201025/www.uol.com.br
+[INFO - 2026-01-25 11:02:15,528] [26] 134 links found in https://web.archive.org/web/20201026/www.uol.com.br
+[INFO - 2026-01-25 11:02:19,093] [27] 136 links found in https://web.archive.org/web/20201027/www.uol.com.br
+[INFO - 2026-01-25 11:02:22,612] [28] 138 links found in https://web.archive.org/web/20201028/www.uol.com.br
+[INFO - 2026-01-25 11:02:26,531] [29] 137 links found in https://web.archive.org/web/20201029/www.uol.com.br
+[WARNING - 2026-01-25 11:02:26,731] ConnectionError for https://web.archive.org/web/20201030/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:03:00,278] [30] 137 links found in https://web.archive.org/web/20201030/www.uol.com.br
+[INFO - 2026-01-25 11:03:04,620] [31] 124 links found in https://web.archive.org/web/20201031/www.uol.com.br
+[INFO - 2026-01-25 11:03:04,621] Loss rate: 0/31
+[INFO - 2026-01-25 11:03:04,621] Total links found: 4075
+[INFO - 2026-01-25 11:03:04,621] Month 10 processing time: 5.46min
+[INFO - 2026-01-25 11:03:04,621] 
+[INFO - 2026-01-25 11:03:04,622] Month 11 (30 links to precess):
+[INFO - 2026-01-25 11:03:09,590] [1] 126 links found in https://web.archive.org/web/20201101/www.uol.com.br
+[INFO - 2026-01-25 11:03:12,519] [2] 116 links found in https://web.archive.org/web/20201102/www.uol.com.br
+[INFO - 2026-01-25 11:03:16,037] [3] 138 links found in https://web.archive.org/web/20201103/www.uol.com.br
+[INFO - 2026-01-25 11:03:22,111] [4] 140 links found in https://web.archive.org/web/20201104/www.uol.com.br
+[WARNING - 2026-01-25 11:03:22,318] ConnectionError for https://web.archive.org/web/20201105/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 11:03:52,524] ConnectionError for https://web.archive.org/web/20201105/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 11:04:25,949] [5] 132 links found in https://web.archive.org/web/20201105/www.uol.com.br
+[INFO - 2026-01-25 11:04:29,080] [6] 128 links found in https://web.archive.org/web/20201106/www.uol.com.br
+[INFO - 2026-01-25 11:04:33,977] [7] 126 links found in https://web.archive.org/web/20201107/www.uol.com.br
+[WARNING - 2026-01-25 11:05:00,226] ReadTimeout for https://web.archive.org/web/20201108/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:05:32,217] [8] 121 links found in https://web.archive.org/web/20201108/www.uol.com.br
+[INFO - 2026-01-25 11:05:38,177] [9] 140 links found in https://web.archive.org/web/20201109/www.uol.com.br
+[INFO - 2026-01-25 11:05:41,968] [10] 139 links found in https://web.archive.org/web/20201110/www.uol.com.br
+[INFO - 2026-01-25 11:05:48,012] [11] 137 links found in https://web.archive.org/web/20201111/www.uol.com.br
+[INFO - 2026-01-25 11:05:52,935] [12] 127 links found in https://web.archive.org/web/20201112/www.uol.com.br
+[INFO - 2026-01-25 11:05:56,814] [13] 126 links found in https://web.archive.org/web/20201113/www.uol.com.br
+[INFO - 2026-01-25 11:06:00,608] [14] 147 links found in https://web.archive.org/web/20201114/www.uol.com.br
+[INFO - 2026-01-25 11:06:04,706] [15] 139 links found in https://web.archive.org/web/20201115/www.uol.com.br
+[INFO - 2026-01-25 11:06:09,344] [16] 151 links found in https://web.archive.org/web/20201116/www.uol.com.br
+[INFO - 2026-01-25 11:06:14,304] [17] 149 links found in https://web.archive.org/web/20201117/www.uol.com.br
+[INFO - 2026-01-25 11:06:18,060] [18] 137 links found in https://web.archive.org/web/20201118/www.uol.com.br
+[INFO - 2026-01-25 11:06:22,681] [19] 140 links found in https://web.archive.org/web/20201119/www.uol.com.br
+[INFO - 2026-01-25 11:06:25,899] [20] 142 links found in https://web.archive.org/web/20201120/www.uol.com.br
+[INFO - 2026-01-25 11:06:30,946] [21] 145 links found in https://web.archive.org/web/20201121/www.uol.com.br
+[WARNING - 2026-01-25 11:06:31,155] ConnectionError for https://web.archive.org/web/20201122/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:07:05,891] [22] 135 links found in https://web.archive.org/web/20201122/www.uol.com.br
+[INFO - 2026-01-25 11:07:13,511] [23] 147 links found in https://web.archive.org/web/20201123/www.uol.com.br
+[WARNING - 2026-01-25 11:07:13,721] ConnectionError for https://web.archive.org/web/20201124/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:07:48,013] [24] 157 links found in https://web.archive.org/web/20201124/www.uol.com.br
+[WARNING - 2026-01-25 11:07:48,212] ConnectionError for https://web.archive.org/web/20201125/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:08:21,784] [25] 156 links found in https://web.archive.org/web/20201125/www.uol.com.br
+[INFO - 2026-01-25 11:08:26,532] [26] 143 links found in https://web.archive.org/web/20201126/www.uol.com.br
+[WARNING - 2026-01-25 11:08:26,841] ConnectionError for https://web.archive.org/web/20201127/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:09:02,474] [27] 153 links found in https://web.archive.org/web/20201127/www.uol.com.br
+[INFO - 2026-01-25 11:09:07,901] [28] 141 links found in https://web.archive.org/web/20201128/www.uol.com.br
+[INFO - 2026-01-25 11:09:11,644] [29] 153 links found in https://web.archive.org/web/20201129/www.uol.com.br
+[INFO - 2026-01-25 11:09:17,322] [30] 145 links found in https://web.archive.org/web/20201130/www.uol.com.br
+[INFO - 2026-01-25 11:09:17,322] Loss rate: 0/30
+[INFO - 2026-01-25 11:09:17,322] Total links found: 4176
+[INFO - 2026-01-25 11:09:17,322] Month 11 processing time: 6.21min
+[INFO - 2026-01-25 11:09:17,322] 
+[INFO - 2026-01-25 11:09:17,323] Month 12 (31 links to precess):
+[INFO - 2026-01-25 11:09:22,953] [1] 147 links found in https://web.archive.org/web/20201201/www.uol.com.br
+[INFO - 2026-01-25 11:09:28,862] [2] 150 links found in https://web.archive.org/web/20201202/www.uol.com.br
+[INFO - 2026-01-25 11:09:32,265] [3] 139 links found in https://web.archive.org/web/20201203/www.uol.com.br
+[INFO - 2026-01-25 11:09:37,598] [4] 153 links found in https://web.archive.org/web/20201204/www.uol.com.br
+[INFO - 2026-01-25 11:09:42,779] [5] 144 links found in https://web.archive.org/web/20201205/www.uol.com.br
+[INFO - 2026-01-25 11:09:45,882] [6] 140 links found in https://web.archive.org/web/20201206/www.uol.com.br
+[INFO - 2026-01-25 11:09:48,851] [7] 140 links found in https://web.archive.org/web/20201207/www.uol.com.br
+[INFO - 2026-01-25 11:09:53,246] [8] 143 links found in https://web.archive.org/web/20201208/www.uol.com.br
+[INFO - 2026-01-25 11:09:57,224] [9] 150 links found in https://web.archive.org/web/20201209/www.uol.com.br
+[INFO - 2026-01-25 11:10:01,963] [10] 145 links found in https://web.archive.org/web/20201210/www.uol.com.br
+[WARNING - 2026-01-25 11:10:02,165] ConnectionError for https://web.archive.org/web/20201211/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:10:38,097] [11] 148 links found in https://web.archive.org/web/20201211/www.uol.com.br
+[INFO - 2026-01-25 11:10:41,255] [12] 142 links found in https://web.archive.org/web/20201212/www.uol.com.br
+[WARNING - 2026-01-25 11:10:41,513] ConnectionError for https://web.archive.org/web/20201213/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:11:14,723] [13] 135 links found in https://web.archive.org/web/20201213/www.uol.com.br
+[WARNING - 2026-01-25 11:11:14,928] ConnectionError for https://web.archive.org/web/20201214/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:11:49,161] [14] 144 links found in https://web.archive.org/web/20201214/www.uol.com.br
+[INFO - 2026-01-25 11:11:54,010] [15] 136 links found in https://web.archive.org/web/20201215/www.uol.com.br
+[INFO - 2026-01-25 11:11:57,181] [16] 147 links found in https://web.archive.org/web/20201216/www.uol.com.br
+[WARNING - 2026-01-25 11:11:57,384] ConnectionError for https://web.archive.org/web/20201217/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:12:30,973] [17] 147 links found in https://web.archive.org/web/20201217/www.uol.com.br
+[INFO - 2026-01-25 11:12:34,331] [18] 156 links found in https://web.archive.org/web/20201218/www.uol.com.br
+[INFO - 2026-01-25 11:12:37,422] [19] 143 links found in https://web.archive.org/web/20201219/www.uol.com.br
+[INFO - 2026-01-25 11:12:41,452] [20] 142 links found in https://web.archive.org/web/20201220/www.uol.com.br
+[INFO - 2026-01-25 11:12:44,573] [21] 137 links found in https://web.archive.org/web/20201221/www.uol.com.br
+[INFO - 2026-01-25 11:12:47,906] [22] 139 links found in https://web.archive.org/web/20201222/www.uol.com.br
+[INFO - 2026-01-25 11:12:56,574] [23] 139 links found in https://web.archive.org/web/20201223/www.uol.com.br
+[INFO - 2026-01-25 11:13:00,140] [24] 147 links found in https://web.archive.org/web/20201224/www.uol.com.br
+[INFO - 2026-01-25 11:13:03,012] [25] 125 links found in https://web.archive.org/web/20201225/www.uol.com.br
+[INFO - 2026-01-25 11:13:06,558] [26] 132 links found in https://web.archive.org/web/20201226/www.uol.com.br
+[INFO - 2026-01-25 11:13:12,889] [27] 142 links found in https://web.archive.org/web/20201227/www.uol.com.br
+[INFO - 2026-01-25 11:13:30,902] [28] 136 links found in https://web.archive.org/web/20201228/www.uol.com.br
+[INFO - 2026-01-25 11:13:36,900] [29] 142 links found in https://web.archive.org/web/20201229/www.uol.com.br
+[INFO - 2026-01-25 11:13:41,962] [30] 114 links found in https://web.archive.org/web/20201230/www.uol.com.br
+[INFO - 2026-01-25 11:13:46,443] [31] 120 links found in https://web.archive.org/web/20201231/www.uol.com.br
+[INFO - 2026-01-25 11:13:46,444] Loss rate: 0/31
+[INFO - 2026-01-25 11:13:46,444] Total links found: 4364
+[INFO - 2026-01-25 11:13:46,444] Month 12 processing time: 4.49min
+[INFO - 2026-01-25 11:13:46,444] 
+[INFO - 2026-01-25 11:13:46,444] ==> Year 2021:
+[INFO - 2026-01-25 11:13:46,444] Month 1 (31 links to precess):
+[INFO - 2026-01-25 11:13:51,444] [1] 78 links found in https://web.archive.org/web/20210101/www.uol.com.br
+[WARNING - 2026-01-25 11:13:51,650] ConnectionError for https://web.archive.org/web/20210102/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:14:25,335] [2] 98 links found in https://web.archive.org/web/20210102/www.uol.com.br
+[WARNING - 2026-01-25 11:14:25,566] ConnectionError for https://web.archive.org/web/20210103/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 11:14:55,877] ConnectionError for https://web.archive.org/web/20210103/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 11:15:31,454] [3] 90 links found in https://web.archive.org/web/20210103/www.uol.com.br
+[INFO - 2026-01-25 11:15:35,419] [4] 123 links found in https://web.archive.org/web/20210104/www.uol.com.br
+[INFO - 2026-01-25 11:15:42,135] [5] 122 links found in https://web.archive.org/web/20210105/www.uol.com.br
+[INFO - 2026-01-25 11:15:45,836] [6] 136 links found in https://web.archive.org/web/20210106/www.uol.com.br
+[WARNING - 2026-01-25 11:15:46,045] ConnectionError for https://web.archive.org/web/20210107/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:16:19,403] [7] 127 links found in https://web.archive.org/web/20210107/www.uol.com.br
+[INFO - 2026-01-25 11:16:23,516] [8] 122 links found in https://web.archive.org/web/20210108/www.uol.com.br
+[INFO - 2026-01-25 11:16:28,526] [9] 120 links found in https://web.archive.org/web/20210109/www.uol.com.br
+[INFO - 2026-01-25 11:16:32,933] [10] 112 links found in https://web.archive.org/web/20210110/www.uol.com.br
+[INFO - 2026-01-25 11:16:36,692] [11] 117 links found in https://web.archive.org/web/20210111/www.uol.com.br
+[INFO - 2026-01-25 11:16:41,249] [12] 133 links found in https://web.archive.org/web/20210112/www.uol.com.br
+[INFO - 2026-01-25 11:16:44,993] [13] 125 links found in https://web.archive.org/web/20210113/www.uol.com.br
+[INFO - 2026-01-25 11:16:49,788] [14] 130 links found in https://web.archive.org/web/20210114/www.uol.com.br
+[INFO - 2026-01-25 11:16:54,853] [15] 126 links found in https://web.archive.org/web/20210115/www.uol.com.br
+[INFO - 2026-01-25 11:16:58,520] [16] 116 links found in https://web.archive.org/web/20210116/www.uol.com.br
+[INFO - 2026-01-25 11:17:03,235] [17] 131 links found in https://web.archive.org/web/20210117/www.uol.com.br
+[INFO - 2026-01-25 11:17:06,529] [18] 126 links found in https://web.archive.org/web/20210118/www.uol.com.br
+[INFO - 2026-01-25 11:17:10,122] [19] 134 links found in https://web.archive.org/web/20210119/www.uol.com.br
+[INFO - 2026-01-25 11:17:13,528] [20] 134 links found in https://web.archive.org/web/20210120/www.uol.com.br
+[INFO - 2026-01-25 11:17:17,022] [21] 121 links found in https://web.archive.org/web/20210121/www.uol.com.br
+[WARNING - 2026-01-25 11:17:17,232] ConnectionError for https://web.archive.org/web/20210122/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:17:50,960] [22] 125 links found in https://web.archive.org/web/20210122/www.uol.com.br
+[WARNING - 2026-01-25 11:17:51,162] ConnectionError for https://web.archive.org/web/20210123/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 11:18:21,450] ConnectionError for https://web.archive.org/web/20210123/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 11:18:57,884] [23] 120 links found in https://web.archive.org/web/20210123/www.uol.com.br
+[INFO - 2026-01-25 11:19:03,570] [24] 123 links found in https://web.archive.org/web/20210124/www.uol.com.br
+[INFO - 2026-01-25 11:19:07,869] [25] 127 links found in https://web.archive.org/web/20210125/www.uol.com.br
+[INFO - 2026-01-25 11:19:13,191] [26] 132 links found in https://web.archive.org/web/20210126/www.uol.com.br
+[WARNING - 2026-01-25 11:19:13,391] ConnectionError for https://web.archive.org/web/20210127/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:19:47,692] [27] 130 links found in https://web.archive.org/web/20210127/www.uol.com.br
+[INFO - 2026-01-25 11:19:53,400] [28] 137 links found in https://web.archive.org/web/20210128/www.uol.com.br
+[INFO - 2026-01-25 11:19:56,545] [29] 134 links found in https://web.archive.org/web/20210129/www.uol.com.br
+[INFO - 2026-01-25 11:19:59,755] [30] 132 links found in https://web.archive.org/web/20210130/www.uol.com.br
+[INFO - 2026-01-25 11:20:03,130] [31] 125 links found in https://web.archive.org/web/20210131/www.uol.com.br
+[INFO - 2026-01-25 11:20:03,130] Loss rate: 0/31
+[INFO - 2026-01-25 11:20:03,130] Total links found: 3806
+[INFO - 2026-01-25 11:20:03,131] Month 1 processing time: 6.28min
+[INFO - 2026-01-25 11:20:03,131] 
+[INFO - 2026-01-25 11:20:03,131] Month 2 (28 links to precess):
+[INFO - 2026-01-25 11:20:07,367] [1] 138 links found in https://web.archive.org/web/20210201/www.uol.com.br
+[INFO - 2026-01-25 11:20:11,094] [2] 143 links found in https://web.archive.org/web/20210202/www.uol.com.br
+[INFO - 2026-01-25 11:20:16,197] [3] 136 links found in https://web.archive.org/web/20210203/www.uol.com.br
+[INFO - 2026-01-25 11:20:20,185] [4] 134 links found in https://web.archive.org/web/20210204/www.uol.com.br
+[INFO - 2026-01-25 11:20:24,910] [5] 133 links found in https://web.archive.org/web/20210205/www.uol.com.br
+[INFO - 2026-01-25 11:20:28,153] [6] 138 links found in https://web.archive.org/web/20210206/www.uol.com.br
+[INFO - 2026-01-25 11:20:33,270] [7] 134 links found in https://web.archive.org/web/20210207/www.uol.com.br
+[INFO - 2026-01-25 11:20:36,413] [8] 131 links found in https://web.archive.org/web/20210208/www.uol.com.br
+[INFO - 2026-01-25 11:20:40,966] [9] 135 links found in https://web.archive.org/web/20210209/www.uol.com.br
+[INFO - 2026-01-25 11:20:44,903] [10] 127 links found in https://web.archive.org/web/20210210/www.uol.com.br
+[WARNING - 2026-01-25 11:20:45,105] ConnectionError for https://web.archive.org/web/20210211/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:21:19,208] [11] 130 links found in https://web.archive.org/web/20210211/www.uol.com.br
+[WARNING - 2026-01-25 11:21:19,411] ConnectionError for https://web.archive.org/web/20210212/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 11:21:49,633] ConnectionError for https://web.archive.org/web/20210212/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 11:22:26,854] [12] 130 links found in https://web.archive.org/web/20210212/www.uol.com.br
+[INFO - 2026-01-25 11:22:30,050] [13] 127 links found in https://web.archive.org/web/20210213/www.uol.com.br
+[INFO - 2026-01-25 11:22:34,591] [14] 137 links found in https://web.archive.org/web/20210214/www.uol.com.br
+[INFO - 2026-01-25 11:22:39,609] [15] 130 links found in https://web.archive.org/web/20210215/www.uol.com.br
+[WARNING - 2026-01-25 11:22:39,814] ConnectionError for https://web.archive.org/web/20210216/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:23:13,838] [16] 126 links found in https://web.archive.org/web/20210216/www.uol.com.br
+[INFO - 2026-01-25 11:23:18,959] [17] 129 links found in https://web.archive.org/web/20210217/www.uol.com.br
+[INFO - 2026-01-25 11:23:24,495] [18] 129 links found in https://web.archive.org/web/20210218/www.uol.com.br
+[INFO - 2026-01-25 11:23:28,798] [19] 143 links found in https://web.archive.org/web/20210219/www.uol.com.br
+[INFO - 2026-01-25 11:23:32,231] [20] 132 links found in https://web.archive.org/web/20210220/www.uol.com.br
+[INFO - 2026-01-25 11:23:35,517] [21] 121 links found in https://web.archive.org/web/20210221/www.uol.com.br
+[INFO - 2026-01-25 11:23:40,641] [22] 136 links found in https://web.archive.org/web/20210222/www.uol.com.br
+[INFO - 2026-01-25 11:23:43,860] [23] 133 links found in https://web.archive.org/web/20210223/www.uol.com.br
+[INFO - 2026-01-25 11:23:47,704] [24] 134 links found in https://web.archive.org/web/20210224/www.uol.com.br
+[INFO - 2026-01-25 11:23:53,775] [25] 134 links found in https://web.archive.org/web/20210225/www.uol.com.br
+[INFO - 2026-01-25 11:23:57,825] [26] 143 links found in https://web.archive.org/web/20210226/www.uol.com.br
+[INFO - 2026-01-25 11:24:02,137] [27] 134 links found in https://web.archive.org/web/20210227/www.uol.com.br
+[INFO - 2026-01-25 11:24:06,645] [28] 127 links found in https://web.archive.org/web/20210228/www.uol.com.br
+[INFO - 2026-01-25 11:24:06,645] Loss rate: 0/28
+[INFO - 2026-01-25 11:24:06,645] Total links found: 3724
+[INFO - 2026-01-25 11:24:06,646] Month 2 processing time: 4.06min
+[INFO - 2026-01-25 11:24:06,646] 
+[INFO - 2026-01-25 11:24:06,646] ==> Year 2022:
+[INFO - 2026-01-25 11:24:06,646] Month 1 (31 links to precess):
+[INFO - 2026-01-25 11:24:10,460] [1] 91 links found in https://web.archive.org/web/20220101/www.uol.com.br
+[INFO - 2026-01-25 11:24:14,218] [2] 103 links found in https://web.archive.org/web/20220102/www.uol.com.br
+[WARNING - 2026-01-25 11:24:14,421] ConnectionError for https://web.archive.org/web/20220103/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:24:49,232] [3] 115 links found in https://web.archive.org/web/20220103/www.uol.com.br
+[WARNING - 2026-01-25 11:24:49,439] ConnectionError for https://web.archive.org/web/20220104/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 11:25:19,670] ConnectionError for https://web.archive.org/web/20220104/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 11:25:53,173] [4] 119 links found in https://web.archive.org/web/20220104/www.uol.com.br
+[INFO - 2026-01-25 11:26:00,136] [5] 134 links found in https://web.archive.org/web/20220105/www.uol.com.br
+[INFO - 2026-01-25 11:26:05,158] [6] 130 links found in https://web.archive.org/web/20220106/www.uol.com.br
+[INFO - 2026-01-25 11:26:09,770] [7] 130 links found in https://web.archive.org/web/20220107/www.uol.com.br
+[WARNING - 2026-01-25 11:26:09,981] ConnectionError for https://web.archive.org/web/20220108/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:26:44,178] [8] 132 links found in https://web.archive.org/web/20220108/www.uol.com.br
+[INFO - 2026-01-25 11:26:50,628] [9] 116 links found in https://web.archive.org/web/20220109/www.uol.com.br
+[INFO - 2026-01-25 11:26:54,007] [10] 131 links found in https://web.archive.org/web/20220110/www.uol.com.br
+[INFO - 2026-01-25 11:26:57,948] [11] 137 links found in https://web.archive.org/web/20220111/www.uol.com.br
+[INFO - 2026-01-25 11:27:01,587] [12] 133 links found in https://web.archive.org/web/20220112/www.uol.com.br
+[INFO - 2026-01-25 11:27:06,048] [13] 130 links found in https://web.archive.org/web/20220113/www.uol.com.br
+[INFO - 2026-01-25 11:27:10,577] [14] 137 links found in https://web.archive.org/web/20220114/www.uol.com.br
+[INFO - 2026-01-25 11:27:14,382] [15] 134 links found in https://web.archive.org/web/20220115/www.uol.com.br
+[INFO - 2026-01-25 11:27:22,064] [16] 122 links found in https://web.archive.org/web/20220116/www.uol.com.br
+[INFO - 2026-01-25 11:27:26,779] [17] 142 links found in https://web.archive.org/web/20220117/www.uol.com.br
+[INFO - 2026-01-25 11:27:31,383] [18] 138 links found in https://web.archive.org/web/20220118/www.uol.com.br
+[INFO - 2026-01-25 11:27:35,067] [19] 134 links found in https://web.archive.org/web/20220119/www.uol.com.br
+[INFO - 2026-01-25 11:27:44,721] [20] 131 links found in https://web.archive.org/web/20220120/www.uol.com.br
+[INFO - 2026-01-25 11:27:49,874] [21] 137 links found in https://web.archive.org/web/20220121/www.uol.com.br
+[INFO - 2026-01-25 11:27:53,788] [22] 128 links found in https://web.archive.org/web/20220122/www.uol.com.br
+[INFO - 2026-01-25 11:27:58,723] [23] 135 links found in https://web.archive.org/web/20220123/www.uol.com.br
+[WARNING - 2026-01-25 11:27:59,047] ConnectionError for https://web.archive.org/web/20220124/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 11:28:29,293] ConnectionError for https://web.archive.org/web/20220124/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 11:29:06,477] [24] 136 links found in https://web.archive.org/web/20220124/www.uol.com.br
+[INFO - 2026-01-25 11:29:10,915] [25] 137 links found in https://web.archive.org/web/20220125/www.uol.com.br
+[WARNING - 2026-01-25 11:29:11,203] ConnectionError for https://web.archive.org/web/20220126/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:29:48,327] [26] 134 links found in https://web.archive.org/web/20220126/www.uol.com.br
+[INFO - 2026-01-25 11:29:52,244] [27] 129 links found in https://web.archive.org/web/20220127/www.uol.com.br
+[WARNING - 2026-01-25 11:29:52,444] ConnectionError for https://web.archive.org/web/20220128/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:30:27,209] [28] 137 links found in https://web.archive.org/web/20220128/www.uol.com.br
+[INFO - 2026-01-25 11:30:31,002] [29] 132 links found in https://web.archive.org/web/20220129/www.uol.com.br
+[INFO - 2026-01-25 11:30:36,024] [30] 134 links found in https://web.archive.org/web/20220130/www.uol.com.br
+[INFO - 2026-01-25 11:30:40,169] [31] 139 links found in https://web.archive.org/web/20220131/www.uol.com.br
+[INFO - 2026-01-25 11:30:40,170] Loss rate: 0/31
+[INFO - 2026-01-25 11:30:40,170] Total links found: 4017
+[INFO - 2026-01-25 11:30:40,170] Month 1 processing time: 6.56min
+[INFO - 2026-01-25 11:30:40,170] 
+[INFO - 2026-01-25 11:30:40,170] Month 2 (28 links to precess):
+[INFO - 2026-01-25 11:30:45,326] [1] 133 links found in https://web.archive.org/web/20220201/www.uol.com.br
+[INFO - 2026-01-25 11:30:49,604] [2] 141 links found in https://web.archive.org/web/20220202/www.uol.com.br
+[INFO - 2026-01-25 11:30:55,125] [3] 137 links found in https://web.archive.org/web/20220203/www.uol.com.br
+[INFO - 2026-01-25 11:31:00,019] [4] 134 links found in https://web.archive.org/web/20220204/www.uol.com.br
+[INFO - 2026-01-25 11:31:05,487] [5] 129 links found in https://web.archive.org/web/20220205/www.uol.com.br
+[INFO - 2026-01-25 11:31:10,286] [6] 126 links found in https://web.archive.org/web/20220206/www.uol.com.br
+[INFO - 2026-01-25 11:31:14,503] [7] 132 links found in https://web.archive.org/web/20220207/www.uol.com.br
+[INFO - 2026-01-25 11:31:19,076] [8] 126 links found in https://web.archive.org/web/20220208/www.uol.com.br
+[INFO - 2026-01-25 11:31:24,730] [9] 139 links found in https://web.archive.org/web/20220209/www.uol.com.br
+[INFO - 2026-01-25 11:31:28,883] [10] 141 links found in https://web.archive.org/web/20220210/www.uol.com.br
+[INFO - 2026-01-25 11:31:34,969] [11] 136 links found in https://web.archive.org/web/20220211/www.uol.com.br
+[INFO - 2026-01-25 11:31:38,891] [12] 141 links found in https://web.archive.org/web/20220212/www.uol.com.br
+[WARNING - 2026-01-25 11:31:39,225] ConnectionError for https://web.archive.org/web/20220213/www.uol.com.br (attempt 1)
+[ERROR - 2026-01-25 11:32:11,573] Response status code != 200 for https://web.archive.org/web/20220213/www.uol.com.br (got 403), skipping...
+[WARNING - 2026-01-25 11:32:11,862] ConnectionError for https://web.archive.org/web/20220214/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:32:47,499] [14] 138 links found in https://web.archive.org/web/20220214/www.uol.com.br
+[WARNING - 2026-01-25 11:32:47,821] ConnectionError for https://web.archive.org/web/20220215/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:33:24,776] [15] 140 links found in https://web.archive.org/web/20220215/www.uol.com.br
+[ERROR - 2026-01-25 11:33:27,043] Response status code != 200 for https://web.archive.org/web/20220216/www.uol.com.br (got 403), skipping...
+[WARNING - 2026-01-25 11:33:27,348] ConnectionError for https://web.archive.org/web/20220217/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:34:04,162] [17] 132 links found in https://web.archive.org/web/20220217/www.uol.com.br
+[INFO - 2026-01-25 11:34:08,025] [18] 131 links found in https://web.archive.org/web/20220218/www.uol.com.br
+[INFO - 2026-01-25 11:34:12,393] [19] 143 links found in https://web.archive.org/web/20220219/www.uol.com.br
+[INFO - 2026-01-25 11:34:18,583] [20] 124 links found in https://web.archive.org/web/20220220/www.uol.com.br
+[INFO - 2026-01-25 11:34:22,529] [21] 136 links found in https://web.archive.org/web/20220221/www.uol.com.br
+[INFO - 2026-01-25 11:34:27,139] [22] 135 links found in https://web.archive.org/web/20220222/www.uol.com.br
+[INFO - 2026-01-25 11:34:36,587] [23] 133 links found in https://web.archive.org/web/20220223/www.uol.com.br
+[INFO - 2026-01-25 11:34:40,136] [24] 137 links found in https://web.archive.org/web/20220224/www.uol.com.br
+[INFO - 2026-01-25 11:34:43,278] [25] 138 links found in https://web.archive.org/web/20220225/www.uol.com.br
+[INFO - 2026-01-25 11:34:46,719] [26] 142 links found in https://web.archive.org/web/20220226/www.uol.com.br
+[INFO - 2026-01-25 11:34:50,586] [27] 134 links found in https://web.archive.org/web/20220227/www.uol.com.br
+[INFO - 2026-01-25 11:34:54,648] [28] 130 links found in https://web.archive.org/web/20220228/www.uol.com.br
+[INFO - 2026-01-25 11:34:54,649] Loss rate: 2/28
+[INFO - 2026-01-25 11:34:54,649] Total links found: 3508
+[INFO - 2026-01-25 11:34:54,649] Month 2 processing time: 4.24min
+[INFO - 2026-01-25 11:34:54,649] 
+[INFO - 2026-01-25 11:34:54,650] Month 3 (31 links to precess):
+[INFO - 2026-01-25 11:35:01,126] [1] 129 links found in https://web.archive.org/web/20220301/www.uol.com.br
+[INFO - 2026-01-25 11:35:05,430] [2] 134 links found in https://web.archive.org/web/20220302/www.uol.com.br
+[ERROR - 2026-01-25 11:35:07,702] Response status code != 200 for https://web.archive.org/web/20220303/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 11:35:11,471] [4] 133 links found in https://web.archive.org/web/20220304/www.uol.com.br
+[WARNING - 2026-01-25 11:35:11,795] ConnectionError for https://web.archive.org/web/20220305/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:35:47,314] [5] 132 links found in https://web.archive.org/web/20220305/www.uol.com.br
+[WARNING - 2026-01-25 11:35:47,639] ConnectionError for https://web.archive.org/web/20220306/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:36:25,391] [6] 138 links found in https://web.archive.org/web/20220306/www.uol.com.br
+[WARNING - 2026-01-25 11:36:25,630] ConnectionError for https://web.archive.org/web/20220307/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:37:00,010] [7] 143 links found in https://web.archive.org/web/20220307/www.uol.com.br
+[INFO - 2026-01-25 11:37:03,293] [8] 140 links found in https://web.archive.org/web/20220308/www.uol.com.br
+[WARNING - 2026-01-25 11:37:03,623] ConnectionError for https://web.archive.org/web/20220309/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:37:38,324] [9] 132 links found in https://web.archive.org/web/20220309/www.uol.com.br
+[INFO - 2026-01-25 11:37:42,314] [10] 141 links found in https://web.archive.org/web/20220310/www.uol.com.br
+[INFO - 2026-01-25 11:37:49,738] [11] 137 links found in https://web.archive.org/web/20220311/www.uol.com.br
+[INFO - 2026-01-25 11:37:53,886] [12] 138 links found in https://web.archive.org/web/20220312/www.uol.com.br
+[INFO - 2026-01-25 11:37:58,997] [13] 138 links found in https://web.archive.org/web/20220313/www.uol.com.br
+[INFO - 2026-01-25 11:38:03,003] [14] 137 links found in https://web.archive.org/web/20220314/www.uol.com.br
+[INFO - 2026-01-25 11:38:07,178] [15] 130 links found in https://web.archive.org/web/20220315/www.uol.com.br
+[ERROR - 2026-01-25 11:38:09,068] Response status code != 200 for https://web.archive.org/web/20220316/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 11:38:16,055] [17] 139 links found in https://web.archive.org/web/20220317/www.uol.com.br
+[INFO - 2026-01-25 11:38:19,759] [18] 138 links found in https://web.archive.org/web/20220318/www.uol.com.br
+[INFO - 2026-01-25 11:38:26,013] [19] 137 links found in https://web.archive.org/web/20220319/www.uol.com.br
+[INFO - 2026-01-25 11:38:30,561] [20] 139 links found in https://web.archive.org/web/20220320/www.uol.com.br
+[INFO - 2026-01-25 11:38:35,056] [21] 130 links found in https://web.archive.org/web/20220321/www.uol.com.br
+[INFO - 2026-01-25 11:38:38,473] [22] 131 links found in https://web.archive.org/web/20220322/www.uol.com.br
+[ERROR - 2026-01-25 11:38:40,935] Response status code != 200 for https://web.archive.org/web/20220323/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 11:38:47,404] [24] 131 links found in https://web.archive.org/web/20220324/www.uol.com.br
+[INFO - 2026-01-25 11:38:51,435] [25] 134 links found in https://web.archive.org/web/20220325/www.uol.com.br
+[WARNING - 2026-01-25 11:38:51,633] ConnectionError for https://web.archive.org/web/20220326/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 11:39:21,906] ConnectionError for https://web.archive.org/web/20220326/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 11:39:52,127] ConnectionError for https://web.archive.org/web/20220326/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 11:40:22,138] Failed to connect with https://web.archive.org/web/20220326/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 11:40:26,356] [27] 138 links found in https://web.archive.org/web/20220327/www.uol.com.br
+[INFO - 2026-01-25 11:40:29,509] [28] 140 links found in https://web.archive.org/web/20220328/www.uol.com.br
+[ERROR - 2026-01-25 11:40:31,602] Response status code != 200 for https://web.archive.org/web/20220329/www.uol.com.br (got 403), skipping...
+[WARNING - 2026-01-25 11:40:31,907] ConnectionError for https://web.archive.org/web/20220330/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:41:07,626] [30] 141 links found in https://web.archive.org/web/20220330/www.uol.com.br
+[INFO - 2026-01-25 11:41:13,877] [31] 139 links found in https://web.archive.org/web/20220331/www.uol.com.br
+[INFO - 2026-01-25 11:41:13,878] Loss rate: 5/31
+[INFO - 2026-01-25 11:41:13,878] Total links found: 3539
+[INFO - 2026-01-25 11:41:13,878] Month 3 processing time: 6.32min
+[INFO - 2026-01-25 11:41:13,878] 
+[INFO - 2026-01-25 11:41:13,878] Month 4 (0 links to precess):
+[INFO - 2026-01-25 11:41:13,878] Loss rate: 0/0
+[INFO - 2026-01-25 11:41:13,878] Total links found: 0
+[INFO - 2026-01-25 11:41:13,878] Month 4 processing time: 0.00min
+[INFO - 2026-01-25 11:41:13,878] 
+[INFO - 2026-01-25 11:41:13,878] Month 5 (0 links to precess):
+[INFO - 2026-01-25 11:41:13,878] Loss rate: 0/0
+[INFO - 2026-01-25 11:41:13,878] Total links found: 0
+[INFO - 2026-01-25 11:41:13,878] Month 5 processing time: 0.00min
+[INFO - 2026-01-25 11:41:13,878] 
+[INFO - 2026-01-25 11:41:13,878] Month 6 (0 links to precess):
+[INFO - 2026-01-25 11:41:13,878] Loss rate: 0/0
+[INFO - 2026-01-25 11:41:13,878] Total links found: 0
+[INFO - 2026-01-25 11:41:13,878] Month 6 processing time: 0.00min
+[INFO - 2026-01-25 11:41:13,878] 
+[INFO - 2026-01-25 11:41:13,878] Month 7 (0 links to precess):
+[INFO - 2026-01-25 11:41:13,878] Loss rate: 0/0
+[INFO - 2026-01-25 11:41:13,878] Total links found: 0
+[INFO - 2026-01-25 11:41:13,878] Month 7 processing time: 0.00min
+[INFO - 2026-01-25 11:41:13,878] 
+[INFO - 2026-01-25 11:41:13,878] Month 8 (0 links to precess):
+[INFO - 2026-01-25 11:41:13,878] Loss rate: 0/0
+[INFO - 2026-01-25 11:41:13,878] Total links found: 0
+[INFO - 2026-01-25 11:41:13,878] Month 8 processing time: 0.00min
+[INFO - 2026-01-25 11:41:13,878] 
+[INFO - 2026-01-25 11:41:13,878] ==> Year 2023:
+[INFO - 2026-01-25 11:41:13,878] Month 1 (0 links to precess):
+[INFO - 2026-01-25 11:41:13,878] Loss rate: 0/0
+[INFO - 2026-01-25 11:41:13,879] Total links found: 0
+[INFO - 2026-01-25 11:41:13,879] Month 1 processing time: 0.00min
+[INFO - 2026-01-25 11:41:13,879] 
+[INFO - 2026-01-25 11:41:13,879] Month 2 (28 links to precess):
+[INFO - 2026-01-25 11:41:21,244] [1] 131 links found in https://web.archive.org/web/20230201/www.uol.com.br
+[INFO - 2026-01-25 11:41:30,789] [2] 140 links found in https://web.archive.org/web/20230202/www.uol.com.br
+[INFO - 2026-01-25 11:41:38,554] [3] 134 links found in https://web.archive.org/web/20230203/www.uol.com.br
+[INFO - 2026-01-25 11:41:51,258] [4] 138 links found in https://web.archive.org/web/20230204/www.uol.com.br
+[INFO - 2026-01-25 11:41:55,754] [5] 142 links found in https://web.archive.org/web/20230205/www.uol.com.br
+[INFO - 2026-01-25 11:41:59,219] [6] 135 links found in https://web.archive.org/web/20230206/www.uol.com.br
+[INFO - 2026-01-25 11:42:03,552] [7] 136 links found in https://web.archive.org/web/20230207/www.uol.com.br
+[INFO - 2026-01-25 11:42:08,928] [8] 132 links found in https://web.archive.org/web/20230208/www.uol.com.br
+[WARNING - 2026-01-25 11:42:34,936] ReadTimeout for https://web.archive.org/web/20230209/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:43:08,588] [9] 137 links found in https://web.archive.org/web/20230209/www.uol.com.br
+[ERROR - 2026-01-25 11:43:10,631] Response status code != 200 for https://web.archive.org/web/20230210/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 11:43:15,628] [11] 125 links found in https://web.archive.org/web/20230211/www.uol.com.br
+[INFO - 2026-01-25 11:43:22,594] [12] 124 links found in https://web.archive.org/web/20230212/www.uol.com.br
+[INFO - 2026-01-25 11:43:27,610] [13] 139 links found in https://web.archive.org/web/20230213/www.uol.com.br
+[INFO - 2026-01-25 11:43:31,407] [14] 141 links found in https://web.archive.org/web/20230214/www.uol.com.br
+[INFO - 2026-01-25 11:43:37,567] [15] 131 links found in https://web.archive.org/web/20230215/www.uol.com.br
+[INFO - 2026-01-25 11:43:43,045] [16] 138 links found in https://web.archive.org/web/20230216/www.uol.com.br
+[INFO - 2026-01-25 11:43:47,236] [17] 131 links found in https://web.archive.org/web/20230217/www.uol.com.br
+[WARNING - 2026-01-25 11:43:47,495] ConnectionError for https://web.archive.org/web/20230218/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:44:21,788] [18] 140 links found in https://web.archive.org/web/20230218/www.uol.com.br
+[WARNING - 2026-01-25 11:44:22,012] ConnectionError for https://web.archive.org/web/20230219/www.uol.com.br (attempt 1)
+[ERROR - 2026-01-25 11:44:54,058] Response status code != 200 for https://web.archive.org/web/20230219/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 11:44:58,746] [20] 147 links found in https://web.archive.org/web/20230220/www.uol.com.br
+[INFO - 2026-01-25 11:45:03,563] [21] 142 links found in https://web.archive.org/web/20230221/www.uol.com.br
+[INFO - 2026-01-25 11:45:07,461] [22] 128 links found in https://web.archive.org/web/20230222/www.uol.com.br
+[INFO - 2026-01-25 11:45:10,912] [23] 129 links found in https://web.archive.org/web/20230223/www.uol.com.br
+[INFO - 2026-01-25 11:45:14,650] [24] 131 links found in https://web.archive.org/web/20230224/www.uol.com.br
+[INFO - 2026-01-25 11:45:18,433] [25] 124 links found in https://web.archive.org/web/20230225/www.uol.com.br
+[INFO - 2026-01-25 11:45:21,443] [26] 132 links found in https://web.archive.org/web/20230226/www.uol.com.br
+[INFO - 2026-01-25 11:45:27,318] [27] 136 links found in https://web.archive.org/web/20230227/www.uol.com.br
+[WARNING - 2026-01-25 11:45:27,637] ConnectionError for https://web.archive.org/web/20230228/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 11:45:57,863] ConnectionError for https://web.archive.org/web/20230228/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 11:46:34,189] [28] 132 links found in https://web.archive.org/web/20230228/www.uol.com.br
+[INFO - 2026-01-25 11:46:34,189] Loss rate: 2/28
+[INFO - 2026-01-25 11:46:34,189] Total links found: 3495
+[INFO - 2026-01-25 11:46:34,189] Month 2 processing time: 5.34min
+[INFO - 2026-01-25 11:46:34,189] 
+[INFO - 2026-01-25 11:46:34,189] Month 3 (31 links to precess):
+[INFO - 2026-01-25 11:46:38,035] [1] 129 links found in https://web.archive.org/web/20230301/www.uol.com.br
+[INFO - 2026-01-25 11:46:41,805] [2] 130 links found in https://web.archive.org/web/20230302/www.uol.com.br
+[INFO - 2026-01-25 11:46:47,678] [3] 134 links found in https://web.archive.org/web/20230303/www.uol.com.br
+[INFO - 2026-01-25 11:46:53,022] [4] 130 links found in https://web.archive.org/web/20230304/www.uol.com.br
+[INFO - 2026-01-25 11:46:57,401] [5] 128 links found in https://web.archive.org/web/20230305/www.uol.com.br
+[INFO - 2026-01-25 11:47:02,319] [6] 131 links found in https://web.archive.org/web/20230306/www.uol.com.br
+[INFO - 2026-01-25 11:47:17,401] [7] 134 links found in https://web.archive.org/web/20230307/www.uol.com.br
+[INFO - 2026-01-25 11:47:22,589] [8] 135 links found in https://web.archive.org/web/20230308/www.uol.com.br
+[INFO - 2026-01-25 11:47:26,626] [9] 131 links found in https://web.archive.org/web/20230309/www.uol.com.br
+[WARNING - 2026-01-25 11:47:26,973] ConnectionError for https://web.archive.org/web/20230310/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:48:02,361] [10] 135 links found in https://web.archive.org/web/20230310/www.uol.com.br
+[INFO - 2026-01-25 11:48:27,098] [11] 135 links found in https://web.archive.org/web/20230311/www.uol.com.br
+[INFO - 2026-01-25 11:48:42,911] [12] 138 links found in https://web.archive.org/web/20230312/www.uol.com.br
+[INFO - 2026-01-25 11:48:49,114] [13] 125 links found in https://web.archive.org/web/20230313/www.uol.com.br
+[INFO - 2026-01-25 11:48:56,735] [14] 134 links found in https://web.archive.org/web/20230314/www.uol.com.br
+[INFO - 2026-01-25 11:49:14,350] [15] 137 links found in https://web.archive.org/web/20230315/www.uol.com.br
+[INFO - 2026-01-25 11:49:21,164] [16] 138 links found in https://web.archive.org/web/20230316/www.uol.com.br
+[INFO - 2026-01-25 11:49:24,483] [17] 137 links found in https://web.archive.org/web/20230317/www.uol.com.br
+[INFO - 2026-01-25 11:49:36,982] [18] 131 links found in https://web.archive.org/web/20230318/www.uol.com.br
+[INFO - 2026-01-25 11:50:04,420] [19] 125 links found in https://web.archive.org/web/20230319/www.uol.com.br
+[INFO - 2026-01-25 11:50:12,194] [20] 129 links found in https://web.archive.org/web/20230320/www.uol.com.br
+[INFO - 2026-01-25 11:50:25,821] [21] 129 links found in https://web.archive.org/web/20230321/www.uol.com.br
+[INFO - 2026-01-25 11:50:35,110] [22] 134 links found in https://web.archive.org/web/20230322/www.uol.com.br
+[INFO - 2026-01-25 11:50:48,957] [23] 128 links found in https://web.archive.org/web/20230323/www.uol.com.br
+[INFO - 2026-01-25 11:50:59,716] [24] 125 links found in https://web.archive.org/web/20230324/www.uol.com.br
+[INFO - 2026-01-25 11:51:17,833] [25] 142 links found in https://web.archive.org/web/20230325/www.uol.com.br
+[WARNING - 2026-01-25 11:51:44,300] ReadTimeout for https://web.archive.org/web/20230326/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 11:52:40,286] ReadTimeout for https://web.archive.org/web/20230326/www.uol.com.br (attempt 2)
+[ERROR - 2026-01-25 11:53:12,348] Response status code != 200 for https://web.archive.org/web/20230326/www.uol.com.br (got 403), skipping...
+[WARNING - 2026-01-25 11:53:38,811] ReadTimeout for https://web.archive.org/web/20230327/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:54:12,242] [27] 136 links found in https://web.archive.org/web/20230327/www.uol.com.br
+[INFO - 2026-01-25 11:54:32,664] [28] 137 links found in https://web.archive.org/web/20230328/www.uol.com.br
+[INFO - 2026-01-25 11:54:42,335] [29] 136 links found in https://web.archive.org/web/20230329/www.uol.com.br
+[INFO - 2026-01-25 11:54:50,742] [30] 126 links found in https://web.archive.org/web/20230330/www.uol.com.br
+[INFO - 2026-01-25 11:54:59,035] [31] 130 links found in https://web.archive.org/web/20230331/www.uol.com.br
+[INFO - 2026-01-25 11:54:59,035] Loss rate: 1/31
+[INFO - 2026-01-25 11:54:59,036] Total links found: 3969
+[INFO - 2026-01-25 11:54:59,036] Month 3 processing time: 8.41min
+[INFO - 2026-01-25 11:54:59,036] 
+[INFO - 2026-01-25 11:54:59,036] Month 4 (30 links to precess):
+[INFO - 2026-01-25 11:55:04,363] [1] 126 links found in https://web.archive.org/web/20230401/www.uol.com.br
+[INFO - 2026-01-25 11:55:10,162] [2] 128 links found in https://web.archive.org/web/20230402/www.uol.com.br
+[INFO - 2026-01-25 11:55:16,849] [3] 122 links found in https://web.archive.org/web/20230403/www.uol.com.br
+[INFO - 2026-01-25 11:55:24,622] [4] 131 links found in https://web.archive.org/web/20230404/www.uol.com.br
+[INFO - 2026-01-25 11:55:28,723] [5] 131 links found in https://web.archive.org/web/20230405/www.uol.com.br
+[INFO - 2026-01-25 11:55:35,793] [6] 132 links found in https://web.archive.org/web/20230406/www.uol.com.br
+[ERROR - 2026-01-25 11:55:42,494] Response status code != 200 for https://web.archive.org/web/20230407/www.uol.com.br (got 403), skipping...
+[ERROR - 2026-01-25 11:55:53,800] Response status code != 200 for https://web.archive.org/web/20230408/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 11:56:11,175] [9] 135 links found in https://web.archive.org/web/20230409/www.uol.com.br
+[INFO - 2026-01-25 11:56:26,895] [10] 136 links found in https://web.archive.org/web/20230410/www.uol.com.br
+[INFO - 2026-01-25 11:56:32,930] [11] 137 links found in https://web.archive.org/web/20230411/www.uol.com.br
+[INFO - 2026-01-25 11:56:45,528] [12] 140 links found in https://web.archive.org/web/20230412/www.uol.com.br
+[INFO - 2026-01-25 11:56:52,581] [13] 136 links found in https://web.archive.org/web/20230413/www.uol.com.br
+[WARNING - 2026-01-25 11:56:52,812] ConnectionError for https://web.archive.org/web/20230414/www.uol.com.br (attempt 1)
+[ERROR - 2026-01-25 11:57:33,126] Response status code != 200 for https://web.archive.org/web/20230414/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 11:57:39,565] [15] 140 links found in https://web.archive.org/web/20230415/www.uol.com.br
+[WARNING - 2026-01-25 11:57:39,883] ConnectionError for https://web.archive.org/web/20230416/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 11:58:27,142] [16] 141 links found in https://web.archive.org/web/20230416/www.uol.com.br
+[INFO - 2026-01-25 11:58:49,704] [17] 139 links found in https://web.archive.org/web/20230417/www.uol.com.br
+[INFO - 2026-01-25 11:58:56,673] [18] 139 links found in https://web.archive.org/web/20230418/www.uol.com.br
+[INFO - 2026-01-25 11:59:03,325] [19] 138 links found in https://web.archive.org/web/20230419/www.uol.com.br
+[INFO - 2026-01-25 11:59:09,674] [20] 138 links found in https://web.archive.org/web/20230420/www.uol.com.br
+[INFO - 2026-01-25 11:59:27,906] [21] 151 links found in https://web.archive.org/web/20230421/www.uol.com.br
+[INFO - 2026-01-25 11:59:33,826] [22] 135 links found in https://web.archive.org/web/20230422/www.uol.com.br
+[INFO - 2026-01-25 11:59:40,907] [23] 133 links found in https://web.archive.org/web/20230423/www.uol.com.br
+[INFO - 2026-01-25 11:59:57,909] [24] 131 links found in https://web.archive.org/web/20230424/www.uol.com.br
+[INFO - 2026-01-25 12:00:05,379] [25] 135 links found in https://web.archive.org/web/20230425/www.uol.com.br
+[INFO - 2026-01-25 12:00:11,174] [26] 141 links found in https://web.archive.org/web/20230426/www.uol.com.br
+[INFO - 2026-01-25 12:00:18,935] [27] 137 links found in https://web.archive.org/web/20230427/www.uol.com.br
+[INFO - 2026-01-25 12:00:24,320] [28] 134 links found in https://web.archive.org/web/20230428/www.uol.com.br
+[INFO - 2026-01-25 12:00:34,722] [29] 130 links found in https://web.archive.org/web/20230429/www.uol.com.br
+[INFO - 2026-01-25 12:00:39,070] [30] 127 links found in https://web.archive.org/web/20230430/www.uol.com.br
+[INFO - 2026-01-25 12:00:39,071] Loss rate: 3/30
+[INFO - 2026-01-25 12:00:39,071] Total links found: 3643
+[INFO - 2026-01-25 12:00:39,071] Month 4 processing time: 5.67min
+[INFO - 2026-01-25 12:00:39,071] 
+[INFO - 2026-01-25 12:00:39,071] Month 5 (31 links to precess):
+[INFO - 2026-01-25 12:00:44,783] [1] 127 links found in https://web.archive.org/web/20230501/www.uol.com.br
+[INFO - 2026-01-25 12:00:51,867] [2] 133 links found in https://web.archive.org/web/20230502/www.uol.com.br
+[INFO - 2026-01-25 12:00:55,245] [3] 140 links found in https://web.archive.org/web/20230503/www.uol.com.br
+[INFO - 2026-01-25 12:01:06,926] [4] 138 links found in https://web.archive.org/web/20230504/www.uol.com.br
+[INFO - 2026-01-25 12:01:18,596] [5] 135 links found in https://web.archive.org/web/20230505/www.uol.com.br
+[WARNING - 2026-01-25 12:01:18,917] ConnectionError for https://web.archive.org/web/20230506/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:01:55,812] [6] 135 links found in https://web.archive.org/web/20230506/www.uol.com.br
+[INFO - 2026-01-25 12:02:17,430] [7] 134 links found in https://web.archive.org/web/20230507/www.uol.com.br
+[INFO - 2026-01-25 12:02:22,082] [8] 125 links found in https://web.archive.org/web/20230508/www.uol.com.br
+[INFO - 2026-01-25 12:02:26,880] [9] 143 links found in https://web.archive.org/web/20230509/www.uol.com.br
+[INFO - 2026-01-25 12:02:33,247] [10] 132 links found in https://web.archive.org/web/20230510/www.uol.com.br
+[WARNING - 2026-01-25 12:02:33,568] ConnectionError for https://web.archive.org/web/20230511/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:03:10,618] [11] 134 links found in https://web.archive.org/web/20230511/www.uol.com.br
+[INFO - 2026-01-25 12:03:16,458] [12] 131 links found in https://web.archive.org/web/20230512/www.uol.com.br
+[INFO - 2026-01-25 12:03:20,725] [13] 132 links found in https://web.archive.org/web/20230513/www.uol.com.br
+[INFO - 2026-01-25 12:03:25,164] [14] 130 links found in https://web.archive.org/web/20230514/www.uol.com.br
+[INFO - 2026-01-25 12:03:35,603] [15] 136 links found in https://web.archive.org/web/20230515/www.uol.com.br
+[INFO - 2026-01-25 12:03:44,314] [16] 142 links found in https://web.archive.org/web/20230516/www.uol.com.br
+[INFO - 2026-01-25 12:03:50,356] [17] 136 links found in https://web.archive.org/web/20230517/www.uol.com.br
+[INFO - 2026-01-25 12:04:15,919] [18] 130 links found in https://web.archive.org/web/20230518/www.uol.com.br
+[INFO - 2026-01-25 12:04:30,911] [19] 132 links found in https://web.archive.org/web/20230519/www.uol.com.br
+[INFO - 2026-01-25 12:04:49,544] [20] 127 links found in https://web.archive.org/web/20230520/www.uol.com.br
+[INFO - 2026-01-25 12:05:12,065] [21] 132 links found in https://web.archive.org/web/20230521/www.uol.com.br
+[INFO - 2026-01-25 12:05:17,191] [22] 135 links found in https://web.archive.org/web/20230522/www.uol.com.br
+[INFO - 2026-01-25 12:05:25,452] [23] 146 links found in https://web.archive.org/web/20230523/www.uol.com.br
+[INFO - 2026-01-25 12:05:31,126] [24] 133 links found in https://web.archive.org/web/20230524/www.uol.com.br
+[INFO - 2026-01-25 12:05:40,641] [25] 139 links found in https://web.archive.org/web/20230525/www.uol.com.br
+[INFO - 2026-01-25 12:06:02,351] [26] 132 links found in https://web.archive.org/web/20230526/www.uol.com.br
+[INFO - 2026-01-25 12:06:09,809] [27] 0 links found in https://web.archive.org/web/20230527/www.uol.com.br
+[WARNING - 2026-01-25 12:06:36,277] ReadTimeout for https://web.archive.org/web/20230528/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:07:09,814] [28] 147 links found in https://web.archive.org/web/20230528/www.uol.com.br
+[INFO - 2026-01-25 12:07:30,583] [29] 136 links found in https://web.archive.org/web/20230529/www.uol.com.br
+[INFO - 2026-01-25 12:07:56,825] [30] 141 links found in https://web.archive.org/web/20230530/www.uol.com.br
+[INFO - 2026-01-25 12:08:05,112] [31] 141 links found in https://web.archive.org/web/20230531/www.uol.com.br
+[INFO - 2026-01-25 12:08:05,112] Loss rate: 0/31
+[INFO - 2026-01-25 12:08:05,112] Total links found: 4054
+[INFO - 2026-01-25 12:08:05,112] Month 5 processing time: 7.43min
+[INFO - 2026-01-25 12:08:05,112] 
+[INFO - 2026-01-25 12:08:05,112] Month 6 (30 links to precess):
+[INFO - 2026-01-25 12:08:13,731] [1] 139 links found in https://web.archive.org/web/20230601/www.uol.com.br
+[INFO - 2026-01-25 12:08:20,896] [2] 131 links found in https://web.archive.org/web/20230602/www.uol.com.br
+[INFO - 2026-01-25 12:08:25,605] [3] 132 links found in https://web.archive.org/web/20230603/www.uol.com.br
+[INFO - 2026-01-25 12:08:32,565] [4] 131 links found in https://web.archive.org/web/20230604/www.uol.com.br
+[INFO - 2026-01-25 12:08:46,017] [5] 133 links found in https://web.archive.org/web/20230605/www.uol.com.br
+[ERROR - 2026-01-25 12:08:57,000] Response status code != 200 for https://web.archive.org/web/20230606/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 12:09:06,979] [7] 144 links found in https://web.archive.org/web/20230607/www.uol.com.br
+[INFO - 2026-01-25 12:09:18,460] [8] 137 links found in https://web.archive.org/web/20230608/www.uol.com.br
+[INFO - 2026-01-25 12:09:25,962] [9] 131 links found in https://web.archive.org/web/20230609/www.uol.com.br
+[INFO - 2026-01-25 12:09:32,446] [10] 138 links found in https://web.archive.org/web/20230610/www.uol.com.br
+[ERROR - 2026-01-25 12:09:37,817] Response status code != 200 for https://web.archive.org/web/20230611/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 12:09:42,578] [12] 128 links found in https://web.archive.org/web/20230612/www.uol.com.br
+[INFO - 2026-01-25 12:09:53,366] [13] 131 links found in https://web.archive.org/web/20230613/www.uol.com.br
+[WARNING - 2026-01-25 12:10:19,657] ReadTimeout for https://web.archive.org/web/20230614/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:10:52,547] [14] 138 links found in https://web.archive.org/web/20230614/www.uol.com.br
+[INFO - 2026-01-25 12:11:00,126] [15] 130 links found in https://web.archive.org/web/20230615/www.uol.com.br
+[INFO - 2026-01-25 12:11:03,820] [16] 135 links found in https://web.archive.org/web/20230616/www.uol.com.br
+[INFO - 2026-01-25 12:11:17,437] [17] 136 links found in https://web.archive.org/web/20230617/www.uol.com.br
+[INFO - 2026-01-25 12:11:28,603] [18] 130 links found in https://web.archive.org/web/20230618/www.uol.com.br
+[INFO - 2026-01-25 12:11:33,411] [19] 135 links found in https://web.archive.org/web/20230619/www.uol.com.br
+[INFO - 2026-01-25 12:11:49,591] [20] 142 links found in https://web.archive.org/web/20230620/www.uol.com.br
+[INFO - 2026-01-25 12:11:54,896] [21] 144 links found in https://web.archive.org/web/20230621/www.uol.com.br
+[ERROR - 2026-01-25 12:11:56,892] Response status code != 200 for https://web.archive.org/web/20230622/www.uol.com.br (got 403), skipping...
+[ERROR - 2026-01-25 12:12:23,362] Response status code != 200 for https://web.archive.org/web/20230623/www.uol.com.br (got 403), skipping...
+[ERROR - 2026-01-25 12:12:29,513] Response status code != 200 for https://web.archive.org/web/20230624/www.uol.com.br (got 403), skipping...
+[WARNING - 2026-01-25 12:12:55,881] ReadTimeout for https://web.archive.org/web/20230625/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 12:13:51,589] ReadTimeout for https://web.archive.org/web/20230625/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 12:14:47,317] ReadTimeout for https://web.archive.org/web/20230625/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 12:15:17,328] Failed to connect with https://web.archive.org/web/20230625/www.uol.com.br after 3 attempts, skipping...
+[WARNING - 2026-01-25 12:15:43,556] ReadTimeout for https://web.archive.org/web/20230626/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 12:16:39,425] ReadTimeout for https://web.archive.org/web/20230626/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 12:17:35,303] ReadTimeout for https://web.archive.org/web/20230626/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 12:18:05,311] Failed to connect with https://web.archive.org/web/20230626/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 12:18:12,445] [27] 135 links found in https://web.archive.org/web/20230627/www.uol.com.br
+[INFO - 2026-01-25 12:18:31,317] [28] 132 links found in https://web.archive.org/web/20230628/www.uol.com.br
+[INFO - 2026-01-25 12:18:41,237] [29] 125 links found in https://web.archive.org/web/20230629/www.uol.com.br
+[INFO - 2026-01-25 12:18:54,791] [30] 137 links found in https://web.archive.org/web/20230630/www.uol.com.br
+[INFO - 2026-01-25 12:18:54,792] Loss rate: 7/30
+[INFO - 2026-01-25 12:18:54,792] Total links found: 3094
+[INFO - 2026-01-25 12:18:54,792] Month 6 processing time: 10.83min
+[INFO - 2026-01-25 12:18:54,792] 
+[INFO - 2026-01-25 12:18:54,792] Month 7 (31 links to precess):
+[INFO - 2026-01-25 12:19:05,924] [1] 138 links found in https://web.archive.org/web/20230701/www.uol.com.br
+[WARNING - 2026-01-25 12:19:32,578] ReadTimeout for https://web.archive.org/web/20230702/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:20:06,844] [2] 127 links found in https://web.archive.org/web/20230702/www.uol.com.br
+[ERROR - 2026-01-25 12:20:16,290] Response status code != 200 for https://web.archive.org/web/20230703/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 12:20:40,027] [4] 140 links found in https://web.archive.org/web/20230704/www.uol.com.br
+[INFO - 2026-01-25 12:20:43,920] [5] 133 links found in https://web.archive.org/web/20230705/www.uol.com.br
+[INFO - 2026-01-25 12:20:55,931] [6] 132 links found in https://web.archive.org/web/20230706/www.uol.com.br
+[INFO - 2026-01-25 12:20:59,791] [7] 132 links found in https://web.archive.org/web/20230707/www.uol.com.br
+[WARNING - 2026-01-25 12:21:13,336] RequestException for https://web.archive.org/web/20230708/www.uol.com.br (attempt 1): Exceeded 30 redirects.
+
+[WARNING - 2026-01-25 12:21:52,884] RequestException for https://web.archive.org/web/20230708/www.uol.com.br (attempt 2): Exceeded 30 redirects.
+
+[WARNING - 2026-01-25 12:22:31,066] RequestException for https://web.archive.org/web/20230708/www.uol.com.br (attempt 3): Exceeded 30 redirects.
+
+[ERROR - 2026-01-25 12:23:01,077] Failed to connect with https://web.archive.org/web/20230708/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 12:23:04,591] [9] 134 links found in https://web.archive.org/web/20230709/www.uol.com.br
+[INFO - 2026-01-25 12:23:23,475] [10] 130 links found in https://web.archive.org/web/20230710/www.uol.com.br
+[INFO - 2026-01-25 12:23:38,984] [11] 134 links found in https://web.archive.org/web/20230711/www.uol.com.br
+[ERROR - 2026-01-25 12:23:52,677] Response status code != 200 for https://web.archive.org/web/20230712/www.uol.com.br (got 403), skipping...
+[ERROR - 2026-01-25 12:24:09,470] Response status code != 200 for https://web.archive.org/web/20230713/www.uol.com.br (got 403), skipping...
+[INFO - 2026-01-25 12:24:34,137] [14] 131 links found in https://web.archive.org/web/20230714/www.uol.com.br
+[INFO - 2026-01-25 12:24:47,247] [15] 135 links found in https://web.archive.org/web/20230715/www.uol.com.br
+[INFO - 2026-01-25 12:24:53,795] [16] 136 links found in https://web.archive.org/web/20230716/www.uol.com.br
+[INFO - 2026-01-25 12:25:05,363] [17] 141 links found in https://web.archive.org/web/20230717/www.uol.com.br
+[INFO - 2026-01-25 12:25:30,765] [18] 134 links found in https://web.archive.org/web/20230718/www.uol.com.br
+[INFO - 2026-01-25 12:25:40,182] [19] 128 links found in https://web.archive.org/web/20230719/www.uol.com.br
+[WARNING - 2026-01-25 12:26:07,351] ReadTimeout for https://web.archive.org/web/20230720/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:26:41,727] [20] 136 links found in https://web.archive.org/web/20230720/www.uol.com.br
+[WARNING - 2026-01-25 12:27:08,694] ReadTimeout for https://web.archive.org/web/20230721/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:27:42,451] [21] 129 links found in https://web.archive.org/web/20230721/www.uol.com.br
+[INFO - 2026-01-25 12:27:49,380] [22] 128 links found in https://web.archive.org/web/20230722/www.uol.com.br
+[INFO - 2026-01-25 12:27:56,883] [23] 132 links found in https://web.archive.org/web/20230723/www.uol.com.br
+[INFO - 2026-01-25 12:28:02,420] [24] 145 links found in https://web.archive.org/web/20230724/www.uol.com.br
+[INFO - 2026-01-25 12:28:20,653] [25] 131 links found in https://web.archive.org/web/20230725/www.uol.com.br
+[INFO - 2026-01-25 12:28:29,850] [26] 132 links found in https://web.archive.org/web/20230726/www.uol.com.br
+[INFO - 2026-01-25 12:28:41,216] [27] 139 links found in https://web.archive.org/web/20230727/www.uol.com.br
+[INFO - 2026-01-25 12:28:46,363] [28] 136 links found in https://web.archive.org/web/20230728/www.uol.com.br
+[INFO - 2026-01-25 12:29:01,876] [29] 135 links found in https://web.archive.org/web/20230729/www.uol.com.br
+[INFO - 2026-01-25 12:29:10,108] [30] 142 links found in https://web.archive.org/web/20230730/www.uol.com.br
+[INFO - 2026-01-25 12:29:16,149] [31] 144 links found in https://web.archive.org/web/20230731/www.uol.com.br
+[INFO - 2026-01-25 12:29:16,149] Loss rate: 4/31
+[INFO - 2026-01-25 12:29:16,149] Total links found: 3634
+[INFO - 2026-01-25 12:29:16,149] Month 7 processing time: 10.36min
+[INFO - 2026-01-25 12:29:16,149] 
+[INFO - 2026-01-25 12:29:16,149] Month 8 (31 links to precess):
+[INFO - 2026-01-25 12:29:24,572] [1] 129 links found in https://web.archive.org/web/20230801/www.uol.com.br
+[INFO - 2026-01-25 12:29:32,645] [2] 143 links found in https://web.archive.org/web/20230802/www.uol.com.br
+[INFO - 2026-01-25 12:29:39,852] [3] 139 links found in https://web.archive.org/web/20230803/www.uol.com.br
+[INFO - 2026-01-25 12:30:05,099] [4] 130 links found in https://web.archive.org/web/20230804/www.uol.com.br
+[INFO - 2026-01-25 12:30:09,912] [5] 134 links found in https://web.archive.org/web/20230805/www.uol.com.br
+[WARNING - 2026-01-25 12:30:36,570] ReadTimeout for https://web.archive.org/web/20230806/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:31:10,942] [6] 137 links found in https://web.archive.org/web/20230806/www.uol.com.br
+[INFO - 2026-01-25 12:31:22,008] [7] 132 links found in https://web.archive.org/web/20230807/www.uol.com.br
+[INFO - 2026-01-25 12:31:32,555] [8] 133 links found in https://web.archive.org/web/20230808/www.uol.com.br
+[INFO - 2026-01-25 12:31:43,901] [9] 138 links found in https://web.archive.org/web/20230809/www.uol.com.br
+[INFO - 2026-01-25 12:31:53,242] [10] 133 links found in https://web.archive.org/web/20230810/www.uol.com.br
+[INFO - 2026-01-25 12:32:20,120] [11] 131 links found in https://web.archive.org/web/20230811/www.uol.com.br
+[INFO - 2026-01-25 12:32:36,712] [12] 139 links found in https://web.archive.org/web/20230812/www.uol.com.br
+[INFO - 2026-01-25 12:32:40,216] [13] 133 links found in https://web.archive.org/web/20230813/www.uol.com.br
+[INFO - 2026-01-25 12:32:47,202] [14] 132 links found in https://web.archive.org/web/20230814/www.uol.com.br
+[INFO - 2026-01-25 12:32:55,086] [15] 136 links found in https://web.archive.org/web/20230815/www.uol.com.br
+[INFO - 2026-01-25 12:33:00,603] [16] 136 links found in https://web.archive.org/web/20230816/www.uol.com.br
+[INFO - 2026-01-25 12:33:04,913] [17] 135 links found in https://web.archive.org/web/20230817/www.uol.com.br
+[INFO - 2026-01-25 12:33:10,241] [18] 135 links found in https://web.archive.org/web/20230818/www.uol.com.br
+[INFO - 2026-01-25 12:33:14,948] [19] 133 links found in https://web.archive.org/web/20230819/www.uol.com.br
+[INFO - 2026-01-25 12:33:19,044] [20] 140 links found in https://web.archive.org/web/20230820/www.uol.com.br
+[INFO - 2026-01-25 12:33:24,966] [21] 135 links found in https://web.archive.org/web/20230821/www.uol.com.br
+[INFO - 2026-01-25 12:33:29,472] [22] 123 links found in https://web.archive.org/web/20230822/www.uol.com.br
+[INFO - 2026-01-25 12:33:33,877] [23] 130 links found in https://web.archive.org/web/20230823/www.uol.com.br
+[INFO - 2026-01-25 12:33:40,762] [24] 134 links found in https://web.archive.org/web/20230824/www.uol.com.br
+[WARNING - 2026-01-25 12:33:40,978] ConnectionError for https://web.archive.org/web/20230825/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 12:34:11,194] ConnectionError for https://web.archive.org/web/20230825/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 12:34:46,286] [25] 134 links found in https://web.archive.org/web/20230825/www.uol.com.br
+[INFO - 2026-01-25 12:34:51,103] [26] 131 links found in https://web.archive.org/web/20230826/www.uol.com.br
+[INFO - 2026-01-25 12:34:55,913] [27] 133 links found in https://web.archive.org/web/20230827/www.uol.com.br
+[INFO - 2026-01-25 12:35:01,025] [28] 133 links found in https://web.archive.org/web/20230828/www.uol.com.br
+[INFO - 2026-01-25 12:35:06,156] [29] 134 links found in https://web.archive.org/web/20230829/www.uol.com.br
+[WARNING - 2026-01-25 12:35:06,354] ConnectionError for https://web.archive.org/web/20230830/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:35:42,178] [30] 129 links found in https://web.archive.org/web/20230830/www.uol.com.br
+[INFO - 2026-01-25 12:35:48,378] [31] 131 links found in https://web.archive.org/web/20230831/www.uol.com.br
+[INFO - 2026-01-25 12:35:48,378] Loss rate: 0/31
+[INFO - 2026-01-25 12:35:48,378] Total links found: 4145
+[INFO - 2026-01-25 12:35:48,378] Month 8 processing time: 6.54min
+[INFO - 2026-01-25 12:35:48,378] 
+[INFO - 2026-01-25 12:35:48,378] ==> Year 2024:
+[INFO - 2026-01-25 12:35:48,378] Month 1 (31 links to precess):
+[INFO - 2026-01-25 12:36:00,839] [1] 87 links found in https://web.archive.org/web/20240101/www.uol.com.br
+[WARNING - 2026-01-25 12:36:27,292] ReadTimeout for https://web.archive.org/web/20240102/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 12:37:23,111] ReadTimeout for https://web.archive.org/web/20240102/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 12:38:19,322] ReadTimeout for https://web.archive.org/web/20240102/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 12:38:49,331] Failed to connect with https://web.archive.org/web/20240102/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 12:39:09,836] [3] 112 links found in https://web.archive.org/web/20240103/www.uol.com.br
+[WARNING - 2026-01-25 12:39:36,429] ReadTimeout for https://web.archive.org/web/20240104/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 12:40:32,137] ReadTimeout for https://web.archive.org/web/20240104/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 12:41:28,048] ReadTimeout for https://web.archive.org/web/20240104/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 12:41:58,059] Failed to connect with https://web.archive.org/web/20240104/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 12:42:11,121] [5] 126 links found in https://web.archive.org/web/20240105/www.uol.com.br
+[INFO - 2026-01-25 12:42:20,961] [6] 123 links found in https://web.archive.org/web/20240106/www.uol.com.br
+[INFO - 2026-01-25 12:42:29,853] [7] 125 links found in https://web.archive.org/web/20240107/www.uol.com.br
+[INFO - 2026-01-25 12:42:39,996] [8] 121 links found in https://web.archive.org/web/20240108/www.uol.com.br
+[INFO - 2026-01-25 12:42:48,126] [9] 124 links found in https://web.archive.org/web/20240109/www.uol.com.br
+[INFO - 2026-01-25 12:42:52,802] [10] 126 links found in https://web.archive.org/web/20240110/www.uol.com.br
+[INFO - 2026-01-25 12:43:01,302] [11] 123 links found in https://web.archive.org/web/20240111/www.uol.com.br
+[INFO - 2026-01-25 12:43:09,632] [12] 128 links found in https://web.archive.org/web/20240112/www.uol.com.br
+[INFO - 2026-01-25 12:43:15,829] [13] 130 links found in https://web.archive.org/web/20240113/www.uol.com.br
+[INFO - 2026-01-25 12:43:28,678] [14] 123 links found in https://web.archive.org/web/20240114/www.uol.com.br
+[INFO - 2026-01-25 12:43:37,926] [15] 127 links found in https://web.archive.org/web/20240115/www.uol.com.br
+[INFO - 2026-01-25 12:43:55,267] [16] 119 links found in https://web.archive.org/web/20240116/www.uol.com.br
+[INFO - 2026-01-25 12:44:09,293] [17] 127 links found in https://web.archive.org/web/20240117/www.uol.com.br
+[INFO - 2026-01-25 12:44:19,537] [18] 117 links found in https://web.archive.org/web/20240118/www.uol.com.br
+[INFO - 2026-01-25 12:44:32,336] [19] 120 links found in https://web.archive.org/web/20240119/www.uol.com.br
+[INFO - 2026-01-25 12:44:41,655] [20] 121 links found in https://web.archive.org/web/20240120/www.uol.com.br
+[INFO - 2026-01-25 12:44:48,007] [21] 121 links found in https://web.archive.org/web/20240121/www.uol.com.br
+[INFO - 2026-01-25 12:44:53,430] [22] 121 links found in https://web.archive.org/web/20240122/www.uol.com.br
+[WARNING - 2026-01-25 12:44:53,751] ConnectionError for https://web.archive.org/web/20240123/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:45:33,776] [23] 126 links found in https://web.archive.org/web/20240123/www.uol.com.br
+[INFO - 2026-01-25 12:45:52,520] [24] 125 links found in https://web.archive.org/web/20240124/www.uol.com.br
+[INFO - 2026-01-25 12:46:12,681] [25] 134 links found in https://web.archive.org/web/20240125/www.uol.com.br
+[INFO - 2026-01-25 12:46:40,431] [26] 133 links found in https://web.archive.org/web/20240126/www.uol.com.br
+[INFO - 2026-01-25 12:46:54,570] [27] 138 links found in https://web.archive.org/web/20240127/www.uol.com.br
+[INFO - 2026-01-25 12:47:08,283] [28] 121 links found in https://web.archive.org/web/20240128/www.uol.com.br
+[INFO - 2026-01-25 12:47:20,686] [29] 126 links found in https://web.archive.org/web/20240129/www.uol.com.br
+[INFO - 2026-01-25 12:47:33,586] [30] 127 links found in https://web.archive.org/web/20240130/www.uol.com.br
+[INFO - 2026-01-25 12:47:43,218] [31] 131 links found in https://web.archive.org/web/20240131/www.uol.com.br
+[INFO - 2026-01-25 12:47:43,219] Loss rate: 2/31
+[INFO - 2026-01-25 12:47:43,219] Total links found: 3582
+[INFO - 2026-01-25 12:47:43,219] Month 1 processing time: 11.91min
+[INFO - 2026-01-25 12:47:43,219] 
+[INFO - 2026-01-25 12:47:43,219] Month 2 (29 links to precess):
+[INFO - 2026-01-25 12:47:54,370] [1] 124 links found in https://web.archive.org/web/20240201/www.uol.com.br
+[INFO - 2026-01-25 12:48:06,048] [2] 116 links found in https://web.archive.org/web/20240202/www.uol.com.br
+[INFO - 2026-01-25 12:48:19,976] [3] 121 links found in https://web.archive.org/web/20240203/www.uol.com.br
+[INFO - 2026-01-25 12:48:36,457] [4] 126 links found in https://web.archive.org/web/20240204/www.uol.com.br
+[INFO - 2026-01-25 12:48:48,507] [5] 133 links found in https://web.archive.org/web/20240205/www.uol.com.br
+[INFO - 2026-01-25 12:49:04,227] [6] 124 links found in https://web.archive.org/web/20240206/www.uol.com.br
+[INFO - 2026-01-25 12:49:16,109] [7] 129 links found in https://web.archive.org/web/20240207/www.uol.com.br
+[INFO - 2026-01-25 12:49:26,663] [8] 134 links found in https://web.archive.org/web/20240208/www.uol.com.br
+[INFO - 2026-01-25 12:49:39,439] [9] 134 links found in https://web.archive.org/web/20240209/www.uol.com.br
+[WARNING - 2026-01-25 12:50:07,182] ReadTimeout for https://web.archive.org/web/20240210/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:50:43,539] [10] 141 links found in https://web.archive.org/web/20240210/www.uol.com.br
+[INFO - 2026-01-25 12:50:51,014] [11] 129 links found in https://web.archive.org/web/20240211/www.uol.com.br
+[INFO - 2026-01-25 12:50:59,311] [12] 133 links found in https://web.archive.org/web/20240212/www.uol.com.br
+[INFO - 2026-01-25 12:51:08,827] [13] 132 links found in https://web.archive.org/web/20240213/www.uol.com.br
+[INFO - 2026-01-25 12:51:16,619] [14] 135 links found in https://web.archive.org/web/20240214/www.uol.com.br
+[INFO - 2026-01-25 12:51:39,954] [15] 133 links found in https://web.archive.org/web/20240215/www.uol.com.br
+[INFO - 2026-01-25 12:51:50,376] [16] 127 links found in https://web.archive.org/web/20240216/www.uol.com.br
+[WARNING - 2026-01-25 12:52:17,120] ReadTimeout for https://web.archive.org/web/20240217/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:52:51,124] [17] 128 links found in https://web.archive.org/web/20240217/www.uol.com.br
+[INFO - 2026-01-25 12:53:09,250] [18] 138 links found in https://web.archive.org/web/20240218/www.uol.com.br
+[INFO - 2026-01-25 12:53:17,345] [19] 123 links found in https://web.archive.org/web/20240219/www.uol.com.br
+[INFO - 2026-01-25 12:53:24,726] [20] 123 links found in https://web.archive.org/web/20240220/www.uol.com.br
+[INFO - 2026-01-25 12:53:34,492] [21] 130 links found in https://web.archive.org/web/20240221/www.uol.com.br
+[INFO - 2026-01-25 12:53:49,497] [22] 126 links found in https://web.archive.org/web/20240222/www.uol.com.br
+[INFO - 2026-01-25 12:53:57,692] [23] 123 links found in https://web.archive.org/web/20240223/www.uol.com.br
+[INFO - 2026-01-25 12:54:06,604] [24] 128 links found in https://web.archive.org/web/20240224/www.uol.com.br
+[INFO - 2026-01-25 12:54:12,030] [25] 132 links found in https://web.archive.org/web/20240225/www.uol.com.br
+[WARNING - 2026-01-25 12:54:39,087] ReadTimeout for https://web.archive.org/web/20240226/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:55:12,108] [26] 123 links found in https://web.archive.org/web/20240226/www.uol.com.br
+[INFO - 2026-01-25 12:55:19,312] [27] 133 links found in https://web.archive.org/web/20240227/www.uol.com.br
+[INFO - 2026-01-25 12:55:33,750] [28] 115 links found in https://web.archive.org/web/20240228/www.uol.com.br
+[INFO - 2026-01-25 12:55:39,056] [29] 126 links found in https://web.archive.org/web/20240229/www.uol.com.br
+[INFO - 2026-01-25 12:55:39,056] Loss rate: 0/29
+[INFO - 2026-01-25 12:55:39,056] Total links found: 3719
+[INFO - 2026-01-25 12:55:39,056] Month 2 processing time: 7.93min
+[INFO - 2026-01-25 12:55:39,056] 
+[INFO - 2026-01-25 12:55:39,056] Month 3 (31 links to precess):
+[INFO - 2026-01-25 12:55:51,035] [1] 136 links found in https://web.archive.org/web/20240301/www.uol.com.br
+[INFO - 2026-01-25 12:55:58,321] [2] 120 links found in https://web.archive.org/web/20240302/www.uol.com.br
+[INFO - 2026-01-25 12:56:06,103] [3] 122 links found in https://web.archive.org/web/20240303/www.uol.com.br
+[INFO - 2026-01-25 12:56:19,661] [4] 133 links found in https://web.archive.org/web/20240304/www.uol.com.br
+[INFO - 2026-01-25 12:56:45,462] [5] 134 links found in https://web.archive.org/web/20240305/www.uol.com.br
+[WARNING - 2026-01-25 12:57:11,870] ReadTimeout for https://web.archive.org/web/20240306/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 12:57:46,247] [6] 122 links found in https://web.archive.org/web/20240306/www.uol.com.br
+[INFO - 2026-01-25 12:57:51,579] [7] 125 links found in https://web.archive.org/web/20240307/www.uol.com.br
+[INFO - 2026-01-25 12:58:05,781] [8] 123 links found in https://web.archive.org/web/20240308/www.uol.com.br
+[INFO - 2026-01-25 12:58:11,236] [9] 123 links found in https://web.archive.org/web/20240309/www.uol.com.br
+[INFO - 2026-01-25 12:58:23,433] [10] 133 links found in https://web.archive.org/web/20240310/www.uol.com.br
+[INFO - 2026-01-25 12:58:32,003] [11] 123 links found in https://web.archive.org/web/20240311/www.uol.com.br
+[INFO - 2026-01-25 12:58:42,374] [12] 130 links found in https://web.archive.org/web/20240312/www.uol.com.br
+[INFO - 2026-01-25 12:58:50,248] [13] 124 links found in https://web.archive.org/web/20240313/www.uol.com.br
+[INFO - 2026-01-25 12:58:55,475] [14] 120 links found in https://web.archive.org/web/20240314/www.uol.com.br
+[INFO - 2026-01-25 12:58:59,981] [15] 134 links found in https://web.archive.org/web/20240315/www.uol.com.br
+[INFO - 2026-01-25 12:59:08,280] [16] 128 links found in https://web.archive.org/web/20240316/www.uol.com.br
+[INFO - 2026-01-25 12:59:14,521] [17] 131 links found in https://web.archive.org/web/20240317/www.uol.com.br
+[INFO - 2026-01-25 12:59:28,657] [18] 130 links found in https://web.archive.org/web/20240318/www.uol.com.br
+[INFO - 2026-01-25 12:59:34,967] [19] 126 links found in https://web.archive.org/web/20240319/www.uol.com.br
+[INFO - 2026-01-25 12:59:41,557] [20] 138 links found in https://web.archive.org/web/20240320/www.uol.com.br
+[INFO - 2026-01-25 12:59:51,378] [21] 126 links found in https://web.archive.org/web/20240321/www.uol.com.br
+[INFO - 2026-01-25 12:59:58,757] [22] 131 links found in https://web.archive.org/web/20240322/www.uol.com.br
+[INFO - 2026-01-25 13:00:05,418] [23] 131 links found in https://web.archive.org/web/20240323/www.uol.com.br
+[INFO - 2026-01-25 13:00:22,414] [24] 142 links found in https://web.archive.org/web/20240324/www.uol.com.br
+[WARNING - 2026-01-25 13:00:22,736] ConnectionError for https://web.archive.org/web/20240325/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 13:01:17,310] [25] 126 links found in https://web.archive.org/web/20240325/www.uol.com.br
+[INFO - 2026-01-25 13:01:28,973] [26] 138 links found in https://web.archive.org/web/20240326/www.uol.com.br
+[INFO - 2026-01-25 13:01:45,777] [27] 130 links found in https://web.archive.org/web/20240327/www.uol.com.br
+[INFO - 2026-01-25 13:01:56,144] [28] 124 links found in https://web.archive.org/web/20240328/www.uol.com.br
+[WARNING - 2026-01-25 13:02:22,614] ReadTimeout for https://web.archive.org/web/20240329/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:03:18,791] ReadTimeout for https://web.archive.org/web/20240329/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 13:03:53,639] [29] 120 links found in https://web.archive.org/web/20240329/www.uol.com.br
+[INFO - 2026-01-25 13:04:03,294] [30] 118 links found in https://web.archive.org/web/20240330/www.uol.com.br
+[INFO - 2026-01-25 13:04:16,026] [31] 137 links found in https://web.archive.org/web/20240331/www.uol.com.br
+[INFO - 2026-01-25 13:04:16,026] Loss rate: 0/31
+[INFO - 2026-01-25 13:04:16,026] Total links found: 3978
+[INFO - 2026-01-25 13:04:16,026] Month 3 processing time: 8.62min
+[INFO - 2026-01-25 13:04:16,026] 
+[INFO - 2026-01-25 13:04:16,026] Month 4 (30 links to precess):
+[WARNING - 2026-01-25 13:04:42,957] ReadTimeout for https://web.archive.org/web/20240401/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:05:46,861] ReadTimeout for https://web.archive.org/web/20240401/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 13:06:23,825] [1] 124 links found in https://web.archive.org/web/20240401/www.uol.com.br
+[INFO - 2026-01-25 13:06:42,760] [2] 127 links found in https://web.archive.org/web/20240402/www.uol.com.br
+[INFO - 2026-01-25 13:06:49,531] [3] 127 links found in https://web.archive.org/web/20240403/www.uol.com.br
+[INFO - 2026-01-25 13:06:58,499] [4] 132 links found in https://web.archive.org/web/20240404/www.uol.com.br
+[WARNING - 2026-01-25 13:07:25,365] ReadTimeout for https://web.archive.org/web/20240405/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:08:26,449] ReadTimeout for https://web.archive.org/web/20240405/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 13:09:01,183] [5] 130 links found in https://web.archive.org/web/20240405/www.uol.com.br
+[INFO - 2026-01-25 13:09:12,242] [6] 132 links found in https://web.archive.org/web/20240406/www.uol.com.br
+[INFO - 2026-01-25 13:09:24,632] [7] 128 links found in https://web.archive.org/web/20240407/www.uol.com.br
+[INFO - 2026-01-25 13:09:32,823] [8] 126 links found in https://web.archive.org/web/20240408/www.uol.com.br
+[INFO - 2026-01-25 13:09:42,517] [9] 123 links found in https://web.archive.org/web/20240409/www.uol.com.br
+[INFO - 2026-01-25 13:09:48,399] [10] 136 links found in https://web.archive.org/web/20240410/www.uol.com.br
+[INFO - 2026-01-25 13:09:52,077] [11] 130 links found in https://web.archive.org/web/20240411/www.uol.com.br
+[WARNING - 2026-01-25 13:10:24,572] ReadTimeout for https://web.archive.org/web/20240412/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 13:10:58,845] [12] 131 links found in https://web.archive.org/web/20240412/www.uol.com.br
+[INFO - 2026-01-25 13:11:07,955] [13] 128 links found in https://web.archive.org/web/20240413/www.uol.com.br
+[INFO - 2026-01-25 13:11:36,732] [14] 139 links found in https://web.archive.org/web/20240414/www.uol.com.br
+[INFO - 2026-01-25 13:11:42,789] [15] 128 links found in https://web.archive.org/web/20240415/www.uol.com.br
+[INFO - 2026-01-25 13:11:48,547] [16] 135 links found in https://web.archive.org/web/20240416/www.uol.com.br
+[INFO - 2026-01-25 13:12:03,153] [17] 135 links found in https://web.archive.org/web/20240417/www.uol.com.br
+[INFO - 2026-01-25 13:12:10,570] [18] 125 links found in https://web.archive.org/web/20240418/www.uol.com.br
+[INFO - 2026-01-25 13:12:15,446] [19] 128 links found in https://web.archive.org/web/20240419/www.uol.com.br
+[INFO - 2026-01-25 13:12:32,981] [20] 119 links found in https://web.archive.org/web/20240420/www.uol.com.br
+[INFO - 2026-01-25 13:12:43,211] [21] 122 links found in https://web.archive.org/web/20240421/www.uol.com.br
+[WARNING - 2026-01-25 13:13:20,394] ReadTimeout for https://web.archive.org/web/20240422/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 13:13:55,491] [22] 130 links found in https://web.archive.org/web/20240422/www.uol.com.br
+[WARNING - 2026-01-25 13:14:21,733] ReadTimeout for https://web.archive.org/web/20240423/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 13:14:54,874] [23] 123 links found in https://web.archive.org/web/20240423/www.uol.com.br
+[INFO - 2026-01-25 13:15:00,711] [24] 127 links found in https://web.archive.org/web/20240424/www.uol.com.br
+[INFO - 2026-01-25 13:15:17,403] [25] 131 links found in https://web.archive.org/web/20240425/www.uol.com.br
+[INFO - 2026-01-25 13:15:24,015] [26] 123 links found in https://web.archive.org/web/20240426/www.uol.com.br
+[INFO - 2026-01-25 13:15:55,907] [27] 127 links found in https://web.archive.org/web/20240427/www.uol.com.br
+[INFO - 2026-01-25 13:16:09,220] [28] 130 links found in https://web.archive.org/web/20240428/www.uol.com.br
+[WARNING - 2026-01-25 13:16:35,572] ReadTimeout for https://web.archive.org/web/20240429/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:17:31,256] ReadTimeout for https://web.archive.org/web/20240429/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 13:18:05,260] [29] 124 links found in https://web.archive.org/web/20240429/www.uol.com.br
+[INFO - 2026-01-25 13:18:11,068] [30] 122 links found in https://web.archive.org/web/20240430/www.uol.com.br
+[INFO - 2026-01-25 13:18:11,069] Loss rate: 0/30
+[INFO - 2026-01-25 13:18:11,069] Total links found: 3842
+[INFO - 2026-01-25 13:18:11,070] Month 4 processing time: 13.92min
+[INFO - 2026-01-25 13:18:11,070] 
+[INFO - 2026-01-25 13:18:11,070] Month 5 (31 links to precess):
+[INFO - 2026-01-25 13:18:18,661] [1] 130 links found in https://web.archive.org/web/20240501/www.uol.com.br
+[INFO - 2026-01-25 13:18:24,829] [2] 127 links found in https://web.archive.org/web/20240502/www.uol.com.br
+[INFO - 2026-01-25 13:18:46,429] [3] 129 links found in https://web.archive.org/web/20240503/www.uol.com.br
+[WARNING - 2026-01-25 13:19:12,679] ReadTimeout for https://web.archive.org/web/20240504/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:20:08,488] ReadTimeout for https://web.archive.org/web/20240504/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 13:21:04,135] ReadTimeout for https://web.archive.org/web/20240504/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 13:21:34,139] Failed to connect with https://web.archive.org/web/20240504/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 13:21:37,947] [5] 126 links found in https://web.archive.org/web/20240505/www.uol.com.br
+[WARNING - 2026-01-25 13:22:04,501] ReadTimeout for https://web.archive.org/web/20240506/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:23:00,185] ReadTimeout for https://web.archive.org/web/20240506/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 13:23:55,952] ReadTimeout for https://web.archive.org/web/20240506/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 13:24:25,957] Failed to connect with https://web.archive.org/web/20240506/www.uol.com.br after 3 attempts, skipping...
+[WARNING - 2026-01-25 13:24:52,641] ReadTimeout for https://web.archive.org/web/20240507/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:25:48,330] ReadTimeout for https://web.archive.org/web/20240507/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 13:26:22,518] [7] 135 links found in https://web.archive.org/web/20240507/www.uol.com.br
+[INFO - 2026-01-25 13:26:33,460] [8] 127 links found in https://web.archive.org/web/20240508/www.uol.com.br
+[WARNING - 2026-01-25 13:27:00,632] ReadTimeout for https://web.archive.org/web/20240509/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:27:56,445] ReadTimeout for https://web.archive.org/web/20240509/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 13:28:32,758] [9] 120 links found in https://web.archive.org/web/20240509/www.uol.com.br
+[INFO - 2026-01-25 13:28:42,789] [10] 131 links found in https://web.archive.org/web/20240510/www.uol.com.br
+[INFO - 2026-01-25 13:28:50,571] [11] 124 links found in https://web.archive.org/web/20240511/www.uol.com.br
+[INFO - 2026-01-25 13:28:59,995] [12] 126 links found in https://web.archive.org/web/20240512/www.uol.com.br
+[INFO - 2026-01-25 13:29:11,571] [13] 127 links found in https://web.archive.org/web/20240513/www.uol.com.br
+[INFO - 2026-01-25 13:29:26,720] [14] 129 links found in https://web.archive.org/web/20240514/www.uol.com.br
+[INFO - 2026-01-25 13:29:32,862] [15] 125 links found in https://web.archive.org/web/20240515/www.uol.com.br
+[INFO - 2026-01-25 13:29:44,641] [16] 128 links found in https://web.archive.org/web/20240516/www.uol.com.br
+[INFO - 2026-01-25 13:29:52,833] [17] 128 links found in https://web.archive.org/web/20240517/www.uol.com.br
+[INFO - 2026-01-25 13:29:59,505] [18] 122 links found in https://web.archive.org/web/20240518/www.uol.com.br
+[INFO - 2026-01-25 13:30:03,375] [19] 131 links found in https://web.archive.org/web/20240519/www.uol.com.br
+[INFO - 2026-01-25 13:30:08,907] [20] 130 links found in https://web.archive.org/web/20240520/www.uol.com.br
+[INFO - 2026-01-25 13:30:32,458] [21] 133 links found in https://web.archive.org/web/20240521/www.uol.com.br
+[INFO - 2026-01-25 13:30:42,505] [22] 133 links found in https://web.archive.org/web/20240522/www.uol.com.br
+[INFO - 2026-01-25 13:30:49,453] [23] 131 links found in https://web.archive.org/web/20240523/www.uol.com.br
+[INFO - 2026-01-25 13:30:54,850] [24] 122 links found in https://web.archive.org/web/20240524/www.uol.com.br
+[INFO - 2026-01-25 13:31:10,858] [25] 129 links found in https://web.archive.org/web/20240525/www.uol.com.br
+[INFO - 2026-01-25 13:31:32,261] [26] 123 links found in https://web.archive.org/web/20240526/www.uol.com.br
+[INFO - 2026-01-25 13:31:38,009] [27] 125 links found in https://web.archive.org/web/20240527/www.uol.com.br
+[WARNING - 2026-01-25 13:31:38,218] ConnectionError for https://web.archive.org/web/20240528/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:32:34,569] ReadTimeout for https://web.archive.org/web/20240528/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 13:33:08,620] [28] 122 links found in https://web.archive.org/web/20240528/www.uol.com.br
+[INFO - 2026-01-25 13:33:13,695] [29] 126 links found in https://web.archive.org/web/20240529/www.uol.com.br
+[INFO - 2026-01-25 13:33:22,440] [30] 125 links found in https://web.archive.org/web/20240530/www.uol.com.br
+[INFO - 2026-01-25 13:33:27,227] [31] 126 links found in https://web.archive.org/web/20240531/www.uol.com.br
+[INFO - 2026-01-25 13:33:27,228] Loss rate: 2/31
+[INFO - 2026-01-25 13:33:27,228] Total links found: 3690
+[INFO - 2026-01-25 13:33:27,229] Month 5 processing time: 15.27min
+[INFO - 2026-01-25 13:33:27,229] 
+[INFO - 2026-01-25 13:33:27,229] Month 6 (30 links to precess):
+[INFO - 2026-01-25 13:33:33,348] [1] 132 links found in https://web.archive.org/web/20240601/www.uol.com.br
+[INFO - 2026-01-25 13:33:45,942] [2] 121 links found in https://web.archive.org/web/20240602/www.uol.com.br
+[INFO - 2026-01-25 13:33:59,082] [3] 120 links found in https://web.archive.org/web/20240603/www.uol.com.br
+[WARNING - 2026-01-25 13:34:25,603] ReadTimeout for https://web.archive.org/web/20240604/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 13:34:58,793] [4] 134 links found in https://web.archive.org/web/20240604/www.uol.com.br
+[WARNING - 2026-01-25 13:35:25,100] ReadTimeout for https://web.archive.org/web/20240605/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:36:21,010] ReadTimeout for https://web.archive.org/web/20240605/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 13:36:54,462] [5] 130 links found in https://web.archive.org/web/20240605/www.uol.com.br
+[WARNING - 2026-01-25 13:37:21,217] ReadTimeout for https://web.archive.org/web/20240606/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 13:37:54,467] [6] 120 links found in https://web.archive.org/web/20240606/www.uol.com.br
+[INFO - 2026-01-25 13:37:58,357] [7] 128 links found in https://web.archive.org/web/20240607/www.uol.com.br
+[INFO - 2026-01-25 13:38:24,620] [8] 123 links found in https://web.archive.org/web/20240608/www.uol.com.br
+[WARNING - 2026-01-25 13:38:50,593] ReadTimeout for https://web.archive.org/web/20240609/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:39:46,211] ReadTimeout for https://web.archive.org/web/20240609/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 13:40:19,570] [9] 120 links found in https://web.archive.org/web/20240609/www.uol.com.br
+[INFO - 2026-01-25 13:40:23,814] [10] 116 links found in https://web.archive.org/web/20240610/www.uol.com.br
+[WARNING - 2026-01-25 13:40:50,015] ReadTimeout for https://web.archive.org/web/20240611/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:41:45,718] ReadTimeout for https://web.archive.org/web/20240611/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 13:42:41,362] ReadTimeout for https://web.archive.org/web/20240611/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 13:43:11,363] Failed to connect with https://web.archive.org/web/20240611/www.uol.com.br after 3 attempts, skipping...
+[WARNING - 2026-01-25 13:43:37,383] ReadTimeout for https://web.archive.org/web/20240612/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:44:33,068] ReadTimeout for https://web.archive.org/web/20240612/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 13:45:28,726] ReadTimeout for https://web.archive.org/web/20240612/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 13:45:58,730] Failed to connect with https://web.archive.org/web/20240612/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 13:46:06,388] [13] 130 links found in https://web.archive.org/web/20240613/www.uol.com.br
+[INFO - 2026-01-25 13:46:12,842] [14] 125 links found in https://web.archive.org/web/20240614/www.uol.com.br
+[INFO - 2026-01-25 13:46:16,610] [15] 130 links found in https://web.archive.org/web/20240615/www.uol.com.br
+[INFO - 2026-01-25 13:46:23,452] [16] 125 links found in https://web.archive.org/web/20240616/www.uol.com.br
+[WARNING - 2026-01-25 13:46:49,786] ReadTimeout for https://web.archive.org/web/20240617/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:47:45,647] ReadTimeout for https://web.archive.org/web/20240617/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 13:48:41,291] ReadTimeout for https://web.archive.org/web/20240617/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 13:49:11,293] Failed to connect with https://web.archive.org/web/20240617/www.uol.com.br after 3 attempts, skipping...
+[WARNING - 2026-01-25 13:49:38,901] ReadTimeout for https://web.archive.org/web/20240618/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:50:34,571] ReadTimeout for https://web.archive.org/web/20240618/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 13:51:30,230] ReadTimeout for https://web.archive.org/web/20240618/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 13:52:00,231] Failed to connect with https://web.archive.org/web/20240618/www.uol.com.br after 3 attempts, skipping...
+[WARNING - 2026-01-25 13:52:27,040] ReadTimeout for https://web.archive.org/web/20240619/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:53:22,845] ReadTimeout for https://web.archive.org/web/20240619/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 13:53:55,992] [19] 136 links found in https://web.archive.org/web/20240619/www.uol.com.br
+[INFO - 2026-01-25 13:54:00,475] [20] 130 links found in https://web.archive.org/web/20240620/www.uol.com.br
+[WARNING - 2026-01-25 13:54:26,851] ReadTimeout for https://web.archive.org/web/20240621/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:55:22,503] ReadTimeout for https://web.archive.org/web/20240621/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 13:55:57,674] [21] 120 links found in https://web.archive.org/web/20240621/www.uol.com.br
+[WARNING - 2026-01-25 13:56:23,989] ReadTimeout for https://web.archive.org/web/20240622/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:57:19,663] ReadTimeout for https://web.archive.org/web/20240622/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 13:57:52,677] [22] 120 links found in https://web.archive.org/web/20240622/www.uol.com.br
+[INFO - 2026-01-25 13:58:06,972] [23] 121 links found in https://web.archive.org/web/20240623/www.uol.com.br
+[WARNING - 2026-01-25 13:58:33,216] ReadTimeout for https://web.archive.org/web/20240624/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 13:59:29,126] ReadTimeout for https://web.archive.org/web/20240624/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 14:00:25,344] ReadTimeout for https://web.archive.org/web/20240624/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 14:00:55,349] Failed to connect with https://web.archive.org/web/20240624/www.uol.com.br after 3 attempts, skipping...
+[WARNING - 2026-01-25 14:01:23,226] ReadTimeout for https://web.archive.org/web/20240625/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:02:18,868] ReadTimeout for https://web.archive.org/web/20240625/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 14:03:14,715] ReadTimeout for https://web.archive.org/web/20240625/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 14:03:44,719] Failed to connect with https://web.archive.org/web/20240625/www.uol.com.br after 3 attempts, skipping...
+[WARNING - 2026-01-25 14:04:11,705] ReadTimeout for https://web.archive.org/web/20240626/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:05:07,553] ReadTimeout for https://web.archive.org/web/20240626/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 14:06:03,233] ReadTimeout for https://web.archive.org/web/20240626/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 14:06:33,237] Failed to connect with https://web.archive.org/web/20240626/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 14:06:53,096] [27] 126 links found in https://web.archive.org/web/20240627/www.uol.com.br
+[INFO - 2026-01-25 14:07:16,405] [28] 127 links found in https://web.archive.org/web/20240628/www.uol.com.br
+[INFO - 2026-01-25 14:07:29,898] [29] 126 links found in https://web.archive.org/web/20240629/www.uol.com.br
+[INFO - 2026-01-25 14:07:43,580] [30] 131 links found in https://web.archive.org/web/20240630/www.uol.com.br
+[INFO - 2026-01-25 14:07:43,581] Loss rate: 7/30
+[INFO - 2026-01-25 14:07:43,581] Total links found: 2891
+[INFO - 2026-01-25 14:07:43,581] Month 6 processing time: 34.27min
+[INFO - 2026-01-25 14:07:43,581] 
+[INFO - 2026-01-25 14:07:43,581] Month 7 (31 links to precess):
+[WARNING - 2026-01-25 14:08:10,540] ReadTimeout for https://web.archive.org/web/20240701/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:09:06,376] ReadTimeout for https://web.archive.org/web/20240701/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 14:09:40,107] [1] 123 links found in https://web.archive.org/web/20240701/www.uol.com.br
+[INFO - 2026-01-25 14:09:47,478] [2] 127 links found in https://web.archive.org/web/20240702/www.uol.com.br
+[WARNING - 2026-01-25 14:10:13,885] ReadTimeout for https://web.archive.org/web/20240703/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 14:10:49,312] [3] 118 links found in https://web.archive.org/web/20240703/www.uol.com.br
+[WARNING - 2026-01-25 14:11:17,008] ReadTimeout for https://web.archive.org/web/20240704/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:12:12,798] ReadTimeout for https://web.archive.org/web/20240704/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 14:13:08,442] ReadTimeout for https://web.archive.org/web/20240704/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 14:13:38,447] Failed to connect with https://web.archive.org/web/20240704/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 14:13:53,418] [5] 125 links found in https://web.archive.org/web/20240705/www.uol.com.br
+[WARNING - 2026-01-25 14:14:21,520] ReadTimeout for https://web.archive.org/web/20240706/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 14:14:57,924] [6] 131 links found in https://web.archive.org/web/20240706/www.uol.com.br
+[WARNING - 2026-01-25 14:15:24,885] ReadTimeout for https://web.archive.org/web/20240707/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:16:20,543] ReadTimeout for https://web.archive.org/web/20240707/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 14:16:57,323] [7] 132 links found in https://web.archive.org/web/20240707/www.uol.com.br
+[WARNING - 2026-01-25 14:17:25,749] ReadTimeout for https://web.archive.org/web/20240708/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:18:21,628] ReadTimeout for https://web.archive.org/web/20240708/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 14:18:56,928] [8] 130 links found in https://web.archive.org/web/20240708/www.uol.com.br
+[WARNING - 2026-01-25 14:19:24,470] ReadTimeout for https://web.archive.org/web/20240709/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:20:20,208] ReadTimeout for https://web.archive.org/web/20240709/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 14:21:16,029] ReadTimeout for https://web.archive.org/web/20240709/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 14:21:46,033] Failed to connect with https://web.archive.org/web/20240709/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 14:21:58,370] [10] 132 links found in https://web.archive.org/web/20240710/www.uol.com.br
+[INFO - 2026-01-25 14:22:12,511] [11] 126 links found in https://web.archive.org/web/20240711/www.uol.com.br
+[INFO - 2026-01-25 14:22:24,996] [12] 122 links found in https://web.archive.org/web/20240712/www.uol.com.br
+[INFO - 2026-01-25 14:22:33,292] [13] 120 links found in https://web.archive.org/web/20240713/www.uol.com.br
+[INFO - 2026-01-25 14:22:41,387] [14] 136 links found in https://web.archive.org/web/20240714/www.uol.com.br
+[WARNING - 2026-01-25 14:23:08,201] ReadTimeout for https://web.archive.org/web/20240715/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:24:03,846] ReadTimeout for https://web.archive.org/web/20240715/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 14:24:37,191] [15] 124 links found in https://web.archive.org/web/20240715/www.uol.com.br
+[WARNING - 2026-01-25 14:25:03,516] ReadTimeout for https://web.archive.org/web/20240716/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:25:59,195] ReadTimeout for https://web.archive.org/web/20240716/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 14:26:54,839] ReadTimeout for https://web.archive.org/web/20240716/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 14:27:24,840] Failed to connect with https://web.archive.org/web/20240716/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 14:27:44,626] [17] 126 links found in https://web.archive.org/web/20240717/www.uol.com.br
+[INFO - 2026-01-25 14:27:50,112] [18] 123 links found in https://web.archive.org/web/20240718/www.uol.com.br
+[INFO - 2026-01-25 14:28:09,870] [19] 123 links found in https://web.archive.org/web/20240719/www.uol.com.br
+[INFO - 2026-01-25 14:28:18,884] [20] 118 links found in https://web.archive.org/web/20240720/www.uol.com.br
+[INFO - 2026-01-25 14:28:31,079] [21] 132 links found in https://web.archive.org/web/20240721/www.uol.com.br
+[WARNING - 2026-01-25 14:28:57,363] ReadTimeout for https://web.archive.org/web/20240722/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 14:29:31,645] [22] 124 links found in https://web.archive.org/web/20240722/www.uol.com.br
+[INFO - 2026-01-25 14:29:50,941] [23] 117 links found in https://web.archive.org/web/20240723/www.uol.com.br
+[INFO - 2026-01-25 14:29:56,871] [24] 120 links found in https://web.archive.org/web/20240724/www.uol.com.br
+[INFO - 2026-01-25 14:30:09,682] [25] 132 links found in https://web.archive.org/web/20240725/www.uol.com.br
+[INFO - 2026-01-25 14:30:28,090] [26] 115 links found in https://web.archive.org/web/20240726/www.uol.com.br
+[WARNING - 2026-01-25 14:30:54,665] ReadTimeout for https://web.archive.org/web/20240727/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:31:50,329] ReadTimeout for https://web.archive.org/web/20240727/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 14:32:46,057] ReadTimeout for https://web.archive.org/web/20240727/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 14:33:16,062] Failed to connect with https://web.archive.org/web/20240727/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 14:33:29,053] [28] 124 links found in https://web.archive.org/web/20240728/www.uol.com.br
+[WARNING - 2026-01-25 14:33:55,828] ReadTimeout for https://web.archive.org/web/20240729/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:34:51,519] ReadTimeout for https://web.archive.org/web/20240729/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 14:35:25,585] [29] 127 links found in https://web.archive.org/web/20240729/www.uol.com.br
+[INFO - 2026-01-25 14:35:31,829] [30] 132 links found in https://web.archive.org/web/20240730/www.uol.com.br
+[INFO - 2026-01-25 14:35:38,608] [31] 124 links found in https://web.archive.org/web/20240731/www.uol.com.br
+[INFO - 2026-01-25 14:35:38,608] Loss rate: 4/31
+[INFO - 2026-01-25 14:35:38,608] Total links found: 3383
+[INFO - 2026-01-25 14:35:38,608] Month 7 processing time: 27.92min
+[INFO - 2026-01-25 14:35:38,608] 
+[INFO - 2026-01-25 14:35:38,609] Month 8 (31 links to precess):
+[WARNING - 2026-01-25 14:36:05,239] ReadTimeout for https://web.archive.org/web/20240801/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:37:01,046] ReadTimeout for https://web.archive.org/web/20240801/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 14:37:34,806] [1] 122 links found in https://web.archive.org/web/20240801/www.uol.com.br
+[INFO - 2026-01-25 14:37:53,219] [2] 122 links found in https://web.archive.org/web/20240802/www.uol.com.br
+[INFO - 2026-01-25 14:38:08,494] [3] 132 links found in https://web.archive.org/web/20240803/www.uol.com.br
+[INFO - 2026-01-25 14:38:41,357] [4] 129 links found in https://web.archive.org/web/20240804/www.uol.com.br
+[INFO - 2026-01-25 14:38:48,644] [5] 129 links found in https://web.archive.org/web/20240805/www.uol.com.br
+[INFO - 2026-01-25 14:38:58,154] [6] 127 links found in https://web.archive.org/web/20240806/www.uol.com.br
+[INFO - 2026-01-25 14:39:03,053] [7] 129 links found in https://web.archive.org/web/20240807/www.uol.com.br
+[INFO - 2026-01-25 14:39:19,663] [8] 130 links found in https://web.archive.org/web/20240808/www.uol.com.br
+[INFO - 2026-01-25 14:39:31,025] [9] 130 links found in https://web.archive.org/web/20240809/www.uol.com.br
+[WARNING - 2026-01-25 14:39:57,478] ReadTimeout for https://web.archive.org/web/20240810/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 14:40:30,910] [10] 117 links found in https://web.archive.org/web/20240810/www.uol.com.br
+[INFO - 2026-01-25 14:40:36,044] [11] 131 links found in https://web.archive.org/web/20240811/www.uol.com.br
+[WARNING - 2026-01-25 14:41:02,500] ReadTimeout for https://web.archive.org/web/20240812/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:41:58,131] ReadTimeout for https://web.archive.org/web/20240812/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 14:42:54,013] ReadTimeout for https://web.archive.org/web/20240812/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 14:43:24,022] Failed to connect with https://web.archive.org/web/20240812/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 14:43:32,701] [13] 123 links found in https://web.archive.org/web/20240813/www.uol.com.br
+[INFO - 2026-01-25 14:43:40,149] [14] 122 links found in https://web.archive.org/web/20240814/www.uol.com.br
+[WARNING - 2026-01-25 14:44:06,501] ReadTimeout for https://web.archive.org/web/20240815/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:45:02,218] ReadTimeout for https://web.archive.org/web/20240815/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 14:45:36,686] [15] 119 links found in https://web.archive.org/web/20240815/www.uol.com.br
+[WARNING - 2026-01-25 14:46:04,062] ReadTimeout for https://web.archive.org/web/20240816/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 14:46:40,059] [16] 118 links found in https://web.archive.org/web/20240816/www.uol.com.br
+[INFO - 2026-01-25 14:46:47,633] [17] 122 links found in https://web.archive.org/web/20240817/www.uol.com.br
+[INFO - 2026-01-25 14:47:02,150] [18] 118 links found in https://web.archive.org/web/20240818/www.uol.com.br
+[WARNING - 2026-01-25 14:47:30,794] ReadTimeout for https://web.archive.org/web/20240819/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 14:48:06,242] [19] 122 links found in https://web.archive.org/web/20240819/www.uol.com.br
+[INFO - 2026-01-25 14:48:21,544] [20] 122 links found in https://web.archive.org/web/20240820/www.uol.com.br
+[INFO - 2026-01-25 14:48:37,855] [21] 118 links found in https://web.archive.org/web/20240821/www.uol.com.br
+[INFO - 2026-01-25 14:48:47,141] [22] 135 links found in https://web.archive.org/web/20240822/www.uol.com.br
+[INFO - 2026-01-25 14:48:55,322] [23] 118 links found in https://web.archive.org/web/20240823/www.uol.com.br
+[INFO - 2026-01-25 14:49:03,309] [24] 119 links found in https://web.archive.org/web/20240824/www.uol.com.br
+[INFO - 2026-01-25 14:49:11,911] [25] 122 links found in https://web.archive.org/web/20240825/www.uol.com.br
+[WARNING - 2026-01-25 14:49:40,432] ReadTimeout for https://web.archive.org/web/20240826/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 14:50:31,675] [26] 128 links found in https://web.archive.org/web/20240826/www.uol.com.br
+[WARNING - 2026-01-25 14:50:59,788] ReadTimeout for https://web.archive.org/web/20240827/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 14:51:46,037] [27] 125 links found in https://web.archive.org/web/20240827/www.uol.com.br
+[INFO - 2026-01-25 14:51:59,286] [28] 127 links found in https://web.archive.org/web/20240828/www.uol.com.br
+[WARNING - 2026-01-25 14:52:27,810] ReadTimeout for https://web.archive.org/web/20240829/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 14:53:09,848] [29] 122 links found in https://web.archive.org/web/20240829/www.uol.com.br
+[INFO - 2026-01-25 14:53:20,443] [30] 120 links found in https://web.archive.org/web/20240830/www.uol.com.br
+[WARNING - 2026-01-25 14:53:48,964] ReadTimeout for https://web.archive.org/web/20240831/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 14:54:44,673] ReadTimeout for https://web.archive.org/web/20240831/www.uol.com.br (attempt 2)
+[WARNING - 2026-01-25 14:55:40,361] ReadTimeout for https://web.archive.org/web/20240831/www.uol.com.br (attempt 3)
+[ERROR - 2026-01-25 14:56:10,365] Failed to connect with https://web.archive.org/web/20240831/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 14:56:10,365] Loss rate: 2/31
+[INFO - 2026-01-25 14:56:10,366] Total links found: 3598
+[INFO - 2026-01-25 14:56:10,366] Month 8 processing time: 20.53min
+[INFO - 2026-01-25 14:56:10,366] 
+[INFO - 2026-01-25 14:56:10,367] ==> Year 2025:
+[INFO - 2026-01-25 14:56:10,368] Month 1 (31 links to precess):
+[INFO - 2026-01-25 14:56:18,519] [1] 101 links found in https://web.archive.org/web/20250101/www.uol.com.br
+[INFO - 2026-01-25 14:56:29,574] [2] 105 links found in https://web.archive.org/web/20250102/www.uol.com.br
+[INFO - 2026-01-25 14:56:58,449] [3] 110 links found in https://web.archive.org/web/20250103/www.uol.com.br
+[WARNING - 2026-01-25 14:57:27,468] ReadTimeout for https://web.archive.org/web/20250104/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 14:58:03,591] [4] 106 links found in https://web.archive.org/web/20250104/www.uol.com.br
+[INFO - 2026-01-25 14:58:11,157] [5] 113 links found in https://web.archive.org/web/20250105/www.uol.com.br
+[INFO - 2026-01-25 14:58:22,424] [6] 117 links found in https://web.archive.org/web/20250106/www.uol.com.br
+[INFO - 2026-01-25 14:58:32,606] [7] 114 links found in https://web.archive.org/web/20250107/www.uol.com.br
+[INFO - 2026-01-25 14:58:40,807] [8] 114 links found in https://web.archive.org/web/20250108/www.uol.com.br
+[INFO - 2026-01-25 14:58:49,080] [9] 124 links found in https://web.archive.org/web/20250109/www.uol.com.br
+[INFO - 2026-01-25 14:58:58,044] [10] 127 links found in https://web.archive.org/web/20250110/www.uol.com.br
+[WARNING - 2026-01-25 14:59:27,058] ReadTimeout for https://web.archive.org/web/20250111/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 15:00:26,113] [11] 127 links found in https://web.archive.org/web/20250111/www.uol.com.br
+[INFO - 2026-01-25 15:00:43,515] [12] 118 links found in https://web.archive.org/web/20250112/www.uol.com.br
+[INFO - 2026-01-25 15:00:58,271] [13] 120 links found in https://web.archive.org/web/20250113/www.uol.com.br
+[INFO - 2026-01-25 15:01:11,171] [14] 119 links found in https://web.archive.org/web/20250114/www.uol.com.br
+[INFO - 2026-01-25 15:01:30,633] [15] 135 links found in https://web.archive.org/web/20250115/www.uol.com.br
+[WARNING - 2026-01-25 15:01:59,333] ReadTimeout for https://web.archive.org/web/20250116/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 15:02:34,379] [16] 133 links found in https://web.archive.org/web/20250116/www.uol.com.br
+[INFO - 2026-01-25 15:02:51,157] [17] 128 links found in https://web.archive.org/web/20250117/www.uol.com.br
+[INFO - 2026-01-25 15:03:14,049] [18] 126 links found in https://web.archive.org/web/20250118/www.uol.com.br
+[INFO - 2026-01-25 15:03:35,967] [19] 124 links found in https://web.archive.org/web/20250119/www.uol.com.br
+[INFO - 2026-01-25 15:03:50,064] [20] 131 links found in https://web.archive.org/web/20250120/www.uol.com.br
+[INFO - 2026-01-25 15:04:08,640] [21] 126 links found in https://web.archive.org/web/20250121/www.uol.com.br
+[INFO - 2026-01-25 15:04:25,736] [22] 122 links found in https://web.archive.org/web/20250122/www.uol.com.br
+[INFO - 2026-01-25 15:04:42,081] [23] 121 links found in https://web.archive.org/web/20250123/www.uol.com.br
+[INFO - 2026-01-25 15:04:59,420] [24] 123 links found in https://web.archive.org/web/20250124/www.uol.com.br
+[INFO - 2026-01-25 15:05:25,109] [25] 133 links found in https://web.archive.org/web/20250125/www.uol.com.br
+[INFO - 2026-01-25 15:05:43,451] [26] 131 links found in https://web.archive.org/web/20250126/www.uol.com.br
+[INFO - 2026-01-25 15:06:13,556] [27] 128 links found in https://web.archive.org/web/20250127/www.uol.com.br
+[INFO - 2026-01-25 15:06:23,897] [28] 121 links found in https://web.archive.org/web/20250128/www.uol.com.br
+[INFO - 2026-01-25 15:06:46,904] [29] 115 links found in https://web.archive.org/web/20250129/www.uol.com.br
+[WARNING - 2026-01-25 15:07:19,020] ReadTimeout for https://web.archive.org/web/20250130/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 15:07:50,835] [30] 126 links found in https://web.archive.org/web/20250130/www.uol.com.br
+[INFO - 2026-01-25 15:07:59,813] [31] 121 links found in https://web.archive.org/web/20250131/www.uol.com.br
+[INFO - 2026-01-25 15:07:59,814] Loss rate: 0/31
+[INFO - 2026-01-25 15:07:59,814] Total links found: 3759
+[INFO - 2026-01-25 15:07:59,815] Month 1 processing time: 11.82min
+[INFO - 2026-01-25 15:07:59,815] 
+[INFO - 2026-01-25 15:07:59,815] Month 2 (28 links to precess):
+[INFO - 2026-01-25 15:08:12,848] [1] 119 links found in https://web.archive.org/web/20250201/www.uol.com.br
+[INFO - 2026-01-25 15:08:22,157] [2] 128 links found in https://web.archive.org/web/20250202/www.uol.com.br
+[INFO - 2026-01-25 15:08:30,868] [3] 133 links found in https://web.archive.org/web/20250203/www.uol.com.br
+[INFO - 2026-01-25 15:08:40,879] [4] 121 links found in https://web.archive.org/web/20250204/www.uol.com.br
+[INFO - 2026-01-25 15:08:49,198] [5] 130 links found in https://web.archive.org/web/20250205/www.uol.com.br
+[INFO - 2026-01-25 15:08:58,002] [6] 122 links found in https://web.archive.org/web/20250206/www.uol.com.br
+[INFO - 2026-01-25 15:09:05,885] [7] 128 links found in https://web.archive.org/web/20250207/www.uol.com.br
+[INFO - 2026-01-25 15:09:12,752] [8] 128 links found in https://web.archive.org/web/20250208/www.uol.com.br
+[INFO - 2026-01-25 15:09:19,507] [9] 126 links found in https://web.archive.org/web/20250209/www.uol.com.br
+[INFO - 2026-01-25 15:09:27,048] [10] 128 links found in https://web.archive.org/web/20250210/www.uol.com.br
+[INFO - 2026-01-25 15:09:33,030] [11] 121 links found in https://web.archive.org/web/20250211/www.uol.com.br
+[INFO - 2026-01-25 15:09:39,578] [12] 116 links found in https://web.archive.org/web/20250212/www.uol.com.br
+[INFO - 2026-01-25 15:09:45,419] [13] 121 links found in https://web.archive.org/web/20250213/www.uol.com.br
+[INFO - 2026-01-25 15:09:51,178] [14] 120 links found in https://web.archive.org/web/20250214/www.uol.com.br
+[INFO - 2026-01-25 15:10:01,805] [15] 124 links found in https://web.archive.org/web/20250215/www.uol.com.br
+[INFO - 2026-01-25 15:10:11,684] [16] 118 links found in https://web.archive.org/web/20250216/www.uol.com.br
+[INFO - 2026-01-25 15:10:18,386] [17] 121 links found in https://web.archive.org/web/20250217/www.uol.com.br
+[WARNING - 2026-01-25 15:10:18,707] ConnectionError for https://web.archive.org/web/20250218/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 15:10:48,921] ConnectionError for https://web.archive.org/web/20250218/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 15:11:42,660] [18] 124 links found in https://web.archive.org/web/20250218/www.uol.com.br
+[WARNING - 2026-01-25 15:12:19,052] RequestException for https://web.archive.org/web/20250219/www.uol.com.br (attempt 1): Exceeded 30 redirects.
+
+[WARNING - 2026-01-25 15:12:57,427] RequestException for https://web.archive.org/web/20250219/www.uol.com.br (attempt 2): Exceeded 30 redirects.
+
+[WARNING - 2026-01-25 15:13:36,341] RequestException for https://web.archive.org/web/20250219/www.uol.com.br (attempt 3): Exceeded 30 redirects.
+
+[ERROR - 2026-01-25 15:14:06,346] Failed to connect with https://web.archive.org/web/20250219/www.uol.com.br after 3 attempts, skipping...
+[WARNING - 2026-01-25 15:14:36,260] ReadTimeout for https://web.archive.org/web/20250220/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 15:15:11,245] [20] 119 links found in https://web.archive.org/web/20250220/www.uol.com.br
+[INFO - 2026-01-25 15:15:37,772] [21] 123 links found in https://web.archive.org/web/20250221/www.uol.com.br
+[WARNING - 2026-01-25 15:16:06,677] ReadTimeout for https://web.archive.org/web/20250222/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 15:16:42,181] [22] 122 links found in https://web.archive.org/web/20250222/www.uol.com.br
+[WARNING - 2026-01-25 15:17:10,870] ReadTimeout for https://web.archive.org/web/20250223/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 15:18:06,688] ReadTimeout for https://web.archive.org/web/20250223/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 15:18:43,932] [23] 124 links found in https://web.archive.org/web/20250223/www.uol.com.br
+[WARNING - 2026-01-25 15:19:12,734] ReadTimeout for https://web.archive.org/web/20250224/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 15:19:48,490] [24] 111 links found in https://web.archive.org/web/20250224/www.uol.com.br
+[INFO - 2026-01-25 15:20:08,981] [25] 122 links found in https://web.archive.org/web/20250225/www.uol.com.br
+[INFO - 2026-01-25 15:20:21,904] [26] 123 links found in https://web.archive.org/web/20250226/www.uol.com.br
+[INFO - 2026-01-25 15:20:49,717] [27] 119 links found in https://web.archive.org/web/20250227/www.uol.com.br
+[INFO - 2026-01-25 15:21:11,985] [28] 129 links found in https://web.archive.org/web/20250228/www.uol.com.br
+[INFO - 2026-01-25 15:21:11,985] Loss rate: 1/28
+[INFO - 2026-01-25 15:21:11,985] Total links found: 3320
+[INFO - 2026-01-25 15:21:11,985] Month 2 processing time: 13.20min
+[INFO - 2026-01-25 15:21:11,985] 
+[INFO - 2026-01-25 15:21:11,985] Month 3 (31 links to precess):
+[INFO - 2026-01-25 15:21:28,218] [1] 119 links found in https://web.archive.org/web/20250301/www.uol.com.br
+[INFO - 2026-01-25 15:21:44,561] [2] 116 links found in https://web.archive.org/web/20250302/www.uol.com.br
+[INFO - 2026-01-25 15:21:57,157] [3] 133 links found in https://web.archive.org/web/20250303/www.uol.com.br
+[INFO - 2026-01-25 15:22:10,615] [4] 118 links found in https://web.archive.org/web/20250304/www.uol.com.br
+[INFO - 2026-01-25 15:22:20,590] [5] 128 links found in https://web.archive.org/web/20250305/www.uol.com.br
+[INFO - 2026-01-25 15:22:44,407] [6] 117 links found in https://web.archive.org/web/20250306/www.uol.com.br
+[INFO - 2026-01-25 15:23:04,626] [7] 122 links found in https://web.archive.org/web/20250307/www.uol.com.br
+[INFO - 2026-01-25 15:23:25,938] [8] 124 links found in https://web.archive.org/web/20250308/www.uol.com.br
+[INFO - 2026-01-25 15:23:35,155] [9] 119 links found in https://web.archive.org/web/20250309/www.uol.com.br
+[INFO - 2026-01-25 15:23:45,910] [10] 118 links found in https://web.archive.org/web/20250310/www.uol.com.br
+[INFO - 2026-01-25 15:23:57,066] [11] 121 links found in https://web.archive.org/web/20250311/www.uol.com.br
+[INFO - 2026-01-25 15:24:15,392] [12] 125 links found in https://web.archive.org/web/20250312/www.uol.com.br
+[WARNING - 2026-01-25 15:24:46,240] ReadTimeout for https://web.archive.org/web/20250313/www.uol.com.br (attempt 1)
+[WARNING - 2026-01-25 15:25:41,895] ReadTimeout for https://web.archive.org/web/20250313/www.uol.com.br (attempt 2)
+[INFO - 2026-01-25 15:26:18,377] [13] 128 links found in https://web.archive.org/web/20250313/www.uol.com.br
+[WARNING - 2026-01-25 15:26:53,619] RequestException for https://web.archive.org/web/20250314/www.uol.com.br (attempt 1): Exceeded 30 redirects.
+
+[WARNING - 2026-01-25 15:27:31,743] RequestException for https://web.archive.org/web/20250314/www.uol.com.br (attempt 2): Exceeded 30 redirects.
+
+[WARNING - 2026-01-25 15:28:10,417] RequestException for https://web.archive.org/web/20250314/www.uol.com.br (attempt 3): Exceeded 30 redirects.
+
+[ERROR - 2026-01-25 15:28:40,422] Failed to connect with https://web.archive.org/web/20250314/www.uol.com.br after 3 attempts, skipping...
+[INFO - 2026-01-25 15:29:11,392] [15] 120 links found in https://web.archive.org/web/20250315/www.uol.com.br
+[INFO - 2026-01-25 15:29:33,649] [16] 124 links found in https://web.archive.org/web/20250316/www.uol.com.br
+[INFO - 2026-01-25 15:29:45,403] [17] 127 links found in https://web.archive.org/web/20250317/www.uol.com.br
+[INFO - 2026-01-25 15:30:13,278] [18] 123 links found in https://web.archive.org/web/20250318/www.uol.com.br
+[INFO - 2026-01-25 15:30:30,687] [19] 123 links found in https://web.archive.org/web/20250319/www.uol.com.br
+[INFO - 2026-01-25 15:30:45,335] [20] 127 links found in https://web.archive.org/web/20250320/www.uol.com.br
+[INFO - 2026-01-25 15:31:03,858] [21] 123 links found in https://web.archive.org/web/20250321/www.uol.com.br
+[INFO - 2026-01-25 15:31:20,453] [22] 125 links found in https://web.archive.org/web/20250322/www.uol.com.br
+[INFO - 2026-01-25 15:31:47,382] [23] 111 links found in https://web.archive.org/web/20250323/www.uol.com.br
+[INFO - 2026-01-25 15:32:07,353] [24] 125 links found in https://web.archive.org/web/20250324/www.uol.com.br
+[INFO - 2026-01-25 15:32:34,354] [25] 122 links found in https://web.archive.org/web/20250325/www.uol.com.br
+[INFO - 2026-01-25 15:32:51,283] [26] 123 links found in https://web.archive.org/web/20250326/www.uol.com.br
+[INFO - 2026-01-25 15:33:07,762] [27] 122 links found in https://web.archive.org/web/20250327/www.uol.com.br
+[WARNING - 2026-01-25 15:33:36,509] ReadTimeout for https://web.archive.org/web/20250328/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 15:34:33,315] [28] 122 links found in https://web.archive.org/web/20250328/www.uol.com.br
+[INFO - 2026-01-25 15:34:53,744] [29] 126 links found in https://web.archive.org/web/20250329/www.uol.com.br
+[WARNING - 2026-01-25 15:35:24,297] ReadTimeout for https://web.archive.org/web/20250330/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 15:36:01,949] [30] 113 links found in https://web.archive.org/web/20250330/www.uol.com.br
+[WARNING - 2026-01-25 15:36:32,134] ReadTimeout for https://web.archive.org/web/20250331/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 15:37:09,734] [31] 116 links found in https://web.archive.org/web/20250331/www.uol.com.br
+[INFO - 2026-01-25 15:37:09,734] Loss rate: 1/31
+[INFO - 2026-01-25 15:37:09,734] Total links found: 3660
+[INFO - 2026-01-25 15:37:09,735] Month 3 processing time: 15.96min
+[INFO - 2026-01-25 15:37:09,735] 
+[INFO - 2026-01-25 15:37:09,735] Month 4 (30 links to precess):
+[INFO - 2026-01-25 15:37:25,807] [1] 124 links found in https://web.archive.org/web/20250401/www.uol.com.br
+[INFO - 2026-01-25 15:37:49,259] [2] 127 links found in https://web.archive.org/web/20250402/www.uol.com.br
+[INFO - 2026-01-25 15:38:03,489] [3] 118 links found in https://web.archive.org/web/20250403/www.uol.com.br
+[INFO - 2026-01-25 15:38:21,919] [4] 123 links found in https://web.archive.org/web/20250404/www.uol.com.br
+[INFO - 2026-01-25 15:38:50,865] [5] 123 links found in https://web.archive.org/web/20250405/www.uol.com.br
+[INFO - 2026-01-25 15:39:02,062] [6] 118 links found in https://web.archive.org/web/20250406/www.uol.com.br
+[INFO - 2026-01-25 15:39:30,121] [7] 124 links found in https://web.archive.org/web/20250407/www.uol.com.br
+[INFO - 2026-01-25 15:40:04,221] [8] 131 links found in https://web.archive.org/web/20250408/www.uol.com.br
+[INFO - 2026-01-25 15:40:22,087] [9] 123 links found in https://web.archive.org/web/20250409/www.uol.com.br
+[INFO - 2026-01-25 15:40:40,779] [10] 126 links found in https://web.archive.org/web/20250410/www.uol.com.br
+[INFO - 2026-01-25 15:40:57,552] [11] 126 links found in https://web.archive.org/web/20250411/www.uol.com.br
+[WARNING - 2026-01-25 15:41:25,559] ReadTimeout for https://web.archive.org/web/20250412/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 15:41:58,989] [12] 132 links found in https://web.archive.org/web/20250412/www.uol.com.br
+[INFO - 2026-01-25 15:42:21,948] [13] 120 links found in https://web.archive.org/web/20250413/www.uol.com.br
+[WARNING - 2026-01-25 15:42:49,118] ReadTimeout for https://web.archive.org/web/20250414/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 15:43:22,664] [14] 123 links found in https://web.archive.org/web/20250414/www.uol.com.br
+[INFO - 2026-01-25 15:43:31,644] [15] 117 links found in https://web.archive.org/web/20250415/www.uol.com.br
+[INFO - 2026-01-25 15:43:48,370] [16] 123 links found in https://web.archive.org/web/20250416/www.uol.com.br
+[INFO - 2026-01-25 15:43:57,999] [17] 116 links found in https://web.archive.org/web/20250417/www.uol.com.br
+[INFO - 2026-01-25 15:44:06,904] [18] 122 links found in https://web.archive.org/web/20250418/www.uol.com.br
+[INFO - 2026-01-25 15:44:23,186] [19] 116 links found in https://web.archive.org/web/20250419/www.uol.com.br
+[INFO - 2026-01-25 15:44:42,367] [20] 119 links found in https://web.archive.org/web/20250420/www.uol.com.br
+[INFO - 2026-01-25 15:45:01,178] [21] 134 links found in https://web.archive.org/web/20250421/www.uol.com.br
+[INFO - 2026-01-25 15:45:12,440] [22] 123 links found in https://web.archive.org/web/20250422/www.uol.com.br
+[INFO - 2026-01-25 15:45:29,547] [23] 118 links found in https://web.archive.org/web/20250423/www.uol.com.br
+[WARNING - 2026-01-25 15:45:57,803] ReadTimeout for https://web.archive.org/web/20250424/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 15:46:33,025] [24] 116 links found in https://web.archive.org/web/20250424/www.uol.com.br
+[INFO - 2026-01-25 15:46:51,861] [25] 114 links found in https://web.archive.org/web/20250425/www.uol.com.br
+[INFO - 2026-01-25 15:47:18,152] [26] 116 links found in https://web.archive.org/web/20250426/www.uol.com.br
+[INFO - 2026-01-25 15:47:32,503] [27] 112 links found in https://web.archive.org/web/20250427/www.uol.com.br
+[INFO - 2026-01-25 15:47:58,017] [28] 125 links found in https://web.archive.org/web/20250428/www.uol.com.br
+[INFO - 2026-01-25 15:48:26,781] [29] 118 links found in https://web.archive.org/web/20250429/www.uol.com.br
+[ERROR - 2026-01-25 15:48:37,146] Response status code != 200 for https://web.archive.org/web/20250430/www.uol.com.br (got 503), skipping...
+[INFO - 2026-01-25 15:48:37,152] Loss rate: 1/30
+[INFO - 2026-01-25 15:48:37,152] Total links found: 3527
+[INFO - 2026-01-25 15:48:37,152] Month 4 processing time: 11.46min
+[INFO - 2026-01-25 15:48:37,152] 
+[INFO - 2026-01-25 15:48:37,153] Month 5 (31 links to precess):
+[INFO - 2026-01-25 15:49:08,735] [1] 124 links found in https://web.archive.org/web/20250501/www.uol.com.br
+[ERROR - 2026-01-25 15:49:19,849] Response status code != 200 for https://web.archive.org/web/20250502/www.uol.com.br (got 503), skipping...
+[INFO - 2026-01-25 15:49:42,141] [3] 123 links found in https://web.archive.org/web/20250503/www.uol.com.br
+[INFO - 2026-01-25 15:50:04,065] [4] 115 links found in https://web.archive.org/web/20250504/www.uol.com.br
+[ERROR - 2026-01-25 15:50:15,654] Response status code != 200 for https://web.archive.org/web/20250505/www.uol.com.br (got 503), skipping...
+[INFO - 2026-01-25 15:50:40,525] [6] 121 links found in https://web.archive.org/web/20250506/www.uol.com.br
+[INFO - 2026-01-25 15:51:07,034] [7] 128 links found in https://web.archive.org/web/20250507/www.uol.com.br
+[ERROR - 2026-01-25 15:51:18,014] Response status code != 200 for https://web.archive.org/web/20250508/www.uol.com.br (got 503), skipping...
+[INFO - 2026-01-25 15:51:52,604] [9] 115 links found in https://web.archive.org/web/20250509/www.uol.com.br
+[INFO - 2026-01-25 15:52:16,572] [10] 111 links found in https://web.archive.org/web/20250510/www.uol.com.br
+[ERROR - 2026-01-25 15:52:27,747] Response status code != 200 for https://web.archive.org/web/20250511/www.uol.com.br (got 503), skipping...
+[INFO - 2026-01-25 15:52:48,386] [12] 120 links found in https://web.archive.org/web/20250512/www.uol.com.br
+[INFO - 2026-01-25 15:53:08,380] [13] 121 links found in https://web.archive.org/web/20250513/www.uol.com.br
+[WARNING - 2026-01-25 15:53:39,034] ReadTimeout for https://web.archive.org/web/20250514/www.uol.com.br (attempt 1)
+[ERROR - 2026-01-25 15:54:15,470] Response status code != 200 for https://web.archive.org/web/20250514/www.uol.com.br (got 503), skipping...
+[INFO - 2026-01-25 15:54:38,192] [15] 113 links found in https://web.archive.org/web/20250515/www.uol.com.br
+[INFO - 2026-01-25 15:54:49,552] [16] 116 links found in https://web.archive.org/web/20250516/www.uol.com.br
+[INFO - 2026-01-25 15:55:02,452] [17] 121 links found in https://web.archive.org/web/20250517/www.uol.com.br
+[INFO - 2026-01-25 15:55:13,614] [18] 113 links found in https://web.archive.org/web/20250518/www.uol.com.br
+[INFO - 2026-01-25 15:55:25,486] [19] 110 links found in https://web.archive.org/web/20250519/www.uol.com.br
+[INFO - 2026-01-25 15:55:37,886] [20] 123 links found in https://web.archive.org/web/20250520/www.uol.com.br
+[INFO - 2026-01-25 15:55:50,075] [21] 119 links found in https://web.archive.org/web/20250521/www.uol.com.br
+[INFO - 2026-01-25 15:56:00,938] [22] 116 links found in https://web.archive.org/web/20250522/www.uol.com.br
+[INFO - 2026-01-25 15:56:10,584] [23] 110 links found in https://web.archive.org/web/20250523/www.uol.com.br
+[INFO - 2026-01-25 15:56:20,339] [24] 118 links found in https://web.archive.org/web/20250524/www.uol.com.br
+[INFO - 2026-01-25 15:56:29,082] [25] 121 links found in https://web.archive.org/web/20250525/www.uol.com.br
+[INFO - 2026-01-25 15:56:41,880] [26] 118 links found in https://web.archive.org/web/20250526/www.uol.com.br
+[INFO - 2026-01-25 15:56:50,493] [27] 118 links found in https://web.archive.org/web/20250527/www.uol.com.br
+[INFO - 2026-01-25 15:57:00,317] [28] 129 links found in https://web.archive.org/web/20250528/www.uol.com.br
+[INFO - 2026-01-25 15:57:15,463] [29] 107 links found in https://web.archive.org/web/20250529/www.uol.com.br
+[INFO - 2026-01-25 15:57:26,324] [30] 126 links found in https://web.archive.org/web/20250530/www.uol.com.br
+[INFO - 2026-01-25 15:57:36,870] [31] 117 links found in https://web.archive.org/web/20250531/www.uol.com.br
+[INFO - 2026-01-25 15:57:36,871] Loss rate: 5/31
+[INFO - 2026-01-25 15:57:36,871] Total links found: 3073
+[INFO - 2026-01-25 15:57:36,872] Month 5 processing time: 9.00min
+[INFO - 2026-01-25 15:57:36,872] 
+[INFO - 2026-01-25 15:57:36,872] Month 6 (27 links to precess):
+[INFO - 2026-01-25 15:57:49,364] [1] 114 links found in https://web.archive.org/web/20250601/www.uol.com.br
+[INFO - 2026-01-25 15:58:01,449] [2] 110 links found in https://web.archive.org/web/20250603/www.uol.com.br
+[INFO - 2026-01-25 15:58:13,696] [3] 111 links found in https://web.archive.org/web/20250605/www.uol.com.br
+[INFO - 2026-01-25 15:58:26,539] [4] 116 links found in https://web.archive.org/web/20250606/www.uol.com.br
+[INFO - 2026-01-25 15:58:40,566] [5] 114 links found in https://web.archive.org/web/20250607/www.uol.com.br
+[INFO - 2026-01-25 15:58:50,154] [6] 115 links found in https://web.archive.org/web/20250609/www.uol.com.br
+[INFO - 2026-01-25 15:59:00,944] [7] 115 links found in https://web.archive.org/web/20250610/www.uol.com.br
+[INFO - 2026-01-25 15:59:11,999] [8] 107 links found in https://web.archive.org/web/20250611/www.uol.com.br
+[INFO - 2026-01-25 15:59:23,762] [9] 119 links found in https://web.archive.org/web/20250612/www.uol.com.br
+[INFO - 2026-01-25 15:59:34,422] [10] 119 links found in https://web.archive.org/web/20250613/www.uol.com.br
+[INFO - 2026-01-25 15:59:47,020] [11] 117 links found in https://web.archive.org/web/20250614/www.uol.com.br
+[INFO - 2026-01-25 16:00:02,057] [12] 114 links found in https://web.archive.org/web/20250615/www.uol.com.br
+[INFO - 2026-01-25 16:00:13,339] [13] 121 links found in https://web.archive.org/web/20250616/www.uol.com.br
+[INFO - 2026-01-25 16:00:23,896] [14] 129 links found in https://web.archive.org/web/20250617/www.uol.com.br
+[INFO - 2026-01-25 16:00:37,868] [15] 126 links found in https://web.archive.org/web/20250618/www.uol.com.br
+[INFO - 2026-01-25 16:00:48,873] [16] 124 links found in https://web.archive.org/web/20250619/www.uol.com.br
+[INFO - 2026-01-25 16:01:03,821] [17] 117 links found in https://web.archive.org/web/20250620/www.uol.com.br
+[INFO - 2026-01-25 16:01:13,036] [18] 119 links found in https://web.archive.org/web/20250621/www.uol.com.br
+[INFO - 2026-01-25 16:01:22,765] [19] 116 links found in https://web.archive.org/web/20250622/www.uol.com.br
+[INFO - 2026-01-25 16:01:30,851] [20] 115 links found in https://web.archive.org/web/20250623/www.uol.com.br
+[INFO - 2026-01-25 16:01:37,919] [21] 115 links found in https://web.archive.org/web/20250624/www.uol.com.br
+[INFO - 2026-01-25 16:01:45,080] [22] 123 links found in https://web.archive.org/web/20250625/www.uol.com.br
+[INFO - 2026-01-25 16:01:52,563] [23] 124 links found in https://web.archive.org/web/20250626/www.uol.com.br
+[INFO - 2026-01-25 16:02:01,356] [24] 116 links found in https://web.archive.org/web/20250627/www.uol.com.br
+[INFO - 2026-01-25 16:02:09,517] [25] 116 links found in https://web.archive.org/web/20250628/www.uol.com.br
+[INFO - 2026-01-25 16:02:16,012] [26] 112 links found in https://web.archive.org/web/20250629/www.uol.com.br
+[WARNING - 2026-01-25 16:02:16,220] ConnectionError for https://web.archive.org/web/20250630/www.uol.com.br (attempt 1)
+[INFO - 2026-01-25 16:02:54,927] [27] 115 links found in https://web.archive.org/web/20250630/www.uol.com.br
+[INFO - 2026-01-25 16:02:54,928] Loss rate: 0/27
+[INFO - 2026-01-25 16:02:54,928] Total links found: 3159
+[INFO - 2026-01-25 16:02:54,929] Month 6 processing time: 5.30min
+[INFO - 2026-01-25 16:02:54,929] 
+[INFO - 2026-01-25 16:02:54,929] Month 7 (31 links to precess):
+[INFO - 2026-01-25 16:03:05,263] [1] 113 links found in https://web.archive.org/web/20250701/www.uol.com.br
+[INFO - 2026-01-25 16:03:14,381] [2] 116 links found in https://web.archive.org/web/20250702/www.uol.com.br
+[INFO - 2026-01-25 16:03:23,287] [3] 113 links found in https://web.archive.org/web/20250703/www.uol.com.br
+[INFO - 2026-01-25 16:03:33,530] [4] 105 links found in https://web.archive.org/web/20250704/www.uol.com.br
+[INFO - 2026-01-25 16:03:44,379] [5] 117 links found in https://web.archive.org/web/20250705/www.uol.com.br
+[INFO - 2026-01-25 16:03:56,975] [6] 112 links found in https://web.archive.org/web/20250706/www.uol.com.br
+[INFO - 2026-01-25 16:04:06,706] [7] 109 links found in https://web.archive.org/web/20250707/www.uol.com.br
+[INFO - 2026-01-25 16:04:16,019] [8] 113 links found in https://web.archive.org/web/20250708/www.uol.com.br
+[INFO - 2026-01-25 16:04:26,930] [9] 121 links found in https://web.archive.org/web/20250709/www.uol.com.br
+[INFO - 2026-01-25 16:04:36,332] [10] 108 links found in https://web.archive.org/web/20250710/www.uol.com.br
+[INFO - 2026-01-25 16:04:47,255] [11] 113 links found in https://web.archive.org/web/20250711/www.uol.com.br
+[INFO - 2026-01-25 16:05:00,459] [12] 108 links found in https://web.archive.org/web/20250712/www.uol.com.br
+[INFO - 2026-01-25 16:05:12,956] [13] 112 links found in https://web.archive.org/web/20250713/www.uol.com.br
+[INFO - 2026-01-25 16:05:25,654] [14] 105 links found in https://web.archive.org/web/20250714/www.uol.com.br
+[INFO - 2026-01-25 16:05:36,300] [15] 109 links found in https://web.archive.org/web/20250715/www.uol.com.br
+[INFO - 2026-01-25 16:05:48,331] [16] 110 links found in https://web.archive.org/web/20250716/www.uol.com.br
+[INFO - 2026-01-25 16:06:00,876] [17] 118 links found in https://web.archive.org/web/20250717/www.uol.com.br
+[INFO - 2026-01-25 16:06:13,271] [18] 109 links found in https://web.archive.org/web/20250718/www.uol.com.br
+[INFO - 2026-01-25 16:06:27,499] [19] 102 links found in https://web.archive.org/web/20250719/www.uol.com.br
+[ERROR - 2026-01-25 16:06:39,001] Response status code != 200 for https://web.archive.org/web/20250720/www.uol.com.br (got 503), skipping...
+[INFO - 2026-01-25 16:06:56,528] [21] 114 links found in https://web.archive.org/web/20250721/www.uol.com.br
+[INFO - 2026-01-25 16:07:07,367] [22] 110 links found in https://web.archive.org/web/20250722/www.uol.com.br
+[INFO - 2026-01-25 16:07:18,082] [23] 106 links found in https://web.archive.org/web/20250723/www.uol.com.br
+[INFO - 2026-01-25 16:07:28,118] [24] 103 links found in https://web.archive.org/web/20250724/www.uol.com.br
+[INFO - 2026-01-25 16:07:43,259] [25] 119 links found in https://web.archive.org/web/20250725/www.uol.com.br
+[INFO - 2026-01-25 16:07:58,334] [26] 114 links found in https://web.archive.org/web/20250726/www.uol.com.br
+[INFO - 2026-01-25 16:08:10,675] [27] 106 links found in https://web.archive.org/web/20250727/www.uol.com.br
+[INFO - 2026-01-25 16:08:30,643] [28] 96 links found in https://web.archive.org/web/20250728/www.uol.com.br
+[INFO - 2026-01-25 16:08:47,007] [29] 109 links found in https://web.archive.org/web/20250729/www.uol.com.br
+[INFO - 2026-01-25 16:09:08,267] [30] 121 links found in https://web.archive.org/web/20250730/www.uol.com.br
+[INFO - 2026-01-25 16:09:21,835] [31] 106 links found in https://web.archive.org/web/20250731/www.uol.com.br
+[INFO - 2026-01-25 16:09:21,835] Loss rate: 1/31
+[INFO - 2026-01-25 16:09:21,835] Total links found: 3317
+[INFO - 2026-01-25 16:09:21,836] Month 7 processing time: 6.45min
+[INFO - 2026-01-25 16:09:21,836] 
+[INFO - 2026-01-25 16:09:21,836] Month 8 (31 links to precess):
+[INFO - 2026-01-25 16:09:34,091] [1] 105 links found in https://web.archive.org/web/20250801/www.uol.com.br
+[INFO - 2026-01-25 16:09:45,862] [2] 104 links found in https://web.archive.org/web/20250802/www.uol.com.br
+[INFO - 2026-01-25 16:10:03,663] [3] 108 links found in https://web.archive.org/web/20250803/www.uol.com.br
+[INFO - 2026-01-25 16:10:14,516] [4] 112 links found in https://web.archive.org/web/20250804/www.uol.com.br
+[INFO - 2026-01-25 16:10:25,174] [5] 112 links found in https://web.archive.org/web/20250805/www.uol.com.br
+[ERROR - 2026-01-25 16:10:34,609] Response status code != 200 for https://web.archive.org/web/20250806/www.uol.com.br (got 503), skipping...
+[INFO - 2026-01-25 16:10:50,877] [7] 118 links found in https://web.archive.org/web/20250807/www.uol.com.br
+[INFO - 2026-01-25 16:11:14,302] [8] 115 links found in https://web.archive.org/web/20250808/www.uol.com.br
+[INFO - 2026-01-25 16:11:25,373] [9] 111 links found in https://web.archive.org/web/20250809/www.uol.com.br
+[INFO - 2026-01-25 16:11:37,152] [10] 108 links found in https://web.archive.org/web/20250810/www.uol.com.br
+[INFO - 2026-01-25 16:11:48,838] [11] 110 links found in https://web.archive.org/web/20250811/www.uol.com.br
+[INFO - 2026-01-25 16:12:00,408] [12] 111 links found in https://web.archive.org/web/20250812/www.uol.com.br
+[INFO - 2026-01-25 16:12:15,513] [13] 108 links found in https://web.archive.org/web/20250813/www.uol.com.br
+[INFO - 2026-01-25 16:12:32,456] [14] 108 links found in https://web.archive.org/web/20250814/www.uol.com.br
+[INFO - 2026-01-25 16:12:45,156] [15] 110 links found in https://web.archive.org/web/20250815/www.uol.com.br
+[INFO - 2026-01-25 16:12:57,852] [16] 115 links found in https://web.archive.org/web/20250816/www.uol.com.br
+[INFO - 2026-01-25 16:13:11,918] [17] 113 links found in https://web.archive.org/web/20250817/www.uol.com.br
+[INFO - 2026-01-25 16:13:30,816] [18] 112 links found in https://web.archive.org/web/20250818/www.uol.com.br
+[INFO - 2026-01-25 16:13:44,650] [19] 117 links found in https://web.archive.org/web/20250819/www.uol.com.br
+[INFO - 2026-01-25 16:13:56,429] [20] 118 links found in https://web.archive.org/web/20250820/www.uol.com.br
+[INFO - 2026-01-25 16:14:08,819] [21] 108 links found in https://web.archive.org/web/20250821/www.uol.com.br
+[INFO - 2026-01-25 16:14:24,248] [22] 108 links found in https://web.archive.org/web/20250822/www.uol.com.br
+[INFO - 2026-01-25 16:14:34,724] [23] 108 links found in https://web.archive.org/web/20250823/www.uol.com.br
+[INFO - 2026-01-25 16:14:46,251] [24] 110 links found in https://web.archive.org/web/20250824/www.uol.com.br
+[INFO - 2026-01-25 16:14:54,591] [25] 113 links found in https://web.archive.org/web/20250825/www.uol.com.br
+[INFO - 2026-01-25 16:15:08,713] [26] 107 links found in https://web.archive.org/web/20250826/www.uol.com.br
+[INFO - 2026-01-25 16:15:17,632] [27] 106 links found in https://web.archive.org/web/20250827/www.uol.com.br
+[INFO - 2026-01-25 16:15:34,412] [28] 116 links found in https://web.archive.org/web/20250828/www.uol.com.br
+[INFO - 2026-01-25 16:15:45,697] [29] 119 links found in https://web.archive.org/web/20250829/www.uol.com.br
+[INFO - 2026-01-25 16:15:57,189] [30] 103 links found in https://web.archive.org/web/20250830/www.uol.com.br
+[INFO - 2026-01-25 16:16:14,975] [31] 110 links found in https://web.archive.org/web/20250831/www.uol.com.br
+[INFO - 2026-01-25 16:16:14,976] Loss rate: 1/31
+[INFO - 2026-01-25 16:16:14,976] Total links found: 3323
+[INFO - 2026-01-25 16:16:14,976] Month 8 processing time: 6.89min
+[INFO - 2026-01-25 16:16:14,976] 
+[INFO - 2026-01-25 16:16:14,976] Total time taken to complete: 366min

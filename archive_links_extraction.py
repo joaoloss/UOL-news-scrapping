@@ -24,12 +24,6 @@ import sys
 
 # --- Global definitions
 
-os.makedirs(name="out", exist_ok=True)
-OUTPUT_CSV_PATH = os.path.join("out", "archive_links.csv")
-
-os.makedirs("logs", exist_ok=True)
-LOG_PATH = os.path.join("logs", f"{os.path.basename(__file__).split(".")[0]}.log")
-
 SITE = "www.uol.com.br"
 WEB_ARCHIVE_LINK = "https://web.archive.org/web/{year}0101*/" + SITE
 STR_TO_INT = {"JAN": 1, "FEB": 2, "MAR": 3,
@@ -112,7 +106,7 @@ def get_archive_links(start_date: datetime, end_date: datetime, options: Options
         all_months = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "month")))
 
         for i, month in enumerate(all_months):
-            
+            # Iterate through each month element
             try:
                 # Scroll so this month element becomes visible
                 x = month.location["x"]
@@ -150,22 +144,25 @@ def get_archive_links(start_date: datetime, end_date: datetime, options: Options
                     break  # break out of retry loop if success
                 except Exception as e:
                     logging.error(f"Failed to get links for month element {month}.")
-                    time.sleep(1)
+                    time.sleep(2)
 
+            time.sleep(3) # wait a bit before processing next month
+        
+        time.sleep(5) # wait a bit before processing next year
         current_year += 1  # move to next year
         logging.info("")
 
     driver.quit()
     return links
 
-def config_root_logger(quite_mode:bool):
+def config_root_logger(quite_mode:bool, log_path:str):
     root = logging.getLogger()
     root.setLevel(logging.DEBUG) # let handlers check log levels
 
     pattern = "[%(levelname)s - %(asctime)s] %(message)s"
     formatter = logging.Formatter(pattern)
 
-    file_handler = logging.FileHandler(filename=LOG_PATH, mode="w")
+    file_handler = logging.FileHandler(filename=log_path, mode="w")
     file_handler.setLevel(logging.INFO)
     file_handler.setFormatter(formatter)
     root.addHandler(file_handler)
@@ -178,7 +175,14 @@ def config_root_logger(quite_mode:bool):
 
 def main():
     args = get_args()
-    config_root_logger(args.quiet)
+
+    os.makedirs(name="out", exist_ok=True)
+    output_csv_path = os.path.join("out", f"archive_links_{args.start_date.strftime("%m-%Y")}_{args.end_date.strftime("%m-%Y")}.csv")
+
+    os.makedirs("logs", exist_ok=True)
+    log_path = os.path.join("logs", f"{os.path.basename(__file__).split(".")[0]}_{args.start_date.strftime("%m-%Y")}_{args.end_date.strftime("%m-%Y")}.log")
+
+    config_root_logger(args.quiet, log_path)
 
     options = Options()
     options.add_argument("--no-sandbox") # turn off security mode to avoid some issues
@@ -197,7 +201,7 @@ def main():
     logging.info(f"Total time taken to complete: {(end_time - start_time)/60:.02f}min")  
     
     df = pd.DataFrame(data=links)
-    df.to_csv(path_or_buf=OUTPUT_CSV_PATH, index=False)
+    df.to_csv(path_or_buf=output_csv_path, index=False)
 
 if __name__ == "__main__":
     main()

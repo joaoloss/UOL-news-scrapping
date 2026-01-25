@@ -1,0 +1,89 @@
+[INFO - 2026-01-25 09:58:18,452] ==> Curr. year: 2020
+[INFO - 2026-01-25 09:58:25,575] 31 links found for 1/2020.
+[INFO - 2026-01-25 09:58:29,780] 29 links found for 2/2020.
+[INFO - 2026-01-25 09:58:33,996] 31 links found for 3/2020.
+[INFO - 2026-01-25 09:58:38,206] 30 links found for 4/2020.
+[INFO - 2026-01-25 09:58:42,419] 31 links found for 5/2020.
+[INFO - 2026-01-25 09:58:46,617] 30 links found for 6/2020.
+[INFO - 2026-01-25 09:58:50,801] 31 links found for 7/2020.
+[INFO - 2026-01-25 09:58:55,001] 31 links found for 8/2020.
+[INFO - 2026-01-25 09:58:59,203] 30 links found for 9/2020.
+[INFO - 2026-01-25 09:59:03,417] 31 links found for 10/2020.
+[INFO - 2026-01-25 09:59:07,616] 30 links found for 11/2020.
+[INFO - 2026-01-25 09:59:11,801] 31 links found for 12/2020.
+[INFO - 2026-01-25 09:59:19,808] 
+[INFO - 2026-01-25 09:59:19,808] ==> Curr. year: 2021
+[INFO - 2026-01-25 09:59:23,675] 31 links found for 1/2021.
+[INFO - 2026-01-25 09:59:27,854] 28 links found for 2/2021.
+[ERROR - 2026-01-25 09:59:31,893] Failed to get links for month element <selenium.webdriver.remote.webelement.WebElement (session="380b90ede703560e741244f9ac619dea", element="f.525FBA068AD1CA458298809B09127BC6.d.1A5C16ED8CD40EB79C13833F5FD91CF6.e.863")>.
+[ERROR - 2026-01-25 09:59:33,908] Failed to get links for month element <selenium.webdriver.remote.webelement.WebElement (session="380b90ede703560e741244f9ac619dea", element="f.525FBA068AD1CA458298809B09127BC6.d.1A5C16ED8CD40EB79C13833F5FD91CF6.e.863")>.
+[ERROR - 2026-01-25 09:59:35,921] Failed to get links for month element <selenium.webdriver.remote.webelement.WebElement (session="380b90ede703560e741244f9ac619dea", element="f.525FBA068AD1CA458298809B09127BC6.d.1A5C16ED8CD40EB79C13833F5FD91CF6.e.863")>.
+[ERROR - 2026-01-25 09:59:37,936] Failed to get links for month element <selenium.webdriver.remote.webelement.WebElement (session="380b90ede703560e741244f9ac619dea", element="f.525FBA068AD1CA458298809B09127BC6.d.1A5C16ED8CD40EB79C13833F5FD91CF6.e.863")>.
+[ERROR - 2026-01-25 09:59:39,951] Failed to get links for month element <selenium.webdriver.remote.webelement.WebElement (session="380b90ede703560e741244f9ac619dea", element="f.525FBA068AD1CA458298809B09127BC6.d.1A5C16ED8CD40EB79C13833F5FD91CF6.e.863")>.
+[ERROR - 2026-01-25 09:59:44,971] Failed while processing month 4.
+[ERROR - 2026-01-25 09:59:44,977] Failed while processing month 5.
+[ERROR - 2026-01-25 09:59:44,982] Failed while processing month 6.
+[ERROR - 2026-01-25 09:59:44,986] Failed while processing month 7.
+[ERROR - 2026-01-25 09:59:44,990] Failed while processing month 8.
+[ERROR - 2026-01-25 09:59:44,993] Failed while processing month 9.
+[ERROR - 2026-01-25 09:59:44,997] Failed while processing month 10.
+[ERROR - 2026-01-25 09:59:44,999] Failed while processing month 11.
+[ERROR - 2026-01-25 09:59:45,002] Failed while processing month 12.
+[INFO - 2026-01-25 09:59:50,007] 
+[INFO - 2026-01-25 09:59:50,008] ==> Curr. year: 2022
+[INFO - 2026-01-25 09:59:53,065] 31 links found for 1/2022.
+[INFO - 2026-01-25 09:59:57,267] 28 links found for 2/2022.
+[INFO - 2026-01-25 10:00:01,475] 31 links found for 3/2022.
+[INFO - 2026-01-25 10:00:05,538] 0 links found for 4/2022.
+[INFO - 2026-01-25 10:00:09,596] 0 links found for 5/2022.
+[INFO - 2026-01-25 10:00:13,651] 0 links found for 6/2022.
+[INFO - 2026-01-25 10:00:17,700] 0 links found for 7/2022.
+[INFO - 2026-01-25 10:00:21,741] 0 links found for 8/2022.
+[ERROR - 2026-01-25 10:00:24,755] Failed while processing month 9.
+[ERROR - 2026-01-25 10:00:24,759] Failed while processing month 10.
+[ERROR - 2026-01-25 10:00:24,764] Failed while processing month 11.
+[ERROR - 2026-01-25 10:00:24,768] Failed while processing month 12.
+[INFO - 2026-01-25 10:00:29,773] 
+[INFO - 2026-01-25 10:00:29,773] ==> Curr. year: 2023
+[INFO - 2026-01-25 10:00:32,474] 0 links found for 1/2023.
+[INFO - 2026-01-25 10:00:36,643] 28 links found for 2/2023.
+[INFO - 2026-01-25 10:00:40,839] 31 links found for 3/2023.
+[INFO - 2026-01-25 10:00:45,034] 30 links found for 4/2023.
+[INFO - 2026-01-25 10:00:49,233] 31 links found for 5/2023.
+[INFO - 2026-01-25 10:00:53,432] 30 links found for 6/2023.
+[INFO - 2026-01-25 10:00:57,637] 31 links found for 7/2023.
+[INFO - 2026-01-25 10:01:01,857] 31 links found for 8/2023.
+[ERROR - 2026-01-25 10:01:04,871] Failed while processing month 9.
+[ERROR - 2026-01-25 10:01:04,875] Failed while processing month 10.
+[ERROR - 2026-01-25 10:01:04,881] Failed while processing month 11.
+[ERROR - 2026-01-25 10:01:04,886] Failed while processing month 12.
+[INFO - 2026-01-25 10:01:09,891] 
+[INFO - 2026-01-25 10:01:09,891] ==> Curr. year: 2024
+[INFO - 2026-01-25 10:01:12,997] 31 links found for 1/2024.
+[INFO - 2026-01-25 10:01:17,206] 29 links found for 2/2024.
+[INFO - 2026-01-25 10:01:21,391] 31 links found for 3/2024.
+[INFO - 2026-01-25 10:01:25,576] 30 links found for 4/2024.
+[INFO - 2026-01-25 10:01:29,793] 31 links found for 5/2024.
+[INFO - 2026-01-25 10:01:34,071] 30 links found for 6/2024.
+[INFO - 2026-01-25 10:01:38,371] 31 links found for 7/2024.
+[INFO - 2026-01-25 10:01:42,575] 31 links found for 8/2024.
+[ERROR - 2026-01-25 10:01:45,584] Failed while processing month 9.
+[ERROR - 2026-01-25 10:01:45,587] Failed while processing month 10.
+[ERROR - 2026-01-25 10:01:45,590] Failed while processing month 11.
+[ERROR - 2026-01-25 10:01:45,594] Failed while processing month 12.
+[INFO - 2026-01-25 10:01:50,599] 
+[INFO - 2026-01-25 10:01:50,599] ==> Curr. year: 2025
+[INFO - 2026-01-25 10:01:53,758] 31 links found for 1/2025.
+[INFO - 2026-01-25 10:01:57,952] 28 links found for 2/2025.
+[INFO - 2026-01-25 10:02:02,177] 31 links found for 3/2025.
+[INFO - 2026-01-25 10:02:06,385] 30 links found for 4/2025.
+[INFO - 2026-01-25 10:02:10,597] 31 links found for 5/2025.
+[INFO - 2026-01-25 10:02:14,780] 27 links found for 6/2025.
+[INFO - 2026-01-25 10:02:18,982] 31 links found for 7/2025.
+[INFO - 2026-01-25 10:02:23,192] 31 links found for 8/2025.
+[ERROR - 2026-01-25 10:02:26,205] Failed while processing month 9.
+[ERROR - 2026-01-25 10:02:26,210] Failed while processing month 10.
+[ERROR - 2026-01-25 10:02:26,216] Failed while processing month 11.
+[ERROR - 2026-01-25 10:02:26,221] Failed while processing month 12.
+[INFO - 2026-01-25 10:02:31,226] 
+[INFO - 2026-01-25 10:02:31,345] Total time taken to complete: 4.23min

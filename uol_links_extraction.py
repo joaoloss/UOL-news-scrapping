@@ -21,10 +21,6 @@ import argparse
 
 # --- Global definitions
 
-os.makedirs("logs", exist_ok=True)
-LOG_PATH = os.path.join("logs", f"{os.path.basename(__file__).split(".")[0]}.log")
-
-ARCHIVE_CSV_PATH = os.path.join("out", "archive_links.csv")
 OUTPUT_FILES_PATH = os.path.join("out", "uol_links")
 os.makedirs(OUTPUT_FILES_PATH, exist_ok=True)
 
@@ -114,14 +110,14 @@ def save_uol_news_links(archive_links:list[str], year:int):
     logging.info(f"Loss rate: {loss_count}/{total_archive_links}")
     logging.info(f"Total links found: {links_found_count}")
 
-def config_root_logger(quite_mode:bool):
+def config_root_logger(quite_mode:bool, log_path:str):
     root = logging.getLogger()
     root.setLevel(logging.DEBUG) # let handlers check log levels
 
     pattern = "[%(levelname)s - %(asctime)s] %(message)s"
     formatter = logging.Formatter(pattern)
 
-    file_handler = logging.FileHandler(filename=LOG_PATH, mode="w")
+    file_handler = logging.FileHandler(filename=log_path, mode="w")
     file_handler.setLevel(logging.INFO)
     file_handler.setFormatter(formatter)
     root.addHandler(file_handler)
@@ -141,13 +137,30 @@ def parse_args():
         help="Suppress console output."
     )
 
+    def input_csv(s:str) -> str:
+        if not os.path.isfile(s):
+            raise argparse.ArgumentTypeError(f"Input CSV file {s} does not exist.")
+        return s
+
+    parser.add_argument(
+        "--input-csv",
+        type=input_csv,
+        help="Path to the input CSV file containing archive links.",
+    )
+
     return parser.parse_args()
 
 def main():
     args = parse_args()
-    config_root_logger(args.quiet)
 
-    archive_df = pd.read_csv(filepath_or_buffer=ARCHIVE_CSV_PATH)
+    os.makedirs("logs", exist_ok=True)
+    temp = args.input_csv.split(".")[0]
+    start_date = temp.split("_")[2]
+    end_date = temp.split("_")[3]
+    log_path = os.path.join("logs", f"{os.path.basename(__file__).split(".")[0]}_{start_date}_{end_date}.log")
+    config_root_logger(args.quiet, log_path)
+
+    archive_df = pd.read_csv(filepath_or_buffer=args.input_csv)
     archive_df["links"] = [json.loads(s) for s in archive_df["links"]] # from str to list
 
     grouped_archive_df = archive_df.groupby(by="year")
