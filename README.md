@@ -32,7 +32,7 @@ The image below show an example of a scraped page at this level. By accessing th
 
 ### 2. UOL news link extraction
 
-Once the news home pages are collected, we can scrape each of these pages in order to get the actual news links, references by [HTML anchor elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a) in the home pages.
+Once the news home pages are collected, we can scrape each of these pages in order to get the actual news links, referenced by [HTML anchor elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a) in the home pages.
 
 This process is done by `uol_links_extraction.py` script.
 
