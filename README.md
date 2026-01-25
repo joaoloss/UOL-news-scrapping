@@ -84,7 +84,7 @@ python3 archive_links_extraction.py [-h] [--headless] --start-date START_DATE --
 - `--headless`: If enabled, the program will run without a graphical user interface (headless mode).
 - `--start-date`: Specify the start date to collect links in `mm/yyyy` format. Example: `--start-date 01/2010`.
 - `--end-date`: Specify the end date to collect links in `mm/yyyy` format. Example: `--end-date 12/2019`.
-- `--quiet`: If enabled, it will suppress the logs will not be displayed in the terminal.
+- `--quiet`: If enabled, the logs will not be displayed in the terminal.
 
 ### 4. Running uol links extraction script
 
